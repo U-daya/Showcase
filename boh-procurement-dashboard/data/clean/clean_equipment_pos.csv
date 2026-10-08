@@ -1,0 +1,1144 @@
+PO Number,Vendor,Equipment Category,Qty,Unit Price,Order Date,Promised Date,Delivered Date,Site
+PO-24-00001,Allied Commercial,Electrical Panel,5,5396.17,2024-01-01,2024-02-11,2024-02-11,MA-Burlington
+PO-24-00002,Harbor Restaurant Equipment,Stainless Prep Table,2,1158.67,2024-01-02,2024-01-11,2024-01-11,PA-King of Prussia
+PO-24-00003,Summit Equipment Co,Ice Machine,5,3726.28,2024-01-02,2024-01-18,2024-01-20,NJ-Union
+PO-24-00004,Northline Foodservice,Fryer,16,3663.51,2024-01-02,2024-01-21,2024-01-18,NY-Manhattan
+PO-24-00005,Northline Foodservice,Walk-in Cooler,1,23729.31,2024-01-02,2024-02-28,2024-03-04,MA-Burlington
+PO-24-00006,Allied Commercial,Ice Machine,8,3232.58,2024-01-03,2024-01-17,2024-01-27,MA-Burlington
+PO-24-00007,Harbor Restaurant Equipment,Stainless Prep Table,2,1239.0,2024-01-04,2024-01-14,2024-01-14,NY-Westchester
+PO-24-00008,Summit Equipment Co,Electrical Panel,17,5856.43,2024-01-04,2024-02-16,2024-02-16,NY-Westchester
+PO-24-00009,Metro FSE,Electrical Panel,1,6085.03,2024-01-05,2024-02-19,2024-02-17,MA-Burlington
+PO-24-00010,Allied Commercial,Combi Oven,4,17405.96,2024-01-05,2024-02-12,2024-02-09,NJ-Union
+PO-24-00011,Keystone Kitchen Supply,Ice Machine,1,3888.22,2024-01-06,2024-01-21,2024-02-18,NY-Manhattan
+PO-24-00012,Harbor Restaurant Equipment,Dish Machine,8,11054.11,2024-01-07,2024-01-27,2024-01-26,PA-King of Prussia
+PO-24-00013,Northline Foodservice,Electrical Panel,15,5555.83,2024-01-07,2024-02-21,2024-02-19,PA-King of Prussia
+PO-24-00014,Metro FSE,Reach-in Refrigerator,6,4834.15,2024-01-09,2024-01-25,2024-01-22,MA-Burlington
+PO-24-00341,Allied Commercial,Combi Oven,1,17479.15,2024-09-12,2024-10-26,2024-10-23,MA-Burlington
+PO-24-00015,Allied Commercial,Fryer,3,3769.0,2024-01-09,2024-01-30,2024-01-28,NY-Manhattan
+PO-24-00016,Metro FSE,Induction Range,11,6269.6,2024-01-10,2024-02-08,2024-02-23,NY-Manhattan
+PO-24-00017,Keystone Kitchen Supply,Reach-in Refrigerator,1,4870.47,2024-01-12,2024-01-31,2024-01-28,MA-Burlington
+PO-24-00018,Summit Equipment Co,Fryer,2,4570.37,2024-01-12,2024-02-05,2024-02-06,NY-Manhattan
+PO-24-00019,Northline Foodservice,Fryer,2,4264.43,2024-01-12,2024-02-04,2024-02-01,NJ-Paramus
+PO-24-00020,Allied Commercial,Reach-in Refrigerator,3,4798.39,2024-01-13,2024-02-02,2024-02-01,NY-Westchester
+PO-24-00021,Keystone Kitchen Supply,Combi Oven,1,18178.62,2024-01-13,2024-02-17,2024-02-15,NJ-Union
+PO-24-00022,Northline Foodservice,Fryer,20,3656.95,2024-01-14,2024-02-10,2024-02-10,NJ-Paramus
+PO-24-00023,Keystone Kitchen Supply,Dish Machine,5,9788.0,2024-01-15,2024-02-22,2024-03-11,MA-Burlington
+PO-24-00024,Allied Commercial,Exhaust Hood,6,8318.76,2024-01-15,2024-03-09,2024-03-06,NJ-Paramus
+PO-24-00025,Keystone Kitchen Supply,Combi Oven,4,17853.0,2024-01-16,2024-02-15,2024-02-14,NY-Westchester
+PO-24-00026,Allied Commercial,Fryer,2,3957.06,2024-01-17,2024-02-06,2024-02-04,PA-King of Prussia
+PO-24-00027,Keystone Kitchen Supply,Stainless Prep Table,1,1080.48,2024-01-19,2024-01-26,2024-01-29,PA-King of Prussia
+PO-24-00028,Harbor Restaurant Equipment,Fryer,23,3924.74,2024-01-20,2024-02-10,2024-02-10,NJ-Union
+PO-24-00029,Keystone Kitchen Supply,Induction Range,5,6937.0,2024-01-20,2024-02-15,2024-02-12,NY-Westchester
+PO-24-00230,Keystone Kitchen Supply,Combi Oven,4,18583.68,2024-06-25,2024-07-24,2024-07-23,NJ-Paramus
+PO-26-01071,Summit Equipment Co,Ice Machine,5,3961.77,2026-04-17,2026-04-29,2026-04-26,NJ-Union
+PO-24-00030,Allied Commercial,Induction Range,1,6672.2,2024-01-20,2024-02-13,2024-02-11,NJ-Union
+PO-24-00031,Allied Commercial,Combi Oven,6,15939.94,2024-01-21,2024-03-02,2024-02-29,MA-Burlington
+PO-24-00032,Allied Commercial,Ice Machine,22,3253.7,2024-01-21,2024-02-03,2024-02-02,NJ-Paramus
+PO-24-00033,Northline Foodservice,Combi Oven,3,17467.87,2024-01-22,2024-03-06,2024-03-03,NY-Manhattan
+PO-24-00034,Keystone Kitchen Supply,Fryer,17,3587.13,2024-01-23,2024-02-17,2024-02-15,NJ-Union
+PO-24-00035,Northline Foodservice,Stainless Prep Table,12,1050.0,2024-01-24,2024-02-05,2024-02-09,NY-Westchester
+PO-24-00036,Summit Equipment Co,Stainless Prep Table,21,1051.5,2024-01-26,2024-02-03,2024-02-03,NY-Westchester
+PO-24-00037,Metro FSE,Ice Machine,11,3232.82,2024-01-27,2024-02-09,2024-02-13,NY-Manhattan
+PO-24-00038,Northline Foodservice,Stainless Prep Table,14,1047.1,2024-01-27,2024-02-06,2024-02-05,NJ-Paramus
+PO-24-00039,Northline Foodservice,Ice Machine,4,3729.15,2024-01-28,2024-02-10,2024-02-12,NJ-Union
+PO-24-00040,Keystone Kitchen Supply,Reach-in Refrigerator,3,4972.0,2024-01-28,2024-02-15,2024-03-21,PA-King of Prussia
+PO-24-00041,Keystone Kitchen Supply,Exhaust Hood,4,9105.98,2024-01-29,2024-04-02,2024-04-07,NJ-Paramus
+PO-24-00042,Allied Commercial,Reach-in Refrigerator,4,4724.64,2024-01-31,2024-02-20,2024-02-19,MA-Burlington
+PO-24-00043,Keystone Kitchen Supply,Fryer,16,3583.81,2024-01-31,2024-02-16,2024-02-16,NY-Manhattan
+PO-24-00045,Harbor Restaurant Equipment,Ice Machine,21,3384.53,2024-02-04,2024-02-22,2024-02-20,NY-Westchester
+PO-24-00046,Summit Equipment Co,Dish Machine,5,11598.0,2024-02-05,2024-03-08,2024-03-07,NJ-Paramus
+PO-24-00047,Metro FSE,Dish Machine,8,10132.59,2024-02-06,2024-03-07,2024-03-07,NJ-Paramus
+PO-24-00048,Keystone Kitchen Supply,Dish Machine,6,9682.0,2024-02-06,2024-03-05,2024-03-02,NJ-Paramus
+PO-24-00049,Northline Foodservice,Dish Machine,1,11447.77,2024-02-07,2024-03-07,2024-03-04,MA-Burlington
+PO-24-00050,Summit Equipment Co,Ice Machine,2,3988.0,2024-02-10,2024-02-24,2024-02-24,MA-Burlington
+PO-24-00051,Harbor Restaurant Equipment,Exhaust Hood,6,9239.0,2024-02-10,2024-04-11,2024-04-10,NY-Manhattan
+PO-24-00052,Keystone Kitchen Supply,Combi Oven,1,16841.87,2024-02-11,2024-03-26,2024-03-25,PA-King of Prussia
+PO-24-00053,Northline Foodservice,Combi Oven,1,18887.82,2024-02-12,2024-03-15,2024-03-12,NY-Westchester
+PO-24-00054,Summit Equipment Co,Reach-in Refrigerator,2,5670.48,2024-02-13,2024-03-02,2024-02-29,NY-Westchester
+PO-24-00055,Northline Foodservice,Induction Range,2,7862.79,2024-02-13,2024-03-11,2024-03-10,NJ-Paramus
+PO-24-00056,Northline Foodservice,Walk-in Cooler,2,23736.86,2024-02-14,2024-03-31,2024-03-31,MA-Burlington
+PO-24-00057,Summit Equipment Co,Reach-in Refrigerator,1,5834.12,2024-02-14,2024-03-07,2024-03-07,MA-Burlington
+PO-24-00058,Northline Foodservice,Fryer,20,3528.27,2024-02-15,2024-03-10,2024-03-09,NY-Westchester
+PO-24-00059,Northline Foodservice,Induction Range,2,7528.02,2024-02-15,2024-03-14,2024-03-14,NJ-Paramus
+PO-24-00060,Summit Equipment Co,Walk-in Cooler,3,24149.13,2024-02-16,2024-04-20,2024-04-18,NJ-Union
+PO-24-00061,Allied Commercial,Electrical Panel,17,5324.15,2024-02-19,2024-04-02,2024-05-11,MA-Burlington
+PO-24-00062,Harbor Restaurant Equipment,Induction Range,10,6783.35,2024-02-20,2024-03-20,2024-03-20,NY-Manhattan
+PO-25-00465,Northline Foodservice,Exhaust Hood,6,9751.0,2025-01-11,2025-03-17,2025-03-14,NY-Westchester
+PO-24-00063,Northline Foodservice,Electrical Panel,24,5695.27,2024-02-21,2024-04-08,2024-04-05,PA-King of Prussia
+PO-24-00064,Allied Commercial,Reach-in Refrigerator,1,4756.47,2024-02-22,2024-03-15,2024-03-14,NY-Westchester
+PO-24-00065,Northline Foodservice,Reach-in Refrigerator,20,4326.0,2024-02-22,2024-03-05,2024-03-14,NJ-Union
+PO-24-00066,Summit Equipment Co,Combi Oven,3,20503.6,2024-02-24,2024-04-11,2024-04-08,MA-Burlington
+PO-24-00067,Metro FSE,Dish Machine,17,9930.8,2024-02-24,2024-03-23,2024-03-29,NJ-Paramus
+PO-24-00068,Metro FSE,Walk-in Cooler,2,24618.86,2024-02-25,2024-04-28,2024-04-28,NY-Manhattan
+PO-24-00069,Harbor Restaurant Equipment,Exhaust Hood,3,10180.0,2024-02-25,2024-04-30,2024-04-28,PA-King of Prussia
+PO-24-00070,Metro FSE,Walk-in Cooler,6,22897.36,2024-02-25,2024-05-12,2024-05-12,NJ-Paramus
+PO-24-00071,Allied Commercial,Fryer,4,3853.46,2024-02-25,2024-03-20,2024-03-19,MA-Burlington
+PO-24-00072,Metro FSE,Dish Machine,2,11416.85,2024-02-27,2024-04-13,2024-04-13,NY-Westchester
+PO-24-00073,Metro FSE,Induction Range,3,7260.61,2024-02-27,2024-03-19,2024-04-03,NY-Manhattan
+PO-24-00074,Allied Commercial,Electrical Panel,18,5136.0,2024-02-29,2024-04-13,2024-04-13,PA-King of Prussia
+PO-24-00075,Harbor Restaurant Equipment,Stainless Prep Table,5,1140.76,2024-02-29,2024-03-11,2024-03-11,MA-Burlington
+PO-24-00076,Allied Commercial,Reach-in Refrigerator,1,4764.99,2024-02-29,2024-03-17,2024-03-20,NY-Manhattan
+PO-24-00077,Northline Foodservice,Electrical Panel,11,5815.0,2024-03-01,2024-04-09,2024-04-09,PA-King of Prussia
+PO-24-00078,Keystone Kitchen Supply,Combi Oven,3,18114.67,2024-03-01,2024-04-14,2024-05-20,NJ-Paramus
+PO-24-00079,Allied Commercial,Fryer,2,3764.93,2024-03-02,2024-03-27,2024-05-20,NJ-Paramus
+PO-24-00080,Harbor Restaurant Equipment,Combi Oven,3,19422.9,2024-03-02,2024-04-14,2024-04-12,PA-King of Prussia
+PO-24-00081,Metro FSE,Ice Machine,4,3830.0,2024-03-03,2024-03-18,2024-03-16,NJ-Union
+PO-24-00082,Summit Equipment Co,Induction Range,2,7847.46,2024-03-05,2024-04-03,2024-04-04,NY-Manhattan
+PO-26-01086,Northline Foodservice,Combi Oven,4,20609.86,2026-05-06,2026-06-16,2026-06-14,PA-King of Prussia
+PO-24-00083,Harbor Restaurant Equipment,Dish Machine,3,11786.0,2024-03-05,2024-03-28,2024-03-25,NY-Westchester
+PO-24-00084,Keystone Kitchen Supply,Combi Oven,5,16367.0,2024-03-05,2024-04-11,2024-04-09,PA-King of Prussia
+PO-24-00085,Allied Commercial,Ice Machine,8,3328.0,2024-03-06,2024-03-25,2024-03-25,MA-Burlington
+PO-24-00086,Summit Equipment Co,Walk-in Cooler,3,24749.84,2024-03-08,2024-06-04,2024-06-04,NY-Manhattan
+PO-24-00087,Harbor Restaurant Equipment,Exhaust Hood,5,9356.99,2024-03-08,2024-04-21,2024-04-20,NY-Westchester
+PO-24-00088,Summit Equipment Co,Reach-in Refrigerator,1,5752.22,2024-03-08,2024-03-22,2024-03-21,NY-Westchester
+PO-24-00089,Harbor Restaurant Equipment,Induction Range,14,6783.42,2024-03-11,2024-04-07,2024-04-05,MA-Burlington
+PO-24-00090,Metro FSE,Reach-in Refrigerator,18,4479.55,2024-03-13,2024-04-03,2024-04-03,PA-King of Prussia
+PO-24-00091,Metro FSE,Electrical Panel,4,6075.69,2024-03-13,2024-05-02,2024-05-02,NY-Manhattan
+PO-24-00092,Allied Commercial,Reach-in Refrigerator,1,4626.0,2024-03-14,2024-03-29,2024-03-27,NY-Westchester
+PO-24-00093,Summit Equipment Co,Reach-in Refrigerator,1,5428.05,2024-03-15,2024-03-27,2024-03-25,NJ-Paramus
+PO-24-00094,Harbor Restaurant Equipment,Induction Range,2,7579.77,2024-03-17,2024-04-15,2024-04-14,NJ-Union
+PO-24-00095,Keystone Kitchen Supply,Dish Machine,3,10732.17,2024-03-17,2024-05-04,2024-05-02,NJ-Union
+PO-24-00096,Summit Equipment Co,Exhaust Hood,2,10928.69,2024-03-18,2024-05-14,2024-05-12,MA-Burlington
+PO-24-00097,Keystone Kitchen Supply,Fryer,1,4022.08,2024-03-19,2024-04-12,2024-04-10,PA-King of Prussia
+PO-24-00098,Keystone Kitchen Supply,Fryer,17,3447.36,2024-03-19,2024-04-03,2024-04-02,PA-King of Prussia
+PO-24-00099,Metro FSE,Fryer,15,3615.0,2024-03-19,2024-04-04,2024-04-03,NY-Westchester
+PO-24-00100,Northline Foodservice,Exhaust Hood,3,9942.59,2024-03-23,2024-05-21,2024-05-21,NY-Westchester
+PO-24-00101,Metro FSE,Dish Machine,1,11251.0,2024-03-23,,2024-04-26,PA-King of Prussia
+PO-24-00102,Harbor Restaurant Equipment,Stainless Prep Table,5,1106.85,2024-03-23,2024-04-03,2024-03-31,NJ-Paramus
+PO-24-00103,Northline Foodservice,Fryer,3,4143.0,2024-03-24,2024-04-11,2024-04-08,NJ-Paramus
+PO-24-00104,Metro FSE,Reach-in Refrigerator,3,5225.0,2024-03-25,2024-04-13,2024-04-14,NJ-Union
+PO-24-00105,Harbor Restaurant Equipment,Exhaust Hood,2,10390.04,2024-03-26,2024-05-23,2024-05-20,NJ-Paramus
+PO-24-00106,Metro FSE,Reach-in Refrigerator,9,4690.63,2024-03-27,2024-04-16,2024-04-15,NY-Manhattan
+PO-24-00107,Keystone Kitchen Supply,Fryer,7,3581.62,2024-03-28,2024-04-15,2024-04-12,NJ-Paramus
+PO-24-00108,Summit Equipment Co,Walk-in Cooler,5,24598.44,2024-03-30,2024-05-21,2024-05-18,MA-Burlington
+PO-24-00109,Summit Equipment Co,Walk-in Cooler,5,23707.79,2024-03-31,2024-06-01,2024-06-01,MA-Burlington
+PO-24-00110,Northline Foodservice,Fryer,2,4087.34,2024-04-01,2024-04-23,2024-04-22,NJ-Union
+PO-24-00111,Harbor Restaurant Equipment,Walk-in Cooler,1,26327.0,2024-04-01,2024-05-27,2024-05-25,NJ-Paramus
+PO-24-00112,Harbor Restaurant Equipment,Reach-in Refrigerator,6,5122.0,2024-04-02,2024-04-24,2024-04-24,MA-Burlington
+PO-24-00113,Summit Equipment Co,Stainless Prep Table,1,1203.79,2024-04-02,2024-04-12,2024-04-10,NJ-Union
+PO-24-00114,Metro FSE,Induction Range,2,7868.69,2024-04-04,2024-05-05,2024-05-03,NJ-Paramus
+PO-24-00115,Allied Commercial,Ice Machine,4,3386.09,2024-04-05,2024-04-18,2024-04-17,NJ-Union
+PO-24-00116,Harbor Restaurant Equipment,Dish Machine,2,11992.0,2024-04-05,2024-04-28,2024-04-25,PA-King of Prussia
+PO-24-00117,Summit Equipment Co,Ice Machine,7,3704.76,2024-04-05,2024-04-22,2024-04-20,NY-Manhattan
+PO-24-00118,Summit Equipment Co,Induction Range,7,7411.78,2024-04-06,2024-04-30,2024-04-30,NJ-Union
+PO-24-00119,Keystone Kitchen Supply,Exhaust Hood,2,9916.0,2024-04-07,2024-06-08,2024-06-05,NY-Manhattan
+PO-24-00120,Keystone Kitchen Supply,Electrical Panel,8,5407.24,2024-04-07,2024-05-24,2024-05-21,MA-Burlington
+PO-24-00121,Allied Commercial,Stainless Prep Table,1,1058.68,2024-04-08,2024-04-16,2024-04-16,NJ-Paramus
+PO-24-00122,Summit Equipment Co,Combi Oven,3,20421.29,2024-04-09,2024-05-15,2024-05-13,NY-Manhattan
+PO-24-00123,Allied Commercial,Fryer,2,4063.28,2024-04-10,2024-04-28,2024-04-28,NJ-Paramus
+PO-24-00124,Harbor Restaurant Equipment,Induction Range,15,6784.52,2024-04-10,2024-05-05,2024-05-04,MA-Burlington
+PO-24-00125,Northline Foodservice,Induction Range,1,7596.86,2024-04-11,2024-05-09,2024-05-06,NY-Manhattan
+PO-24-00126,Harbor Restaurant Equipment,Walk-in Cooler,2,26228.31,2024-04-12,2024-06-13,2024-06-12,NY-Westchester
+PO-24-00127,Harbor Restaurant Equipment,Exhaust Hood,1,10665.0,2024-04-12,2024-05-21,2024-05-21,MA-Burlington
+PO-24-00128,Northline Foodservice,Induction Range,4,7833.65,2024-04-13,2024-05-13,2024-05-10,PA-King of Prussia
+PO-24-00129,Harbor Restaurant Equipment,Walk-in Cooler,5,22314.83,2024-04-14,2024-06-14,2024-06-14,NY-Manhattan
+PO-24-00130,Summit Equipment Co,Ice Machine,15,3682.05,2024-04-15,2024-05-01,2024-04-28,NY-Manhattan
+PO-24-00131,Allied Commercial,Ice Machine,21,3172.96,2024-04-15,2024-05-02,2024-08-21,NJ-Union
+PO-24-00132,Allied Commercial,Reach-in Refrigerator,11,4037.09,2024-04-17,,2024-05-04,NY-Manhattan
+PO-24-00133,Harbor Restaurant Equipment,Fryer,2,4268.65,2024-04-17,2024-05-11,2024-05-11,NJ-Paramus
+PO-24-00134,Allied Commercial,Exhaust Hood,2,9137.3,2024-04-18,2024-05-19,2024-05-17,PA-King of Prussia
+PO-24-00135,Keystone Kitchen Supply,Combi Oven,2,18455.89,2024-04-18,2024-05-30,2024-05-29,NY-Manhattan
+PO-24-00136,Metro FSE,Ice Machine,2,3745.59,2024-04-18,2024-05-03,2024-04-30,NJ-Paramus
+PO-24-00137,Allied Commercial,Electrical Panel,1,5886.02,2024-04-22,2024-06-12,2024-06-10,NY-Manhattan
+PO-24-00138,Northline Foodservice,Fryer,2,4250.82,2024-04-22,2024-05-05,2024-05-04,NJ-Union
+PO-24-00139,Metro FSE,Induction Range,9,7016.89,2024-04-23,2024-05-24,2024-05-22,PA-King of Prussia
+PO-24-00140,Northline Foodservice,Exhaust Hood,5,8801.24,2024-04-23,2024-06-21,2024-06-20,NJ-Union
+PO-24-00141,Summit Equipment Co,Stainless Prep Table,3,1216.0,2024-04-24,2024-05-01,2024-04-29,PA-King of Prussia
+PO-24-00142,Harbor Restaurant Equipment,Dish Machine,3,12299.09,2024-04-26,2024-06-04,2024-06-01,PA-King of Prussia
+PO-24-00143,Summit Equipment Co,Exhaust Hood,4,10903.79,2024-04-27,2024-07-06,2024-07-08,NY-Westchester
+PO-24-00144,Harbor Restaurant Equipment,Exhaust Hood,4,10201.0,2024-04-27,2024-06-02,2024-06-02,NY-Westchester
+PO-24-00145,Keystone Kitchen Supply,Reach-in Refrigerator,7,4376.54,2024-04-28,2024-05-14,2024-05-21,NY-Westchester
+PO-24-00147,Northline Foodservice,Induction Range,4,7464.14,2024-04-28,2024-06-01,2024-05-30,NJ-Union
+PO-24-00148,Harbor Restaurant Equipment,Stainless Prep Table,2,1258.33,2024-04-28,2024-05-08,2024-05-07,PA-King of Prussia
+PO-24-00149,Allied Commercial,Exhaust Hood,6,8330.06,2024-04-30,2024-06-22,2024-06-19,NY-Manhattan
+PO-24-00150,Harbor Restaurant Equipment,Reach-in Refrigerator,6,5273.0,2024-04-30,2024-05-21,2024-05-18,NY-Manhattan
+PO-24-00151,Keystone Kitchen Supply,Ice Machine,3,3746.72,2024-05-03,2024-05-14,2024-05-11,NJ-Union
+PO-24-00152,Summit Equipment Co,Stainless Prep Table,8,1176.0,2024-05-04,2024-05-17,2024-05-16,NJ-Paramus
+PO-24-00153,Keystone Kitchen Supply,Electrical Panel,16,5113.51,2024-05-04,2024-07-01,2024-07-30,NJ-Paramus
+PO-24-00154,Northline Foodservice,Exhaust Hood,2,10462.68,2024-05-05,2024-06-26,2024-06-24,MA-Burlington
+PO-24-00155,Summit Equipment Co,Exhaust Hood,3,10317.85,2024-05-05,2024-06-17,2024-06-15,MA-Burlington
+PO-24-00156,Keystone Kitchen Supply,Combi Oven,2,18100.49,2024-05-06,2024-06-24,2024-06-21,NY-Westchester
+PO-24-00157,Metro FSE,Exhaust Hood,3,9755.92,2024-05-06,2024-07-06,2024-07-04,NY-Manhattan
+PO-24-00158,Northline Foodservice,Induction Range,2,7442.5,2024-05-06,2024-05-31,2024-05-30,NY-Westchester
+PO-24-00159,Harbor Restaurant Equipment,Fryer,1,4387.0,2024-05-08,2024-05-28,2024-05-25,NJ-Union
+PO-24-00160,Northline Foodservice,Walk-in Cooler,2,23531.7,2024-05-11,2024-07-18,2024-07-16,MA-Burlington
+PO-24-00161,Northline Foodservice,Reach-in Refrigerator,10,4707.2,2024-05-12,2024-05-28,2024-05-25,PA-King of Prussia
+PO-24-00162,Harbor Restaurant Equipment,Walk-in Cooler,2,25109.32,2024-05-13,2024-07-21,2024-07-19,PA-King of Prussia
+PO-24-00163,Harbor Restaurant Equipment,Fryer,2,4287.57,2024-05-14,2024-06-06,2024-06-04,NY-Westchester
+PO-24-00164,Metro FSE,Dish Machine,10,10436.58,2024-05-14,2024-06-16,2024-06-15,PA-King of Prussia
+PO-24-00165,Keystone Kitchen Supply,Fryer,4,3809.91,2024-05-15,2024-06-09,2024-06-07,PA-King of Prussia
+PO-24-00166,Metro FSE,Ice Machine,3,3925.85,2024-05-15,2024-06-02,2024-06-02,NJ-Union
+PO-24-00167,Harbor Restaurant Equipment,Fryer,8,3931.0,2024-05-15,2024-06-06,2024-06-04,MA-Burlington
+PO-24-00168,Summit Equipment Co,Induction Range,9,7608.75,2024-05-16,2024-06-23,2024-06-20,NY-Westchester
+PO-24-00169,Metro FSE,Ice Machine,1,3953.0,2024-05-16,2024-06-04,2024-06-02,NY-Manhattan
+PO-24-00170,Summit Equipment Co,Reach-in Refrigerator,4,5386.38,2024-05-17,2024-06-01,2024-06-01,NY-Manhattan
+PO-24-00171,Metro FSE,Electrical Panel,8,5827.97,2024-05-17,2024-06-24,2024-06-23,NJ-Union
+PO-24-00172,Harbor Restaurant Equipment,Fryer,4,4227.0,2024-05-17,2024-06-09,2024-06-07,PA-King of Prussia
+PO-24-00173,Keystone Kitchen Supply,Dish Machine,2,11038.69,2024-05-18,2024-06-27,2024-06-27,NY-Westchester
+PO-24-00174,Allied Commercial,Fryer,3,3943.73,2024-05-19,2024-06-09,2024-06-07,NY-Westchester
+PO-24-00175,Harbor Restaurant Equipment,Electrical Panel,4,6493.11,2024-05-20,2024-07-19,2024-07-16,NY-Westchester
+PO-24-00176,Northline Foodservice,Walk-in Cooler,4,22953.0,2024-05-20,2024-07-11,2024-07-08,MA-Burlington
+PO-24-00177,Keystone Kitchen Supply,Electrical Panel,8,5727.12,2024-05-21,2024-07-07,2024-07-12,NJ-Paramus
+PO-24-00178,Summit Equipment Co,Walk-in Cooler,3,25224.15,2024-05-22,2024-07-03,2024-07-02,NY-Manhattan
+PO-24-00179,Northline Foodservice,Electrical Panel,2,6614.65,2024-05-22,2024-07-12,2024-07-11,NY-Westchester
+PO-24-00180,Harbor Restaurant Equipment,Electrical Panel,2,6854.0,2024-05-23,2024-07-13,2024-07-12,MA-Burlington
+PO-24-00181,Summit Equipment Co,Combi Oven,2,19838.0,2024-05-23,2024-06-21,2024-06-18,PA-King of Prussia
+PO-24-00182,Summit Equipment Co,Walk-in Cooler,4,27087.0,2024-05-24,2024-08-17,2024-08-15,NJ-Union
+PO-24-00183,Northline Foodservice,Combi Oven,4,18026.0,2024-05-25,2024-06-30,2024-06-28,NY-Westchester
+PO-24-00184,Summit Equipment Co,Stainless Prep Table,2,1225.0,2024-05-25,2024-06-01,2024-06-01,PA-King of Prussia
+PO-24-00185,Northline Foodservice,Reach-in Refrigerator,1,5470.41,2024-05-25,2024-06-07,2024-06-07,NY-Westchester
+PO-24-00186,Harbor Restaurant Equipment,Walk-in Cooler,1,24691.0,2024-05-25,2024-08-14,2024-08-14,NJ-Union
+PO-24-00187,Metro FSE,Fryer,6,3771.25,2024-05-26,2024-06-19,2024-06-16,MA-Burlington
+PO-24-00188,Northline Foodservice,Induction Range,19,6869.52,2024-05-26,2024-06-12,2024-06-09,PA-King of Prussia
+PO-24-00189,Keystone Kitchen Supply,Electrical Panel,4,5868.78,2024-05-27,2024-07-10,2024-07-09,PA-King of Prussia
+PO-24-00190,Allied Commercial,Electrical Panel,1,5755.2,2024-05-27,2024-07-28,2024-07-27,PA-King of Prussia
+PO-24-00191,Harbor Restaurant Equipment,Combi Oven,3,19471.02,2024-05-29,2024-07-09,2024-07-08,PA-King of Prussia
+PO-24-00192,Northline Foodservice,Induction Range,13,6465.45,2024-05-29,2024-06-20,2024-06-20,MA-Burlington
+PO-24-00193,Northline Foodservice,Combi Oven,1,18901.0,2024-05-30,2024-06-30,2024-06-30,PA-King of Prussia
+PO-24-00194,Keystone Kitchen Supply,Dish Machine,1,10603.0,2024-05-30,2024-06-25,2024-07-01,NY-Manhattan
+PO-24-00195,Harbor Restaurant Equipment,Stainless Prep Table,1,1156.03,2024-05-31,2024-06-08,2024-06-05,NJ-Union
+PO-24-00196,Allied Commercial,Reach-in Refrigerator,2,4717.76,2024-06-01,2024-06-14,2024-06-13,PA-King of Prussia
+PO-24-00197,Keystone Kitchen Supply,Walk-in Cooler,3,22413.07,2024-06-01,2024-07-11,2024-07-08,NJ-Union
+PO-24-00198,Northline Foodservice,Walk-in Cooler,1,23546.0,2024-06-01,2024-08-03,2024-08-14,PA-King of Prussia
+PO-24-00199,Allied Commercial,Walk-in Cooler,4,22724.0,2024-06-03,2024-08-15,2024-08-12,NJ-Paramus
+PO-24-00200,Allied Commercial,Dish Machine,5,10165.68,2024-06-04,2024-06-30,2024-07-19,PA-King of Prussia
+PO-24-00201,Northline Foodservice,Induction Range,11,6969.73,2024-06-04,2024-06-27,2024-06-26,MA-Burlington
+PO-24-00202,Allied Commercial,Induction Range,4,6969.25,2024-06-05,2024-07-05,2024-07-06,NJ-Union
+PO-24-00203,Allied Commercial,Reach-in Refrigerator,5,4508.59,2024-06-06,2024-06-25,2024-06-25,MA-Burlington
+PO-24-00204,Northline Foodservice,Electrical Panel,13,5948.15,2024-06-06,2024-07-18,2024-07-17,PA-King of Prussia
+PO-24-00205,Keystone Kitchen Supply,Stainless Prep Table,9,1050.0,2024-06-09,2024-06-22,2024-06-21,NY-Westchester
+PO-24-00206,Northline Foodservice,Reach-in Refrigerator,6,4964.18,2024-06-09,2024-06-21,2024-06-21,NY-Manhattan
+PO-24-00207,Metro FSE,Reach-in Refrigerator,2,5004.0,2024-06-11,2024-06-29,2024-07-17,PA-King of Prussia
+PO-24-00208,Keystone Kitchen Supply,Dish Machine,1,11094.0,2024-06-11,2024-07-10,2024-07-10,NY-Westchester
+PO-24-00209,Summit Equipment Co,Ice Machine,4,4222.7,2024-06-12,2024-06-27,2024-06-25,NJ-Paramus
+PO-24-00210,Metro FSE,Dish Machine,4,11097.14,2024-06-12,2024-07-03,2024-07-02,NY-Manhattan
+PO-24-00211,Metro FSE,Ice Machine,5,3545.08,2024-06-12,2024-06-29,2024-06-27,NY-Manhattan
+PO-24-00212,Metro FSE,Exhaust Hood,6,9384.99,2024-06-12,2024-08-23,2024-08-21,NJ-Union
+PO-24-00213,Metro FSE,Combi Oven,2,18250.95,2024-06-13,2024-07-07,2024-07-10,NJ-Union
+PO-24-00214,Summit Equipment Co,Electrical Panel,9,6518.0,2024-06-13,2024-07-15,2024-07-15,NY-Westchester
+PO-24-00215,Keystone Kitchen Supply,Dish Machine,2,11403.49,2024-06-14,2024-07-23,2024-07-20,NJ-Paramus
+PO-24-00216,Summit Equipment Co,Induction Range,1,7806.8,2024-06-15,2024-07-17,2024-07-15,NY-Westchester
+PO-26-00968,Summit Equipment Co,Electrical Panel,9,7515.0,2026-01-26,2026-03-26,2026-03-25,NY-Manhattan
+PO-24-00217,Allied Commercial,Ice Machine,1,3499.0,2024-06-15,2024-07-03,2024-06-30,MA-Burlington
+PO-24-00218,Allied Commercial,Ice Machine,2,3701.0,2024-06-16,2024-07-01,2024-06-29,MA-Burlington
+PO-24-00219,Keystone Kitchen Supply,Induction Range,10,6106.47,2024-06-17,2024-07-17,2024-07-29,PA-King of Prussia
+PO-24-00220,Harbor Restaurant Equipment,Dish Machine,1,11654.0,2024-06-17,2024-08-01,2024-08-01,NY-Westchester
+PO-24-00221,Harbor Restaurant Equipment,Combi Oven,3,18776.15,2024-06-17,2024-08-03,2024-08-03,NJ-Paramus
+PO-24-00222,Metro FSE,Reach-in Refrigerator,16,4751.28,2024-06-18,2024-07-11,2024-07-09,PA-King of Prussia
+PO-24-00223,Harbor Restaurant Equipment,Induction Range,2,8249.99,2024-06-19,2024-07-15,2024-07-13,NJ-Union
+PO-24-00224,Keystone Kitchen Supply,Walk-in Cooler,1,23353.44,2024-06-20,2024-08-08,2024-08-15,MA-Burlington
+PO-24-00225,Northline Foodservice,Exhaust Hood,2,9760.97,2024-06-20,2024-08-09,2024-08-08,NY-Westchester
+PO-24-00226,Metro FSE,Combi Oven,1,18651.75,2024-06-20,2024-07-20,2024-07-26,PA-King of Prussia
+PO-24-00227,Harbor Restaurant Equipment,Combi Oven,1,20170.32,2024-06-23,2024-08-03,2024-08-03,PA-King of Prussia
+PO-24-00228,Metro FSE,Electrical Panel,24,5799.53,2024-06-24,2024-08-25,2024-08-24,NY-Manhattan
+PO-24-00229,Harbor Restaurant Equipment,Stainless Prep Table,6,1119.3,2024-06-24,2024-07-03,2024-07-03,PA-King of Prussia
+PO-24-00231,Metro FSE,Reach-in Refrigerator,6,4714.35,2024-06-25,2024-07-10,2024-07-10,NY-Manhattan
+PO-24-00232,Allied Commercial,Reach-in Refrigerator,2,4628.82,2024-06-25,2024-07-15,2024-07-22,NY-Manhattan
+PO-24-00233,Northline Foodservice,Electrical Panel,4,6323.0,2024-06-26,2024-08-12,2024-08-11,NY-Westchester
+PO-24-00234,Keystone Kitchen Supply,Induction Range,2,7540.0,2024-06-26,2024-07-21,2024-07-20,NY-Manhattan
+PO-24-00235,Metro FSE,Ice Machine,21,3403.78,2024-06-26,2024-07-09,2024-07-17,NY-Westchester
+PO-24-00236,Summit Equipment Co,Walk-in Cooler,5,24943.79,2024-06-26,2024-08-17,2024-08-17,NY-Westchester
+PO-24-00237,Summit Equipment Co,Stainless Prep Table,2,1226.25,2024-06-27,2024-07-06,2024-07-05,PA-King of Prussia
+PO-24-00238,Summit Equipment Co,Stainless Prep Table,1,1269.42,2024-06-27,2024-07-06,2024-07-04,NJ-Paramus
+PO-24-00239,Metro FSE,Ice Machine,1,3919.0,2024-06-28,2024-07-11,2024-07-09,NY-Westchester
+PO-24-00240,Summit Equipment Co,Dish Machine,4,11754.98,2024-06-28,2024-08-01,2024-07-29,PA-King of Prussia
+PO-24-00241,Summit Equipment Co,Exhaust Hood,6,9573.17,2024-06-29,2024-09-10,2024-09-09,PA-King of Prussia
+PO-24-00242,Keystone Kitchen Supply,Dish Machine,6,10282.0,2024-06-29,2024-07-31,2024-07-30,NY-Manhattan
+PO-24-00243,Allied Commercial,Induction Range,3,6948.95,2024-06-29,2024-07-20,2024-07-30,NJ-Paramus
+PO-24-00244,Summit Equipment Co,Combi Oven,6,18541.73,2024-06-30,2024-08-09,2024-08-16,NJ-Union
+PO-24-00245,Northline Foodservice,Induction Range,3,7604.82,2024-07-01,2024-08-01,2024-07-29,NY-Manhattan
+PO-24-00246,Metro FSE,Combi Oven,5,17720.27,2024-07-02,2024-08-10,2024-08-08,NJ-Paramus
+PO-24-00247,Allied Commercial,Fryer,1,3867.57,2024-07-03,2024-07-23,2024-07-20,NJ-Paramus
+PO-24-00248,Northline Foodservice,Electrical Panel,3,6782.0,2024-07-04,2024-08-08,2024-08-05,PA-King of Prussia
+PO-24-00249,Harbor Restaurant Equipment,Stainless Prep Table,19,1021.73,2024-07-05,2024-07-11,2024-07-11,NY-Manhattan
+PO-24-00250,Harbor Restaurant Equipment,Electrical Panel,3,6441.46,2024-07-06,2024-08-27,2024-08-25,PA-King of Prussia
+PO-24-00251,Northline Foodservice,Stainless Prep Table,3,1109.0,2024-07-06,2024-07-18,2024-07-16,MA-Burlington
+PO-24-00252,Keystone Kitchen Supply,Combi Oven,3,17911.37,2024-07-07,2024-08-17,2024-08-14,NY-Westchester
+PO-24-00253,Harbor Restaurant Equipment,Ice Machine,5,3912.0,2024-07-09,2024-07-22,2024-07-20,PA-King of Prussia
+PO-24-00254,Northline Foodservice,Walk-in Cooler,6,22614.17,2024-07-10,2024-09-14,2024-09-11,NJ-Union
+PO-24-00255,Summit Equipment Co,Stainless Prep Table,6,1141.55,2024-07-11,2024-07-22,2024-07-22,NY-Manhattan
+PO-24-00256,Metro FSE,Induction Range,2,7251.0,2024-07-11,2024-08-14,2024-08-11,NJ-Union
+PO-24-00257,Harbor Restaurant Equipment,Fryer,4,4567.1,2024-07-11,2024-08-04,2024-08-04,NY-Manhattan
+PO-24-00258,Northline Foodservice,Exhaust Hood,1,9733.01,2024-07-12,2024-09-22,2024-09-19,PA-King of Prussia
+PO-24-00259,Allied Commercial,Stainless Prep Table,12,943.87,2024-07-12,2024-07-22,2024-07-21,NY-Manhattan
+PO-24-00260,Summit Equipment Co,Fryer,17,4157.53,2024-07-13,2024-08-01,2024-07-31,PA-King of Prussia
+PO-24-00261,Keystone Kitchen Supply,Fryer,8,3769.0,2024-07-14,2024-07-31,2024-07-28,MA-Burlington
+PO-24-00262,Harbor Restaurant Equipment,Reach-in Refrigerator,10,4954.64,2024-07-14,2024-08-05,2024-08-05,NJ-Paramus
+PO-24-00263,Summit Equipment Co,Combi Oven,1,20897.5,2024-07-14,2024-08-27,2024-08-27,PA-King of Prussia
+PO-24-00264,Northline Foodservice,Fryer,6,4087.42,2024-07-14,2024-08-05,2024-08-02,MA-Burlington
+PO-24-00265,Northline Foodservice,Fryer,8,4008.0,2024-07-15,2024-08-04,2024-08-02,NJ-Union
+PO-26-00956,Metro FSE,Combi Oven,1,20546.0,2026-01-14,2026-03-01,2026-02-27,PA-King of Prussia
+PO-24-00266,Northline Foodservice,Stainless Prep Table,9,1070.62,2024-07-16,2024-07-28,2024-07-27,NJ-Union
+PO-24-00267,Northline Foodservice,Exhaust Hood,3,9679.85,2024-07-17,2024-09-06,2024-09-04,MA-Burlington
+PO-24-00268,Metro FSE,Exhaust Hood,5,9573.22,2024-07-18,2024-08-26,2024-08-26,NY-Manhattan
+PO-26-01132,Metro FSE,Dish Machine,9,11325.06,2026-06-13,2026-07-15,2026-07-12,NY-Manhattan
+PO-24-00269,Allied Commercial,Dish Machine,6,10198.38,2024-07-18,2024-08-22,2024-08-19,MA-Burlington
+PO-24-00270,Allied Commercial,Combi Oven,2,18436.22,2024-07-20,2024-08-22,2024-08-22,PA-King of Prussia
+PO-24-00271,Allied Commercial,Electrical Panel,5,5364.0,2024-07-22,2024-09-03,2024-09-09,PA-King of Prussia
+PO-24-00272,Keystone Kitchen Supply,Dish Machine,15,9500.17,2024-07-22,2024-08-27,2024-08-26,NJ-Union
+PO-24-00273,Allied Commercial,Fryer,4,4015.84,2024-07-22,2024-08-19,2024-08-19,NY-Westchester
+PO-24-00274,Harbor Restaurant Equipment,Walk-in Cooler,1,26915.0,2024-07-22,2024-10-07,2024-10-05,NY-Westchester
+PO-24-00275,Allied Commercial,Dish Machine,3,11149.42,2024-07-22,2024-08-30,2024-08-27,NJ-Union
+PO-24-00276,Summit Equipment Co,Exhaust Hood,2,10498.61,2024-07-23,2024-10-01,2024-09-29,NJ-Paramus
+PO-24-00277,Harbor Restaurant Equipment,Fryer,7,4094.0,2024-07-23,2024-08-14,2024-08-13,NJ-Paramus
+PO-24-00278,Summit Equipment Co,Combi Oven,1,20983.0,2024-07-24,2024-09-04,2024-09-01,PA-King of Prussia
+PO-24-00279,Metro FSE,Electrical Panel,6,6120.0,2024-07-26,2024-09-21,2024-09-21,NJ-Union
+PO-24-00280,Metro FSE,Ice Machine,24,3406.0,2024-07-27,2024-08-13,2024-08-23,MA-Burlington
+PO-24-00281,Keystone Kitchen Supply,Reach-in Refrigerator,21,4374.58,2024-07-27,2024-08-17,2024-08-16,NY-Westchester
+PO-24-00282,Allied Commercial,Walk-in Cooler,4,22996.24,2024-07-29,2024-10-20,2024-10-25,NJ-Paramus
+PO-24-00283,Allied Commercial,Induction Range,7,6791.22,2024-08-01,2024-09-02,2024-09-15,NJ-Union
+PO-24-00284,Summit Equipment Co,Stainless Prep Table,4,1179.21,2024-08-02,2024-08-16,2024-08-15,NY-Manhattan
+PO-24-00285,Metro FSE,Exhaust Hood,4,9936.0,2024-08-02,2024-09-27,2024-09-24,PA-King of Prussia
+PO-24-00286,Summit Equipment Co,Stainless Prep Table,2,1297.29,2024-08-02,2024-08-09,2024-08-08,NY-Westchester
+PO-24-00287,Northline Foodservice,Stainless Prep Table,1,1161.52,2024-08-02,2024-08-11,2024-08-09,PA-King of Prussia
+PO-24-00288,Northline Foodservice,Dish Machine,7,10891.86,2024-08-02,2024-09-03,2024-08-31,PA-King of Prussia
+PO-24-00289,Summit Equipment Co,Walk-in Cooler,3,24912.0,2024-08-02,2024-10-05,2024-10-05,MA-Burlington
+PO-24-00290,Summit Equipment Co,Walk-in Cooler,1,27471.95,2024-08-03,2024-10-28,2024-10-25,NY-Westchester
+PO-24-00291,Keystone Kitchen Supply,Dish Machine,3,10645.0,2024-08-03,2024-09-09,2024-09-07,NY-Manhattan
+PO-24-00292,Keystone Kitchen Supply,Stainless Prep Table,8,968.32,2024-08-03,2024-08-10,2024-08-09,NY-Manhattan
+PO-24-00293,Summit Equipment Co,Walk-in Cooler,4,27297.12,2024-08-03,2024-09-24,2024-09-21,MA-Burlington
+PO-24-00294,Allied Commercial,Dish Machine,1,10518.17,2024-08-07,2024-09-08,2024-09-08,MA-Burlington
+PO-24-00295,Harbor Restaurant Equipment,Exhaust Hood,2,11082.57,2024-08-07,2024-10-04,2024-10-03,MA-Burlington
+PO-24-00296,Keystone Kitchen Supply,Electrical Panel,4,5976.5,2024-08-07,2024-09-29,2024-10-13,NY-Westchester
+PO-24-00297,Northline Foodservice,Dish Machine,1,11675.96,2024-08-08,2024-09-12,2024-09-10,NJ-Union
+PO-24-00298,Allied Commercial,Reach-in Refrigerator,11,4216.0,2024-08-08,2024-08-24,2024-08-22,NJ-Paramus
+PO-24-00299,Summit Equipment Co,Exhaust Hood,2,10568.71,2024-08-08,2024-09-21,2024-09-19,NY-Westchester
+PO-24-00300,Harbor Restaurant Equipment,Walk-in Cooler,4,26218.0,2024-08-09,2024-10-03,2024-10-17,NY-Westchester
+PO-24-00301,Harbor Restaurant Equipment,Walk-in Cooler,1,26668.48,2024-08-10,2024-10-30,2024-10-27,NJ-Paramus
+PO-24-00302,Northline Foodservice,Exhaust Hood,1,10754.15,2024-08-11,2024-10-01,2024-09-29,NY-Westchester
+PO-24-00303,Summit Equipment Co,Exhaust Hood,3,10288.0,2024-08-12,2024-10-22,2024-10-22,PA-King of Prussia
+PO-24-00304,Allied Commercial,Reach-in Refrigerator,4,4695.8,2024-08-12,2024-08-29,2024-08-26,NY-Manhattan
+PO-24-00305,Keystone Kitchen Supply,Induction Range,2,7113.83,2024-08-12,2024-09-07,2024-09-05,PA-King of Prussia
+PO-24-00306,Metro FSE,Ice Machine,1,3854.0,2024-08-13,2024-08-29,2024-08-28,NJ-Paramus
+PO-24-00307,Allied Commercial,Walk-in Cooler,2,23766.0,2024-08-15,2024-10-23,2024-11-01,NJ-Paramus
+PO-24-00308,Harbor Restaurant Equipment,Combi Oven,2,20216.0,2024-08-15,2024-09-19,2024-09-17,MA-Burlington
+PO-24-00309,Northline Foodservice,Reach-in Refrigerator,1,5079.21,2024-08-16,2024-08-29,2024-08-28,MA-Burlington
+PO-24-00310,Metro FSE,Dish Machine,23,9784.0,2024-08-18,2024-09-27,2024-09-25,NY-Westchester
+PO-24-00311,Harbor Restaurant Equipment,Electrical Panel,2,7003.0,2024-08-18,2024-10-07,2024-10-07,NJ-Paramus
+PO-24-00312,Allied Commercial,Combi Oven,6,16762.8,2024-08-19,2024-09-20,2024-09-28,MA-Burlington
+PO-24-00313,Harbor Restaurant Equipment,Induction Range,22,7204.12,2024-08-20,2024-09-19,2024-09-22,NY-Manhattan
+PO-24-00314,Summit Equipment Co,Walk-in Cooler,6,23955.0,2024-08-21,2024-10-16,2024-10-15,NJ-Union
+PO-24-00315,Keystone Kitchen Supply,Walk-in Cooler,5,21589.84,2024-08-22,2024-10-25,2024-10-22,NY-Westchester
+PO-24-00316,Summit Equipment Co,Fryer,1,4721.29,2024-08-24,2024-09-20,2024-09-17,NJ-Paramus
+PO-25-00584,Keystone Kitchen Supply,Stainless Prep Table,11,1005.83,2025-04-12,2025-04-24,2025-04-27,NY-Manhattan
+PO-24-00317,Allied Commercial,Electrical Panel,1,6207.32,2024-08-24,2024-10-15,2024-10-29,NY-Westchester
+PO-24-00318,Northline Foodservice,Combi Oven,2,19634.0,2024-08-26,2024-10-17,2024-10-16,PA-King of Prussia
+PO-24-00319,Summit Equipment Co,Reach-in Refrigerator,6,5179.78,2024-08-27,2024-09-19,2024-09-18,NJ-Paramus
+PO-24-00320,Allied Commercial,Induction Range,5,6197.24,2024-08-28,2024-09-26,2024-09-26,MA-Burlington
+PO-24-00321,Harbor Restaurant Equipment,Ice Machine,2,4170.91,2024-08-29,2024-09-11,2024-09-14,MA-Burlington
+PO-24-00322,Summit Equipment Co,Induction Range,6,7639.6,2024-08-31,2024-09-23,2024-09-23,MA-Burlington
+PO-24-00323,Northline Foodservice,Fryer,19,3611.0,2024-08-31,2024-09-21,2024-09-21,MA-Burlington
+PO-24-00324,Allied Commercial,Stainless Prep Table,2,1023.16,2024-09-01,2024-09-11,2024-09-19,MA-Burlington
+PO-24-00325,Allied Commercial,Reach-in Refrigerator,13,4188.98,2024-09-01,2024-09-16,2024-11-22,PA-King of Prussia
+PO-24-00326,Keystone Kitchen Supply,Fryer,1,4217.59,2024-09-01,2024-09-24,2024-09-21,NY-Westchester
+PO-24-00327,Harbor Restaurant Equipment,Electrical Panel,16,6056.06,2024-09-02,2024-10-16,2024-10-13,PA-King of Prussia
+PO-24-00328,Metro FSE,Stainless Prep Table,2,1205.57,2024-09-02,2024-09-14,2024-09-12,PA-King of Prussia
+PO-24-00329,Harbor Restaurant Equipment,Walk-in Cooler,1,27008.11,2024-09-02,2024-11-01,2024-10-30,MA-Burlington
+PO-24-00331,Allied Commercial,Stainless Prep Table,9,969.83,2024-09-03,2024-09-10,2024-09-13,MA-Burlington
+PO-24-00332,Keystone Kitchen Supply,Stainless Prep Table,4,1129.48,2024-09-03,2024-09-13,2024-09-12,NY-Manhattan
+PO-24-00333,Keystone Kitchen Supply,Walk-in Cooler,1,24923.02,2024-09-03,2024-11-10,2024-11-10,PA-King of Prussia
+PO-24-00334,Keystone Kitchen Supply,Exhaust Hood,1,10152.2,2024-09-08,2024-11-05,2024-11-02,MA-Burlington
+PO-24-00335,Metro FSE,Stainless Prep Table,1,1145.0,2024-09-09,2024-09-17,2024-09-19,MA-Burlington
+PO-24-00336,Summit Equipment Co,Walk-in Cooler,4,26200.59,2024-09-09,2024-11-14,2024-11-11,PA-King of Prussia
+PO-24-00337,Allied Commercial,Reach-in Refrigerator,6,4504.0,2024-09-10,2024-09-27,2024-09-27,MA-Burlington
+PO-24-00338,Metro FSE,Stainless Prep Table,23,970.0,2024-09-10,2024-09-19,2024-09-19,MA-Burlington
+PO-25-00851,Metro FSE,Exhaust Hood,3,11273.46,2025-10-30,2025-12-31,2025-12-30,PA-King of Prussia
+PO-24-00339,Keystone Kitchen Supply,Ice Machine,3,3781.0,2024-09-10,2024-09-22,2024-10-02,MA-Burlington
+PO-24-00340,Allied Commercial,Ice Machine,1,3552.0,2024-09-11,2024-09-21,2024-09-23,MA-Burlington
+PO-24-00342,Summit Equipment Co,Exhaust Hood,1,11208.22,2024-09-13,2024-11-25,2024-11-23,MA-Burlington
+PO-24-00343,Northline Foodservice,Exhaust Hood,3,9656.0,2024-09-13,2024-11-03,2024-11-02,NY-Westchester
+PO-24-00344,Keystone Kitchen Supply,Ice Machine,4,3825.0,2024-09-14,2024-09-25,2024-09-26,NY-Manhattan
+PO-24-00345,Keystone Kitchen Supply,Fryer,1,3936.0,2024-09-14,2024-10-06,2024-10-14,NJ-Union
+PO-24-00346,Metro FSE,Dish Machine,22,10202.86,2024-09-14,2024-10-21,2024-10-20,NJ-Union
+PO-24-00347,Metro FSE,Stainless Prep Table,3,1174.48,2024-09-14,2024-09-27,2024-09-26,NY-Westchester
+PO-24-00348,Allied Commercial,Fryer,1,4171.14,2024-09-15,2024-10-07,2024-10-07,MA-Burlington
+PO-24-00349,Summit Equipment Co,Induction Range,2,8567.0,2024-09-16,2024-10-21,2024-10-20,NJ-Union
+PO-24-00350,Summit Equipment Co,Combi Oven,1,19752.34,2024-09-17,2024-10-25,2024-10-25,NY-Westchester
+PO-24-00351,Allied Commercial,Combi Oven,5,16614.08,2024-09-18,2024-11-03,2024-11-01,MA-Burlington
+PO-24-00352,Allied Commercial,Dish Machine,2,11276.26,2024-09-21,,2024-10-28,NJ-Union
+PO-24-00353,Harbor Restaurant Equipment,Stainless Prep Table,3,1185.6,2024-09-23,2024-10-05,2024-10-05,PA-King of Prussia
+PO-24-00354,Northline Foodservice,Walk-in Cooler,6,24245.0,2024-09-25,2024-11-22,2024-11-20,MA-Burlington
+PO-24-00355,Northline Foodservice,Fryer,2,4313.0,2024-09-27,2024-10-09,2024-10-11,MA-Burlington
+PO-24-00356,Northline Foodservice,Fryer,2,4465.0,2024-09-28,,2024-10-17,NY-Manhattan
+PO-24-00357,Metro FSE,Dish Machine,2,12171.9,2024-09-28,2024-11-07,2024-11-17,MA-Burlington
+PO-24-00358,Northline Foodservice,Ice Machine,6,3554.96,2024-09-29,2024-10-16,2024-10-16,MA-Burlington
+PO-24-00359,Keystone Kitchen Supply,Electrical Panel,17,5804.36,2024-09-30,2024-11-16,2024-11-15,MA-Burlington
+PO-24-00360,Summit Equipment Co,Electrical Panel,12,6589.14,2024-09-30,2024-11-16,2024-11-16,NJ-Paramus
+PO-24-00361,Harbor Restaurant Equipment,Exhaust Hood,4,10205.0,2024-09-30,2024-12-11,2024-12-11,NJ-Paramus
+PO-24-00362,Harbor Restaurant Equipment,Dish Machine,1,12487.91,2024-10-01,2024-10-30,2024-10-30,NJ-Union
+PO-24-00363,Metro FSE,Stainless Prep Table,4,1167.65,2024-10-01,2024-10-09,2024-10-06,MA-Burlington
+PO-24-00364,Allied Commercial,Stainless Prep Table,9,1002.72,2024-10-01,2024-10-09,2024-10-08,PA-King of Prussia
+PO-24-00365,Northline Foodservice,Reach-in Refrigerator,2,5297.0,2024-10-03,2024-10-15,2024-10-14,MA-Burlington
+PO-24-00366,Northline Foodservice,Stainless Prep Table,12,997.15,2024-10-04,2024-10-14,2024-10-11,PA-King of Prussia
+PO-26-01144,Harbor Restaurant Equipment,Induction Range,9,7994.21,2026-06-27,2026-07-22,2026-07-21,MA-Burlington
+PO-24-00367,Northline Foodservice,Walk-in Cooler,6,22400.9,2024-10-05,2024-11-20,2024-11-20,NY-Manhattan
+PO-24-00368,Allied Commercial,Exhaust Hood,2,9291.0,2024-10-06,2024-12-16,2024-12-16,MA-Burlington
+PO-24-00369,Allied Commercial,Fryer,4,4069.0,2024-10-07,2024-10-22,2024-10-19,NJ-Union
+PO-26-00963,Summit Equipment Co,Ice Machine,1,4444.0,2026-01-22,2026-01-31,2026-01-30,NY-Westchester
+PO-24-00370,Keystone Kitchen Supply,Walk-in Cooler,5,22845.66,2024-10-08,2024-12-06,2024-12-04,PA-King of Prussia
+PO-24-00371,Summit Equipment Co,Induction Range,12,7091.35,2024-10-11,2024-11-09,2024-11-09,NY-Westchester
+PO-24-00372,Summit Equipment Co,Dish Machine,10,11142.49,2024-10-11,2024-11-06,2024-11-09,NJ-Paramus
+PO-24-00373,Northline Foodservice,Induction Range,8,6849.16,2024-10-12,2024-11-09,2024-11-09,NY-Westchester
+PO-24-00374,Northline Foodservice,Stainless Prep Table,4,1195.93,2024-10-13,2024-10-23,2024-10-21,NJ-Union
+PO-24-00375,Summit Equipment Co,Induction Range,6,7224.0,2024-10-14,2024-11-18,2024-11-16,NY-Westchester
+PO-24-00376,Keystone Kitchen Supply,Stainless Prep Table,6,1040.0,2024-10-15,2024-10-26,2024-11-03,NJ-Paramus
+PO-24-00377,Keystone Kitchen Supply,Reach-in Refrigerator,5,4527.67,2024-10-15,2024-11-04,2024-11-02,PA-King of Prussia
+PO-24-00378,Summit Equipment Co,Reach-in Refrigerator,2,5795.0,2024-10-17,2024-11-04,2024-11-01,NJ-Union
+PO-24-00379,Allied Commercial,Exhaust Hood,1,9618.21,2024-10-18,2024-12-27,2024-12-25,MA-Burlington
+PO-24-00380,Metro FSE,Combi Oven,5,17963.38,2024-10-20,2024-12-07,2024-12-07,NY-Westchester
+PO-24-00381,Metro FSE,Reach-in Refrigerator,2,5361.74,2024-10-20,2024-11-07,2024-11-07,NY-Manhattan
+PO-24-00382,Northline Foodservice,Dish Machine,2,11575.82,2024-10-23,2024-11-20,2024-11-18,NJ-Union
+PO-24-00383,Summit Equipment Co,Stainless Prep Table,2,1230.24,2024-10-23,2024-11-02,2024-10-30,NJ-Union
+PO-24-00384,Northline Foodservice,Exhaust Hood,1,10870.66,2024-10-23,2024-12-15,2024-12-13,MA-Burlington
+PO-24-00385,Keystone Kitchen Supply,Ice Machine,2,3814.4,2024-10-23,2024-11-08,2024-11-05,NJ-Union
+PO-24-00386,Allied Commercial,Induction Range,22,6384.66,2024-10-25,2024-11-17,2024-11-17,MA-Burlington
+PO-24-00387,Allied Commercial,Stainless Prep Table,1,1043.89,2024-10-28,2024-11-06,2024-11-06,PA-King of Prussia
+PO-24-00388,Allied Commercial,Induction Range,17,5911.99,2024-10-29,2024-11-25,2024-11-24,MA-Burlington
+PO-24-00389,Allied Commercial,Ice Machine,21,3215.94,2024-10-29,2024-11-09,2024-11-07,NJ-Paramus
+PO-24-00390,Northline Foodservice,Walk-in Cooler,1,25572.51,2024-10-31,2025-01-06,2025-01-03,NJ-Union
+PO-24-00391,Allied Commercial,Dish Machine,1,11396.57,2024-11-02,2024-12-02,2024-11-29,NY-Manhattan
+PO-24-00392,Summit Equipment Co,Reach-in Refrigerator,21,4998.0,2024-11-02,2024-11-22,2024-11-22,NJ-Paramus
+PO-24-00393,Northline Foodservice,Stainless Prep Table,2,1155.5,2024-11-04,2024-11-14,2024-11-13,NY-Manhattan
+PO-24-00394,Keystone Kitchen Supply,Fryer,1,4295.69,2024-11-04,2024-11-20,2024-11-26,NJ-Union
+PO-24-00395,Summit Equipment Co,Combi Oven,3,19919.0,2024-11-05,2024-12-26,2024-12-25,MA-Burlington
+PO-24-00396,Northline Foodservice,Ice Machine,5,3629.61,2024-11-06,2024-11-20,2024-11-18,NJ-Union
+PO-24-00397,Keystone Kitchen Supply,Fryer,2,4169.36,2024-11-07,2024-11-30,2024-12-03,NY-Westchester
+PO-24-00398,Keystone Kitchen Supply,Ice Machine,5,3430.58,2024-11-13,2024-11-24,2024-12-07,MA-Burlington
+PO-24-00399,Allied Commercial,Electrical Panel,1,6092.01,2024-11-14,2024-12-21,2024-12-25,NJ-Union
+PO-24-00400,Keystone Kitchen Supply,Ice Machine,2,3902.46,2024-11-16,2024-12-03,2024-11-30,NJ-Union
+PO-24-00401,Harbor Restaurant Equipment,Walk-in Cooler,2,26943.97,2024-11-17,2025-01-12,2025-01-10,NJ-Union
+PO-24-00402,Allied Commercial,Exhaust Hood,6,8690.07,2024-11-17,2025-01-08,2025-01-07,NJ-Paramus
+PO-25-00897,Summit Equipment Co,Reach-in Refrigerator,4,5773.14,2025-12-06,2025-12-21,2025-12-21,NY-Westchester
+PO-24-00403,Harbor Restaurant Equipment,Exhaust Hood,1,10665.42,2024-11-17,2025-01-09,2025-01-06,NJ-Paramus
+PO-24-00404,Summit Equipment Co,Walk-in Cooler,2,28306.92,2024-11-18,2025-01-22,2025-01-21,NJ-Paramus
+PO-24-00405,Harbor Restaurant Equipment,Reach-in Refrigerator,2,5753.0,2024-11-18,2024-12-06,2024-12-03,PA-King of Prussia
+PO-24-00406,Allied Commercial,Exhaust Hood,1,9595.2,2024-11-19,2025-01-03,2025-01-01,NY-Westchester
+PO-24-00407,Summit Equipment Co,Electrical Panel,11,6646.92,2024-11-19,2024-12-24,2024-12-22,NJ-Paramus
+PO-24-00408,Allied Commercial,Combi Oven,1,17418.42,2024-11-19,2024-12-28,2024-12-28,NJ-Union
+PO-24-00409,Keystone Kitchen Supply,Dish Machine,3,11218.0,2024-11-20,2024-12-29,2024-12-29,PA-King of Prussia
+PO-24-00410,Summit Equipment Co,Exhaust Hood,1,11025.64,2024-11-21,2025-02-10,2025-02-08,NY-Manhattan
+PO-24-00411,Summit Equipment Co,Fryer,6,4127.0,2024-11-22,2024-12-11,2024-12-10,MA-Burlington
+PO-24-00412,Allied Commercial,Exhaust Hood,2,9945.85,2024-11-23,2024-12-30,2025-01-26,NJ-Union
+PO-24-00413,Keystone Kitchen Supply,Combi Oven,2,17836.45,2024-11-27,2025-01-05,2025-01-02,NJ-Paramus
+PO-26-01073,Metro FSE,Reach-in Refrigerator,1,5494.32,2026-04-21,2026-05-14,2026-05-12,NY-Manhattan
+PO-24-00414,Keystone Kitchen Supply,Combi Oven,5,17568.52,2024-11-28,2025-01-07,2025-01-17,MA-Burlington
+PO-24-00415,Allied Commercial,Dish Machine,16,9936.0,2024-11-28,2024-12-31,2024-12-28,NY-Westchester
+PO-24-00416,Keystone Kitchen Supply,Induction Range,3,7272.72,2024-11-28,2024-12-29,2024-12-26,NJ-Union
+PO-24-00417,Allied Commercial,Electrical Panel,1,6462.68,2024-12-01,,2025-01-13,NJ-Union
+PO-24-00418,Keystone Kitchen Supply,Exhaust Hood,1,10182.34,2024-12-01,2025-02-12,2025-02-10,PA-King of Prussia
+PO-24-00419,Keystone Kitchen Supply,Stainless Prep Table,15,989.11,2024-12-05,2024-12-16,2025-01-06,NJ-Paramus
+PO-24-00420,Keystone Kitchen Supply,Combi Oven,3,18996.0,2024-12-05,2025-01-20,2025-03-06,NJ-Union
+PO-24-00421,Summit Equipment Co,Ice Machine,12,3657.91,2024-12-08,2024-12-21,2024-12-20,PA-King of Prussia
+PO-26-01049,Metro FSE,Walk-in Cooler,5,25499.61,2026-03-31,2026-06-16,2026-06-16,NJ-Union
+PO-24-00422,Metro FSE,Walk-in Cooler,1,25259.5,2024-12-08,2025-02-23,2025-02-25,MA-Burlington
+PO-24-00423,Keystone Kitchen Supply,Stainless Prep Table,6,989.43,2024-12-10,2024-12-23,2025-01-09,NY-Manhattan
+PO-24-00424,Metro FSE,Electrical Panel,9,6151.27,2024-12-10,2025-01-25,2025-01-23,NJ-Paramus
+PO-24-00425,Metro FSE,Exhaust Hood,6,9544.0,2024-12-11,,2025-02-05,NY-Westchester
+PO-24-00426,Northline Foodservice,Exhaust Hood,3,9850.35,2024-12-11,2025-02-09,2025-02-06,NY-Westchester
+PO-24-00427,Summit Equipment Co,Stainless Prep Table,3,1271.95,2024-12-12,2024-12-25,2024-12-22,NJ-Paramus
+PO-24-00428,Metro FSE,Walk-in Cooler,5,24140.0,2024-12-12,2025-02-10,2025-02-10,MA-Burlington
+PO-24-00429,Harbor Restaurant Equipment,Walk-in Cooler,4,24979.72,2024-12-13,2025-02-05,2025-02-03,NJ-Paramus
+PO-24-00430,Summit Equipment Co,Reach-in Refrigerator,3,5700.4,2024-12-16,2025-01-02,2024-12-31,NJ-Union
+PO-24-00431,Allied Commercial,Dish Machine,19,9691.29,2024-12-17,2025-02-03,2025-02-01,NJ-Union
+PO-24-00432,Metro FSE,Fryer,2,4468.0,2024-12-18,2025-01-03,2025-01-04,NY-Westchester
+PO-24-00433,Keystone Kitchen Supply,Walk-in Cooler,3,23137.0,2024-12-18,2025-02-26,2025-02-23,NY-Westchester
+PO-24-00434,Keystone Kitchen Supply,Ice Machine,11,3163.18,2024-12-19,2025-01-03,2025-01-02,NY-Westchester
+PO-24-00435,Metro FSE,Fryer,7,4113.63,2024-12-21,2025-01-12,2025-01-11,NJ-Paramus
+PO-24-00436,Keystone Kitchen Supply,Dish Machine,5,10878.11,2024-12-21,2025-01-19,2025-01-17,PA-King of Prussia
+PO-24-00437,Allied Commercial,Induction Range,14,6368.79,2024-12-25,2025-01-18,2025-01-17,NY-Westchester
+PO-24-00438,Summit Equipment Co,Combi Oven,1,20405.51,2024-12-25,2025-02-04,2025-02-02,NJ-Union
+PO-24-00439,Keystone Kitchen Supply,Ice Machine,1,3692.83,2024-12-25,2025-01-12,2025-01-10,PA-King of Prussia
+PO-24-00440,Allied Commercial,Induction Range,20,6329.0,2024-12-25,2025-01-22,2025-01-21,NY-Westchester
+PO-24-00441,Summit Equipment Co,Ice Machine,2,4340.21,2024-12-28,2025-01-09,2025-01-06,NY-Manhattan
+PO-24-00442,Metro FSE,Induction Range,2,7688.93,2024-12-28,2025-02-01,2025-01-31,NJ-Paramus
+PO-24-00443,Summit Equipment Co,Dish Machine,4,13151.24,2024-12-29,2025-01-21,2025-01-19,PA-King of Prussia
+PO-24-00444,Keystone Kitchen Supply,Walk-in Cooler,2,23184.66,2024-12-29,2025-03-05,2025-03-04,MA-Burlington
+PO-24-00445,Northline Foodservice,Combi Oven,2,19010.06,2024-12-29,2025-02-15,2025-02-14,PA-King of Prussia
+PO-24-00446,Keystone Kitchen Supply,Induction Range,11,6714.29,2024-12-30,2025-01-26,2025-01-23,NY-Manhattan
+PO-25-00448,Metro FSE,Combi Oven,1,19009.6,2025-01-01,2025-02-15,2025-02-15,NJ-Union
+PO-25-00449,Allied Commercial,Dish Machine,2,11184.85,2025-01-02,2025-02-07,2025-02-04,NY-Westchester
+PO-25-00450,Harbor Restaurant Equipment,Electrical Panel,23,6372.0,2025-01-02,2025-03-05,2025-03-03,NJ-Union
+PO-25-00451,Harbor Restaurant Equipment,Reach-in Refrigerator,6,5293.43,2025-01-02,2025-01-21,2025-01-18,NJ-Union
+PO-25-00452,Keystone Kitchen Supply,Reach-in Refrigerator,8,4482.53,2025-01-02,2025-01-18,2025-01-15,MA-Burlington
+PO-25-00453,Metro FSE,Combi Oven,1,18833.23,2025-01-03,2025-02-11,2025-02-09,NY-Manhattan
+PO-25-00454,Harbor Restaurant Equipment,Ice Machine,14,3676.74,2025-01-04,2025-01-19,2025-01-17,NY-Westchester
+PO-25-00455,Allied Commercial,Ice Machine,7,3528.0,2025-01-04,2025-01-18,2025-01-27,NY-Manhattan
+PO-25-00456,Summit Equipment Co,Stainless Prep Table,20,1062.77,2025-01-05,2025-01-16,2025-01-13,PA-King of Prussia
+PO-25-00457,Metro FSE,Electrical Panel,1,6715.63,2025-01-05,2025-02-28,2025-02-25,PA-King of Prussia
+PO-25-00458,Summit Equipment Co,Induction Range,4,7741.85,2025-01-06,2025-02-07,2025-02-07,MA-Burlington
+PO-25-00459,Northline Foodservice,Electrical Panel,9,6504.46,2025-01-07,2025-02-16,2025-02-15,PA-King of Prussia
+PO-25-00692,Metro FSE,Dish Machine,1,12805.0,2025-07-09,2025-08-17,2025-08-16,NY-Manhattan
+PO-25-00460,Harbor Restaurant Equipment,Walk-in Cooler,1,27661.0,2025-01-07,2025-03-08,2025-03-07,PA-King of Prussia
+PO-25-00461,Allied Commercial,Combi Oven,5,16217.77,2025-01-10,2025-02-19,2025-03-09,MA-Burlington
+PO-25-00462,Metro FSE,Walk-in Cooler,4,23744.0,2025-01-10,2025-03-29,2025-04-11,PA-King of Prussia
+PO-25-00463,Metro FSE,Stainless Prep Table,6,1098.51,2025-01-11,2025-01-22,2025-01-22,NY-Manhattan
+PO-25-00464,Keystone Kitchen Supply,Fryer,17,3465.0,2025-01-11,2025-01-31,2025-01-30,NJ-Paramus
+PO-25-00466,Northline Foodservice,Electrical Panel,2,6875.58,2025-01-12,2025-03-09,2025-03-10,PA-King of Prussia
+PO-25-00467,Keystone Kitchen Supply,Reach-in Refrigerator,4,5047.33,2025-01-13,2025-02-02,2025-02-14,NJ-Union
+PO-25-00468,Summit Equipment Co,Induction Range,15,6918.94,2025-01-15,2025-02-17,2025-02-16,NJ-Union
+PO-25-00469,Harbor Restaurant Equipment,Induction Range,2,7806.0,2025-01-15,,2025-02-13,NY-Manhattan
+PO-25-00470,Allied Commercial,Reach-in Refrigerator,4,4921.63,2025-01-16,2025-02-07,2025-02-05,NJ-Union
+PO-25-00471,Metro FSE,Exhaust Hood,6,10082.65,2025-01-17,2025-03-08,2025-03-15,PA-King of Prussia
+PO-25-00472,Allied Commercial,Ice Machine,6,3336.5,2025-01-17,2025-01-31,2025-02-17,NJ-Union
+PO-25-00473,Metro FSE,Exhaust Hood,2,10616.6,2025-01-17,2025-03-05,2025-03-04,NY-Westchester
+PO-25-00474,Allied Commercial,Exhaust Hood,4,9702.7,2025-01-17,2025-03-21,2025-03-21,NJ-Paramus
+PO-25-00475,Keystone Kitchen Supply,Electrical Panel,18,6013.11,2025-01-17,2025-03-18,2025-03-15,NY-Westchester
+PO-25-00476,Allied Commercial,Ice Machine,19,3281.15,2025-01-18,2025-01-29,2025-01-29,PA-King of Prussia
+PO-25-00477,Summit Equipment Co,Walk-in Cooler,1,28741.0,2025-01-19,2025-03-01,2025-02-27,NY-Manhattan
+PO-25-00478,Allied Commercial,Reach-in Refrigerator,3,4881.3,2025-01-20,2025-02-03,2025-02-03,MA-Burlington
+PO-25-00479,Summit Equipment Co,Stainless Prep Table,4,1209.29,2025-01-21,2025-02-01,2025-01-30,MA-Burlington
+PO-25-00480,Summit Equipment Co,Stainless Prep Table,2,1282.67,2025-01-22,2025-02-01,2025-01-31,PA-King of Prussia
+PO-25-00481,Keystone Kitchen Supply,Walk-in Cooler,2,23654.11,2025-01-23,2025-02-24,2025-02-24,NJ-Union
+PO-25-00482,Allied Commercial,Induction Range,2,7002.05,2025-01-24,2025-02-16,2025-04-05,NY-Manhattan
+PO-25-00483,Summit Equipment Co,Dish Machine,2,12372.0,2025-01-24,2025-02-27,2025-02-24,MA-Burlington
+PO-25-00484,Harbor Restaurant Equipment,Induction Range,4,7960.18,2025-01-24,2025-02-27,2025-02-25,NY-Manhattan
+PO-25-00485,Allied Commercial,Induction Range,3,7106.0,2025-01-26,2025-02-28,2025-02-27,NY-Westchester
+PO-25-00486,Summit Equipment Co,Stainless Prep Table,2,1272.0,2025-01-26,2025-02-02,2025-02-02,MA-Burlington
+PO-25-00487,Summit Equipment Co,Combi Oven,4,21646.0,2025-01-26,2025-03-02,2025-02-28,NY-Manhattan
+PO-25-00488,Northline Foodservice,Stainless Prep Table,8,1129.0,2025-01-27,2025-02-06,2025-02-06,NY-Westchester
+PO-25-00489,Metro FSE,Ice Machine,7,3744.5,2025-01-28,2025-02-12,2025-02-11,MA-Burlington
+PO-25-00490,Keystone Kitchen Supply,Fryer,3,4091.16,2025-01-30,2025-02-21,2025-04-10,NJ-Paramus
+PO-25-00491,Allied Commercial,Walk-in Cooler,3,23769.21,2025-01-30,2025-04-14,2025-04-14,NY-Manhattan
+PO-25-00492,Summit Equipment Co,Induction Range,4,7749.37,2025-02-01,,2025-02-26,MA-Burlington
+PO-25-00493,Harbor Restaurant Equipment,Electrical Panel,4,6893.0,2025-02-01,2025-03-19,2025-03-16,PA-King of Prussia
+PO-25-00494,Harbor Restaurant Equipment,Dish Machine,1,13171.77,2025-02-02,2025-03-06,2025-03-04,NJ-Union
+PO-25-00495,Metro FSE,Fryer,7,4071.67,2025-02-04,2025-02-24,2025-02-21,NJ-Union
+PO-25-00496,Summit Equipment Co,Reach-in Refrigerator,12,5245.89,2025-02-05,2025-02-20,2025-02-18,PA-King of Prussia
+PO-25-00497,Summit Equipment Co,Exhaust Hood,6,10607.98,2025-02-05,2025-04-16,2025-04-13,PA-King of Prussia
+PO-25-00498,Keystone Kitchen Supply,Electrical Panel,6,6319.93,2025-02-06,2025-03-28,2025-03-25,NY-Westchester
+PO-25-00499,Northline Foodservice,Exhaust Hood,2,10508.32,2025-02-06,2025-03-29,2025-04-01,NJ-Union
+PO-25-00500,Summit Equipment Co,Combi Oven,6,18739.83,2025-02-06,2025-03-01,2025-03-05,NY-Westchester
+PO-25-00501,Allied Commercial,Walk-in Cooler,2,24041.38,2025-02-07,2025-05-04,2025-05-03,MA-Burlington
+PO-25-00502,Metro FSE,Combi Oven,3,19175.79,2025-02-08,2025-03-03,2025-02-28,NY-Manhattan
+PO-25-00503,Northline Foodservice,Ice Machine,1,3972.0,2025-02-08,2025-02-25,2025-02-22,MA-Burlington
+PO-25-00504,Allied Commercial,Dish Machine,3,10844.0,2025-02-08,2025-03-07,2025-03-07,PA-King of Prussia
+PO-25-00505,Metro FSE,Combi Oven,5,17640.73,2025-02-08,2025-03-25,2025-03-22,NY-Manhattan
+PO-25-00506,Summit Equipment Co,Ice Machine,17,3772.0,2025-02-09,2025-02-26,2025-02-25,PA-King of Prussia
+PO-25-00507,Allied Commercial,Combi Oven,1,18924.0,2025-02-10,2025-04-01,2025-04-15,NY-Westchester
+PO-25-00508,Keystone Kitchen Supply,Reach-in Refrigerator,23,4586.0,2025-02-11,2025-03-03,2025-03-03,NJ-Union
+PO-25-00509,Summit Equipment Co,Exhaust Hood,1,11116.21,2025-02-11,2025-04-13,2025-04-10,NJ-Paramus
+PO-25-00510,Keystone Kitchen Supply,Ice Machine,4,3754.47,2025-02-11,2025-02-23,2025-03-11,PA-King of Prussia
+PO-25-00511,Summit Equipment Co,Walk-in Cooler,2,27916.36,2025-02-14,2025-04-25,2025-04-24,NY-Westchester
+PO-25-00747,Allied Commercial,Electrical Panel,8,6138.0,2025-08-24,2025-10-27,2025-10-24,NY-Manhattan
+PO-25-00512,Allied Commercial,Stainless Prep Table,6,954.0,2025-02-14,2025-02-21,2025-02-18,PA-King of Prussia
+PO-25-00513,Harbor Restaurant Equipment,Ice Machine,1,4389.73,2025-02-18,2025-03-07,2025-03-05,NJ-Union
+PO-25-00514,Metro FSE,Induction Range,6,6792.31,2025-02-18,,2025-03-18,NJ-Union
+PO-25-00515,Allied Commercial,Dish Machine,9,9908.93,2025-02-22,2025-03-21,2025-03-18,MA-Burlington
+PO-25-00516,Harbor Restaurant Equipment,Combi Oven,6,18396.44,2025-02-22,2025-04-03,2025-04-02,PA-King of Prussia
+PO-25-00517,Northline Foodservice,Dish Machine,1,11607.15,2025-02-23,2025-04-03,2025-04-03,PA-King of Prussia
+PO-25-00518,Metro FSE,Ice Machine,2,4051.35,2025-02-24,2025-03-06,2025-03-05,NY-Manhattan
+PO-25-00519,Northline Foodservice,Dish Machine,8,10929.73,2025-02-24,2025-03-30,2025-03-29,PA-King of Prussia
+PO-25-00520,Harbor Restaurant Equipment,Induction Range,8,7672.85,2025-02-25,2025-03-27,2025-03-24,NJ-Union
+PO-25-00521,Allied Commercial,Fryer,9,3878.17,2025-02-25,2025-03-21,2025-03-21,MA-Burlington
+PO-25-00522,Summit Equipment Co,Stainless Prep Table,18,1073.29,2025-02-26,2025-03-07,2025-03-06,NY-Manhattan
+PO-25-00523,Allied Commercial,Ice Machine,18,3325.43,2025-02-27,2025-03-13,2025-03-13,MA-Burlington
+PO-25-00524,Allied Commercial,Electrical Panel,1,6550.47,2025-02-27,2025-04-16,2025-05-08,NY-Manhattan
+PO-25-00525,Keystone Kitchen Supply,Stainless Prep Table,8,1027.89,2025-02-28,2025-03-10,2025-03-10,PA-King of Prussia
+PO-25-00526,Metro FSE,Exhaust Hood,3,10026.01,2025-02-28,2025-05-01,2025-04-29,NJ-Union
+PO-25-00527,Summit Equipment Co,Fryer,8,4415.19,2025-03-01,2025-03-20,2025-03-17,NY-Westchester
+PO-25-00528,Keystone Kitchen Supply,Combi Oven,5,17257.72,2025-03-01,2025-04-11,2025-04-08,NJ-Paramus
+PO-25-00529,Allied Commercial,Stainless Prep Table,20,936.14,2025-03-02,2025-03-10,2025-03-09,PA-King of Prussia
+PO-25-00530,Keystone Kitchen Supply,Walk-in Cooler,5,23692.0,2025-03-04,2025-05-11,2025-05-14,NY-Manhattan
+PO-25-00531,Metro FSE,Combi Oven,1,18859.18,2025-03-04,2025-04-13,2025-04-13,NY-Westchester
+PO-25-00532,Allied Commercial,Electrical Panel,8,5981.75,2025-03-04,2025-04-26,2025-04-23,NY-Westchester
+PO-25-00533,Allied Commercial,Exhaust Hood,2,9749.26,2025-03-05,2025-04-14,2025-04-14,PA-King of Prussia
+PO-25-00534,Allied Commercial,Reach-in Refrigerator,15,4203.0,2025-03-07,2025-03-29,2025-03-26,NY-Westchester
+PO-25-00535,Harbor Restaurant Equipment,Dish Machine,1,12915.89,2025-03-07,2025-04-07,2025-04-05,NJ-Union
+PO-25-00536,Metro FSE,Induction Range,3,7415.68,2025-03-07,2025-04-05,2025-04-02,NY-Manhattan
+PO-25-00537,Northline Foodservice,Combi Oven,1,19290.07,2025-03-08,2025-04-08,2025-04-07,MA-Burlington
+PO-25-00538,Summit Equipment Co,Electrical Panel,6,6728.25,2025-03-09,2025-04-27,2025-04-27,NY-Westchester
+PO-25-00539,Harbor Restaurant Equipment,Stainless Prep Table,1,1169.57,2025-03-09,2025-03-19,2025-03-16,NJ-Paramus
+PO-25-00540,Harbor Restaurant Equipment,Dish Machine,24,11351.74,2025-03-09,2025-04-13,2025-04-12,NJ-Union
+PO-25-00541,Harbor Restaurant Equipment,Reach-in Refrigerator,5,4968.19,2025-03-09,2025-03-27,2025-03-27,NJ-Paramus
+PO-25-00542,Allied Commercial,Reach-in Refrigerator,13,4526.0,2025-03-10,2025-03-31,2025-04-02,PA-King of Prussia
+PO-25-00543,Summit Equipment Co,Exhaust Hood,4,11403.21,2025-03-11,2025-05-02,2025-05-02,NJ-Paramus
+PO-25-00544,Summit Equipment Co,Dish Machine,7,11544.48,2025-03-12,2025-04-21,2025-04-20,NJ-Paramus
+PO-25-00545,Northline Foodservice,Fryer,4,4389.39,2025-03-12,2025-03-29,2025-04-01,MA-Burlington
+PO-25-00546,Summit Equipment Co,Dish Machine,1,13288.38,2025-03-13,2025-04-14,2025-04-11,NJ-Union
+PO-25-00547,Harbor Restaurant Equipment,Combi Oven,2,21650.55,2025-03-13,2025-04-22,2025-04-20,NY-Westchester
+PO-25-00548,Metro FSE,Walk-in Cooler,1,24834.0,2025-03-14,2025-06-01,2025-05-31,NY-Manhattan
+PO-25-00549,Allied Commercial,Induction Range,1,7325.58,2025-03-15,2025-04-10,2025-05-16,NY-Westchester
+PO-25-00550,Summit Equipment Co,Exhaust Hood,2,11764.62,2025-03-15,2025-05-03,2025-05-02,NJ-Union
+PO-25-00551,Allied Commercial,Fryer,4,3947.12,2025-03-16,2025-04-06,2025-04-05,NY-Westchester
+PO-25-00552,Metro FSE,Walk-in Cooler,6,22986.59,2025-03-16,2025-05-16,2025-05-16,NY-Westchester
+PO-25-00553,Summit Equipment Co,Fryer,19,4023.1,2025-03-17,2025-04-10,2025-04-08,MA-Burlington
+PO-25-00554,Keystone Kitchen Supply,Ice Machine,1,3829.55,2025-03-18,,2025-03-25,PA-King of Prussia
+PO-25-00555,Northline Foodservice,Electrical Panel,18,5939.0,2025-03-19,2025-05-11,2025-05-09,MA-Burlington
+PO-25-00556,Harbor Restaurant Equipment,Combi Oven,5,19397.57,2025-03-20,2025-05-06,2025-05-03,MA-Burlington
+PO-25-00557,Summit Equipment Co,Reach-in Refrigerator,10,4804.93,2025-03-21,2025-04-09,2025-04-07,NY-Westchester
+PO-25-00558,Summit Equipment Co,Ice Machine,13,3635.73,2025-03-22,2025-04-06,2025-04-05,MA-Burlington
+PO-25-00559,Keystone Kitchen Supply,Fryer,4,4112.29,2025-03-23,2025-04-21,2025-04-19,MA-Burlington
+PO-25-00560,Summit Equipment Co,Ice Machine,4,4171.93,2025-03-23,2025-04-07,2025-04-05,NJ-Union
+PO-25-00561,Metro FSE,Induction Range,1,7769.16,2025-03-25,2025-04-27,2025-04-27,PA-King of Prussia
+PO-25-00562,Keystone Kitchen Supply,Exhaust Hood,1,10382.83,2025-03-26,2025-06-05,2025-06-04,NY-Manhattan
+PO-25-00563,Summit Equipment Co,Induction Range,2,8579.0,2025-03-28,2025-04-21,2025-04-20,MA-Burlington
+PO-25-00564,Allied Commercial,Walk-in Cooler,4,24139.0,2025-03-28,2025-06-13,2025-06-12,NJ-Union
+PO-25-00565,Harbor Restaurant Equipment,Reach-in Refrigerator,3,5389.31,2025-03-28,2025-04-21,2025-04-19,NJ-Paramus
+PO-25-00566,Keystone Kitchen Supply,Induction Range,11,6747.55,2025-03-30,2025-04-19,2025-04-17,NJ-Union
+PO-25-00567,Summit Equipment Co,Exhaust Hood,5,10567.01,2025-04-01,2025-05-20,2025-05-18,NY-Westchester
+PO-25-00568,Harbor Restaurant Equipment,Dish Machine,3,12053.0,2025-04-01,2025-05-03,2025-05-01,NY-Manhattan
+PO-25-00569,Harbor Restaurant Equipment,Reach-in Refrigerator,1,5477.94,2025-04-02,2025-04-18,2025-04-15,NJ-Paramus
+PO-25-00570,Allied Commercial,Fryer,2,4068.86,2025-04-04,2025-05-01,2025-04-29,MA-Burlington
+PO-25-00571,Northline Foodservice,Dish Machine,8,11506.0,2025-04-05,2025-05-19,2025-05-16,NJ-Union
+PO-25-00572,Harbor Restaurant Equipment,Stainless Prep Table,3,1167.0,2025-04-05,2025-04-17,2025-04-15,MA-Burlington
+PO-25-00573,Allied Commercial,Induction Range,4,6897.03,2025-04-06,2025-05-02,2025-05-02,NJ-Paramus
+PO-25-00574,Allied Commercial,Walk-in Cooler,2,23941.0,2025-04-07,2025-05-19,2025-05-19,NJ-Paramus
+PO-25-00575,Northline Foodservice,Reach-in Refrigerator,1,5145.5,2025-04-07,2025-04-26,2025-04-23,NJ-Union
+PO-25-00576,Summit Equipment Co,Stainless Prep Table,8,1162.51,2025-04-07,2025-04-17,2025-04-15,NJ-Union
+PO-26-01083,Allied Commercial,Induction Range,7,6799.48,2026-04-30,2026-06-10,2026-07-29,NJ-Paramus
+PO-25-00577,Allied Commercial,Dish Machine,3,11318.84,2025-04-08,2025-05-23,2025-05-20,PA-King of Prussia
+PO-25-00578,Metro FSE,Exhaust Hood,2,10766.84,2025-04-09,2025-05-21,2025-05-21,PA-King of Prussia
+PO-25-00579,Allied Commercial,Combi Oven,1,17420.84,2025-04-10,2025-05-23,2025-05-22,PA-King of Prussia
+PO-25-00580,Harbor Restaurant Equipment,Electrical Panel,1,7301.29,2025-04-11,2025-05-30,2025-05-30,NY-Manhattan
+PO-25-00581,Summit Equipment Co,Reach-in Refrigerator,8,5300.0,2025-04-11,2025-04-28,2025-04-27,NY-Westchester
+PO-25-00582,Keystone Kitchen Supply,Electrical Panel,3,6867.0,2025-04-12,2025-05-22,2025-05-19,NJ-Paramus
+PO-25-00583,Metro FSE,Exhaust Hood,5,9494.04,2025-04-12,2025-06-15,2025-06-13,NY-Westchester
+PO-25-00874,Metro FSE,Induction Range,15,6859.8,2025-11-17,2025-12-10,2025-12-07,NY-Westchester
+PO-25-00585,Northline Foodservice,Dish Machine,16,10351.29,2025-04-14,2025-05-20,2025-05-19,PA-King of Prussia
+PO-25-00586,Metro FSE,Induction Range,4,7523.79,2025-04-15,2025-05-20,2025-05-17,MA-Burlington
+PO-25-00587,Northline Foodservice,Stainless Prep Table,2,1151.6,2025-04-15,2025-04-25,2025-04-24,PA-King of Prussia
+PO-25-00588,Allied Commercial,Walk-in Cooler,4,24398.0,2025-04-17,2025-07-09,2025-07-27,NY-Manhattan
+PO-25-00589,Summit Equipment Co,Exhaust Hood,2,11923.25,2025-04-19,2025-06-06,2025-06-06,PA-King of Prussia
+PO-25-00590,Allied Commercial,Stainless Prep Table,1,1098.08,2025-04-19,2025-04-28,2025-04-27,PA-King of Prussia
+PO-25-00591,Summit Equipment Co,Fryer,22,4162.0,2025-04-21,2025-05-11,2025-05-10,NJ-Union
+PO-25-00592,Northline Foodservice,Stainless Prep Table,3,1173.6,2025-04-21,2025-04-30,2025-04-29,NY-Manhattan
+PO-25-00593,Summit Equipment Co,Fryer,4,4760.95,2025-04-23,2025-05-12,2025-05-10,NY-Manhattan
+PO-25-00594,Metro FSE,Induction Range,1,7350.93,2025-04-25,2025-06-01,2025-05-31,NY-Westchester
+PO-25-00595,Northline Foodservice,Induction Range,2,7490.88,2025-04-25,2025-05-30,2025-05-28,NY-Westchester
+PO-25-00596,Northline Foodservice,Electrical Panel,8,6863.0,2025-04-25,2025-06-13,2025-06-13,PA-King of Prussia
+PO-25-00597,Summit Equipment Co,Exhaust Hood,3,11882.75,2025-04-26,2025-06-05,2025-06-05,NJ-Paramus
+PO-25-00599,Harbor Restaurant Equipment,Stainless Prep Table,4,1193.96,2025-04-27,2025-05-06,2025-05-04,NJ-Paramus
+PO-25-00600,Allied Commercial,Stainless Prep Table,2,1047.45,2025-04-27,2025-05-09,2025-05-19,PA-King of Prussia
+PO-25-00601,Harbor Restaurant Equipment,Induction Range,2,8305.79,2025-04-29,2025-06-01,2025-05-30,PA-King of Prussia
+PO-25-00602,Summit Equipment Co,Combi Oven,1,21510.0,2025-04-29,2025-05-27,2025-05-27,NY-Westchester
+PO-25-00603,Metro FSE,Dish Machine,4,12118.94,2025-04-29,2025-06-08,2025-06-06,NY-Manhattan
+PO-25-00604,Allied Commercial,Reach-in Refrigerator,6,4778.0,2025-04-29,2025-05-18,2025-05-29,NJ-Paramus
+PO-25-00605,Keystone Kitchen Supply,Stainless Prep Table,3,1071.61,2025-05-01,2025-05-12,2025-05-10,MA-Burlington
+PO-25-00606,Summit Equipment Co,Stainless Prep Table,2,1233.0,2025-05-02,2025-05-10,2025-05-09,PA-King of Prussia
+PO-25-00607,Allied Commercial,Stainless Prep Table,18,924.0,2025-05-02,2025-05-15,2025-05-17,NJ-Paramus
+PO-25-00608,Allied Commercial,Fryer,23,3438.92,2025-05-04,2025-05-27,2025-06-14,NY-Manhattan
+PO-25-00609,Keystone Kitchen Supply,Exhaust Hood,1,10607.7,2025-05-05,2025-07-07,2025-07-05,NY-Manhattan
+PO-25-00610,Allied Commercial,Stainless Prep Table,8,1003.93,2025-05-05,2025-05-15,2025-05-28,MA-Burlington
+PO-25-00611,Metro FSE,Combi Oven,2,18916.23,2025-05-05,2025-06-14,2025-06-12,NJ-Paramus
+PO-25-00612,Allied Commercial,Walk-in Cooler,5,21505.67,2025-05-07,2025-07-20,2025-08-14,NJ-Paramus
+PO-25-00613,Metro FSE,Ice Machine,15,3369.05,2025-05-07,2025-05-24,2025-06-11,PA-King of Prussia
+PO-25-00614,Metro FSE,Exhaust Hood,3,10022.59,2025-05-08,2025-07-22,2025-07-30,PA-King of Prussia
+PO-25-00615,Summit Equipment Co,Stainless Prep Table,21,1121.45,2025-05-09,2025-05-18,2025-05-18,NJ-Paramus
+PO-25-00616,Harbor Restaurant Equipment,Walk-in Cooler,2,27946.0,2025-05-11,2025-07-14,2025-07-14,NY-Manhattan
+PO-25-00617,Keystone Kitchen Supply,Exhaust Hood,5,9949.85,2025-05-11,2025-06-24,2025-06-21,MA-Burlington
+PO-25-00618,Keystone Kitchen Supply,Fryer,4,4021.85,2025-05-11,2025-05-30,2025-05-30,NY-Westchester
+PO-25-00619,Northline Foodservice,Electrical Panel,1,7329.0,2025-05-11,2025-07-01,2025-06-29,PA-King of Prussia
+PO-25-00620,Harbor Restaurant Equipment,Walk-in Cooler,4,26401.25,2025-05-14,2025-07-29,2025-07-29,NY-Westchester
+PO-25-00621,Northline Foodservice,Combi Oven,3,19458.0,2025-05-14,2025-06-25,2025-06-23,NY-Westchester
+PO-25-00622,Allied Commercial,Fryer,3,3899.92,2025-05-14,2025-05-31,2025-05-30,MA-Burlington
+PO-25-00623,Allied Commercial,Ice Machine,4,3562.99,2025-05-14,2025-05-28,2025-05-28,NJ-Paramus
+PO-25-00624,Harbor Restaurant Equipment,Fryer,2,4728.0,2025-05-14,2025-06-04,2025-06-01,MA-Burlington
+PO-25-00625,Keystone Kitchen Supply,Induction Range,6,6504.32,2025-05-16,2025-06-12,2025-06-12,NY-Manhattan
+PO-25-00626,Allied Commercial,Fryer,17,3478.58,2025-05-18,2025-06-10,2025-06-10,NJ-Union
+PO-25-00627,Northline Foodservice,Induction Range,2,7572.94,2025-05-21,2025-06-19,2025-06-18,MA-Burlington
+PO-25-00628,Northline Foodservice,Walk-in Cooler,3,24576.26,2025-05-22,2025-07-21,2025-07-19,NY-Manhattan
+PO-25-00629,Harbor Restaurant Equipment,Fryer,18,4209.2,2025-05-24,2025-06-06,2025-06-08,NY-Westchester
+PO-25-00630,Allied Commercial,Electrical Panel,4,6486.9,2025-05-25,2025-07-20,2025-07-19,NY-Manhattan
+PO-25-00631,Summit Equipment Co,Ice Machine,19,3964.41,2025-05-26,2025-06-14,2025-06-13,NY-Manhattan
+PO-25-00632,Allied Commercial,Exhaust Hood,6,8919.95,2025-05-26,2025-08-02,2025-07-31,PA-King of Prussia
+PO-25-00633,Summit Equipment Co,Walk-in Cooler,6,26600.24,2025-05-26,2025-07-02,2025-06-29,NY-Westchester
+PO-25-00634,Harbor Restaurant Equipment,Dish Machine,21,11473.0,2025-05-26,2025-07-03,2025-07-08,NY-Manhattan
+PO-25-00635,Allied Commercial,Induction Range,4,7275.85,2025-05-26,2025-06-22,2025-06-20,NJ-Union
+PO-25-00636,Keystone Kitchen Supply,Induction Range,9,6946.95,2025-05-27,2025-06-23,2025-06-22,NJ-Union
+PO-25-00637,Summit Equipment Co,Electrical Panel,19,6574.25,2025-05-27,2025-07-24,2025-07-24,NJ-Union
+PO-25-00638,Keystone Kitchen Supply,Reach-in Refrigerator,2,5390.0,2025-05-28,2025-06-13,2025-06-20,NJ-Union
+PO-25-00639,Allied Commercial,Reach-in Refrigerator,19,4281.0,2025-05-28,2025-06-19,2025-06-21,PA-King of Prussia
+PO-25-00640,Harbor Restaurant Equipment,Stainless Prep Table,1,1205.05,2025-05-30,2025-06-13,2025-06-11,PA-King of Prussia
+PO-25-00641,Metro FSE,Fryer,12,3641.0,2025-05-30,2025-06-21,2025-06-22,NY-Manhattan
+PO-25-00642,Keystone Kitchen Supply,Fryer,6,4040.69,2025-06-03,2025-06-26,2025-06-23,MA-Burlington
+PO-25-00643,Northline Foodservice,Dish Machine,1,12262.38,2025-06-03,2025-07-07,2025-07-06,MA-Burlington
+PO-25-00644,Allied Commercial,Fryer,7,3632.39,2025-06-03,2025-06-26,2025-06-23,NY-Manhattan
+PO-25-00645,Northline Foodservice,Walk-in Cooler,6,25023.0,2025-06-04,2025-08-07,2025-08-05,PA-King of Prussia
+PO-25-00646,Northline Foodservice,Induction Range,5,6942.63,2025-06-05,2025-06-28,2025-06-25,NY-Westchester
+PO-25-00647,Keystone Kitchen Supply,Walk-in Cooler,3,24348.0,2025-06-07,2025-08-05,2025-08-05,NJ-Paramus
+PO-25-00648,Summit Equipment Co,Reach-in Refrigerator,8,5280.14,2025-06-07,2025-07-04,2025-07-04,NJ-Union
+PO-25-00649,Metro FSE,Walk-in Cooler,3,26906.0,2025-06-07,2025-08-11,2025-08-14,MA-Burlington
+PO-25-00650,Northline Foodservice,Stainless Prep Table,12,1038.0,2025-06-08,2025-06-17,2025-06-14,MA-Burlington
+PO-25-00651,Northline Foodservice,Stainless Prep Table,3,1211.19,2025-06-09,2025-06-19,2025-06-17,PA-King of Prussia
+PO-25-00652,Harbor Restaurant Equipment,Walk-in Cooler,3,26194.0,2025-06-10,2025-08-06,2025-08-03,NY-Manhattan
+PO-25-00653,Summit Equipment Co,Reach-in Refrigerator,15,5029.0,2025-06-11,2025-06-25,2025-06-25,MA-Burlington
+PO-25-00654,Harbor Restaurant Equipment,Ice Machine,2,4269.97,2025-06-11,2025-06-27,2025-06-27,PA-King of Prussia
+PO-25-00655,Keystone Kitchen Supply,Stainless Prep Table,15,973.61,2025-06-12,2025-06-23,2025-06-20,PA-King of Prussia
+PO-25-00656,Allied Commercial,Exhaust Hood,5,9227.99,2025-06-13,2025-08-11,2025-08-13,NY-Westchester
+PO-25-00657,Metro FSE,Fryer,11,3731.0,2025-06-13,2025-06-30,2025-06-28,NY-Westchester
+PO-25-00658,Summit Equipment Co,Stainless Prep Table,5,1134.47,2025-06-14,2025-06-25,2025-06-25,PA-King of Prussia
+PO-25-00659,Metro FSE,Stainless Prep Table,5,1105.34,2025-06-15,2025-06-23,2025-06-23,NY-Manhattan
+PO-25-00660,Allied Commercial,Walk-in Cooler,2,23301.26,2025-06-17,2025-07-29,2025-09-01,NY-Manhattan
+PO-25-00661,Summit Equipment Co,Exhaust Hood,2,11308.61,2025-06-17,2025-08-08,2025-08-05,NJ-Paramus
+PO-25-00662,Harbor Restaurant Equipment,Induction Range,4,8150.0,2025-06-17,2025-07-14,2025-07-14,NJ-Paramus
+PO-25-00663,Northline Foodservice,Reach-in Refrigerator,7,5064.0,2025-06-17,2025-07-04,2025-07-03,NY-Manhattan
+PO-25-00664,Allied Commercial,Combi Oven,6,17657.16,2025-06-17,2025-07-22,2025-07-22,NY-Manhattan
+PO-25-00665,Harbor Restaurant Equipment,Ice Machine,21,3695.54,2025-06-18,2025-07-03,2025-06-30,NJ-Paramus
+PO-25-00666,Allied Commercial,Walk-in Cooler,3,22738.44,2025-06-18,2025-08-07,2025-08-20,NJ-Union
+PO-25-00667,Summit Equipment Co,Electrical Panel,2,7461.77,2025-06-19,2025-08-08,2025-08-08,NJ-Paramus
+PO-25-00668,Summit Equipment Co,Fryer,3,4771.0,2025-06-21,2025-07-12,2025-07-12,NJ-Union
+PO-25-00669,Harbor Restaurant Equipment,Fryer,3,4719.39,2025-06-21,2025-07-07,2025-07-06,NY-Manhattan
+PO-25-00671,Metro FSE,Reach-in Refrigerator,17,4489.0,2025-06-23,2025-07-10,2025-07-08,NY-Westchester
+PO-25-00672,Allied Commercial,Dish Machine,18,9729.59,2025-06-27,2025-08-04,2025-08-10,NJ-Paramus
+PO-25-00673,Northline Foodservice,Stainless Prep Table,6,1083.08,2025-06-27,2025-07-04,2025-07-03,PA-King of Prussia
+PO-25-00674,Summit Equipment Co,Ice Machine,4,4065.66,2025-06-29,2025-07-10,2025-07-08,MA-Burlington
+PO-25-00675,Summit Equipment Co,Ice Machine,4,4478.0,2025-06-29,2025-07-17,2025-07-17,NY-Westchester
+PO-25-00676,Metro FSE,Fryer,9,4235.0,2025-06-30,2025-07-30,2025-07-28,NY-Westchester
+PO-25-00677,Keystone Kitchen Supply,Combi Oven,3,19697.99,2025-06-30,2025-07-28,2025-07-31,NY-Manhattan
+PO-25-00678,Northline Foodservice,Exhaust Hood,1,10904.95,2025-06-30,2025-08-31,2025-08-29,NJ-Paramus
+PO-25-00679,Northline Foodservice,Fryer,9,4291.26,2025-07-01,2025-07-18,2025-07-16,MA-Burlington
+PO-25-00680,Keystone Kitchen Supply,Induction Range,4,7262.13,2025-07-03,2025-08-01,2025-08-23,NJ-Union
+PO-25-00681,Northline Foodservice,Combi Oven,2,20965.66,2025-07-03,,2025-08-09,NJ-Union
+PO-25-00682,Summit Equipment Co,Ice Machine,11,3889.0,2025-07-04,2025-07-20,2025-07-20,NJ-Union
+PO-25-00683,Summit Equipment Co,Ice Machine,2,4369.97,2025-07-04,2025-07-19,2025-07-19,NY-Manhattan
+PO-25-00684,Summit Equipment Co,Reach-in Refrigerator,21,5176.0,2025-07-04,2025-07-28,2025-07-28,NJ-Paramus
+PO-25-00685,Harbor Restaurant Equipment,Induction Range,2,8107.32,2025-07-05,2025-07-27,2025-07-26,MA-Burlington
+PO-25-00686,Harbor Restaurant Equipment,Walk-in Cooler,4,27432.0,2025-07-05,2025-09-03,2025-09-03,NY-Westchester
+PO-25-00687,Keystone Kitchen Supply,Ice Machine,8,3658.74,2025-07-05,2025-07-22,2025-07-20,NJ-Paramus
+PO-25-00688,Keystone Kitchen Supply,Reach-in Refrigerator,2,5177.0,2025-07-07,2025-07-25,2025-07-23,NY-Manhattan
+PO-25-00689,Summit Equipment Co,Combi Oven,5,20360.28,2025-07-07,2025-08-11,2025-08-10,MA-Burlington
+PO-25-00690,Allied Commercial,Induction Range,2,7125.95,2025-07-09,2025-08-08,2025-08-05,PA-King of Prussia
+PO-25-00691,Summit Equipment Co,Dish Machine,2,13334.46,2025-07-09,2025-07-31,2025-07-29,PA-King of Prussia
+PO-25-00693,Keystone Kitchen Supply,Stainless Prep Table,4,1088.61,2025-07-11,2025-07-20,2025-07-20,NY-Westchester
+PO-25-00694,Keystone Kitchen Supply,Walk-in Cooler,1,25059.98,2025-07-13,2025-09-15,2025-10-09,NJ-Paramus
+PO-25-00695,Harbor Restaurant Equipment,Dish Machine,2,13217.0,2025-07-18,2025-08-20,2025-08-19,NY-Westchester
+PO-25-00696,Summit Equipment Co,Walk-in Cooler,6,25546.4,2025-07-18,2025-09-25,2025-09-25,NY-Westchester
+PO-25-00697,Allied Commercial,Electrical Panel,2,6551.35,2025-07-19,2025-08-19,2025-08-17,MA-Burlington
+PO-25-00698,Northline Foodservice,Ice Machine,4,4055.0,2025-07-20,2025-08-03,2025-08-03,NY-Manhattan
+PO-25-00699,Metro FSE,Electrical Panel,3,7092.0,2025-07-21,2025-08-29,2025-08-26,NY-Westchester
+PO-25-00700,Harbor Restaurant Equipment,Ice Machine,1,4177.04,2025-07-25,2025-08-09,2025-08-08,NJ-Paramus
+PO-25-00701,Keystone Kitchen Supply,Induction Range,10,6745.42,2025-07-25,2025-08-16,2025-08-18,PA-King of Prussia
+PO-25-00702,Allied Commercial,Walk-in Cooler,2,24723.07,2025-07-26,2025-10-04,2025-10-03,NY-Manhattan
+PO-25-00703,Keystone Kitchen Supply,Induction Range,1,7189.75,2025-07-26,2025-08-21,2025-08-21,MA-Burlington
+PO-25-00704,Metro FSE,Combi Oven,1,19402.5,2025-07-26,2025-09-06,2025-09-04,PA-King of Prussia
+PO-25-00705,Harbor Restaurant Equipment,Electrical Panel,4,7174.1,2025-07-27,2025-09-29,2025-09-28,NJ-Paramus
+PO-25-00706,Keystone Kitchen Supply,Stainless Prep Table,1,1107.17,2025-07-28,2025-08-11,2025-08-26,NJ-Paramus
+PO-25-00707,Summit Equipment Co,Reach-in Refrigerator,5,5402.0,2025-07-28,2025-08-12,2025-08-10,NY-Manhattan
+PO-25-00708,Harbor Restaurant Equipment,Fryer,1,4538.0,2025-07-29,2025-08-19,2025-08-16,NY-Westchester
+PO-25-00709,Summit Equipment Co,Walk-in Cooler,4,29255.66,2025-07-29,2025-09-24,2025-09-24,NY-Manhattan
+PO-25-00710,Northline Foodservice,Reach-in Refrigerator,1,5451.04,2025-07-29,2025-08-17,2025-08-16,PA-King of Prussia
+PO-25-00711,Harbor Restaurant Equipment,Fryer,24,3979.51,2025-07-30,2025-08-17,2025-08-14,NJ-Union
+PO-25-00712,Keystone Kitchen Supply,Combi Oven,4,19200.0,2025-07-31,2025-09-17,2025-09-16,NY-Westchester
+PO-25-00713,Harbor Restaurant Equipment,Exhaust Hood,3,10966.79,2025-08-01,2025-10-12,2025-10-09,NY-Westchester
+PO-25-00714,Harbor Restaurant Equipment,Electrical Panel,3,7114.0,2025-08-02,2025-09-18,2025-09-16,NJ-Union
+PO-25-00715,Keystone Kitchen Supply,Exhaust Hood,4,10779.0,2025-08-02,2025-09-29,2025-09-26,MA-Burlington
+PO-25-00716,Keystone Kitchen Supply,Stainless Prep Table,6,1056.64,2025-08-03,2025-08-11,2025-08-08,MA-Burlington
+PO-25-00717,Keystone Kitchen Supply,Electrical Panel,4,6537.81,2025-08-06,2025-09-09,2025-09-07,NY-Westchester
+PO-25-00718,Allied Commercial,Walk-in Cooler,3,25175.1,2025-08-06,2025-09-29,2025-09-26,MA-Burlington
+PO-25-00719,Metro FSE,Dish Machine,2,11722.0,2025-08-08,2025-09-15,2025-09-15,NY-Westchester
+PO-25-00720,Northline Foodservice,Electrical Panel,2,7557.0,2025-08-12,2025-10-04,2025-10-02,NJ-Union
+PO-25-00721,Summit Equipment Co,Combi Oven,1,22063.34,2025-08-12,2025-09-20,2025-09-18,MA-Burlington
+PO-25-00722,Northline Foodservice,Stainless Prep Table,8,1137.13,2025-08-12,2025-08-22,2025-08-19,NY-Manhattan
+PO-25-00723,Northline Foodservice,Combi Oven,4,20024.04,2025-08-12,2025-09-21,2025-09-21,PA-King of Prussia
+PO-25-00724,Summit Equipment Co,Induction Range,2,8485.0,2025-08-13,2025-09-09,2025-09-09,MA-Burlington
+PO-25-00725,Summit Equipment Co,Ice Machine,1,4299.98,2025-08-14,2025-08-31,2025-08-28,PA-King of Prussia
+PO-25-00726,Summit Equipment Co,Walk-in Cooler,1,28255.0,2025-08-14,2025-10-06,2025-10-06,NJ-Paramus
+PO-25-00727,Harbor Restaurant Equipment,Combi Oven,3,21568.28,2025-08-15,2025-09-13,2025-09-12,NJ-Union
+PO-25-00728,Summit Equipment Co,Exhaust Hood,5,10495.5,2025-08-15,2025-10-02,2025-09-29,PA-King of Prussia
+PO-25-00729,Metro FSE,Ice Machine,1,4071.38,2025-08-15,2025-08-24,2025-08-21,MA-Burlington
+PO-25-00730,Metro FSE,Walk-in Cooler,6,25406.66,2025-08-16,2025-10-27,2025-10-24,MA-Burlington
+PO-25-00731,Summit Equipment Co,Stainless Prep Table,20,1123.93,2025-08-18,2025-08-28,2025-08-27,NJ-Paramus
+PO-25-00732,Keystone Kitchen Supply,Ice Machine,4,3759.96,2025-08-18,2025-09-02,2025-09-01,NY-Manhattan
+PO-25-00733,Northline Foodservice,Induction Range,1,8141.0,2025-08-19,2025-09-21,2025-09-18,MA-Burlington
+PO-25-00734,Northline Foodservice,Combi Oven,1,20938.98,2025-08-19,2025-09-23,2025-09-25,PA-King of Prussia
+PO-25-00735,Northline Foodservice,Dish Machine,2,12576.11,2025-08-20,2025-09-27,2025-09-24,NJ-Paramus
+PO-25-00736,Summit Equipment Co,Combi Oven,2,20896.29,2025-08-20,2025-10-01,2025-09-29,PA-King of Prussia
+PO-26-00966,Metro FSE,Combi Oven,4,20388.74,2026-01-24,2026-03-11,2026-03-08,MA-Burlington
+PO-25-00737,Metro FSE,Exhaust Hood,3,11116.59,2025-08-21,2025-10-27,2025-10-29,NJ-Paramus
+PO-25-00738,Summit Equipment Co,Induction Range,4,8388.0,2025-08-21,2025-09-20,2025-09-17,NY-Manhattan
+PO-25-00739,Keystone Kitchen Supply,Induction Range,8,7060.95,2025-08-21,2025-09-25,2025-09-24,NY-Westchester
+PO-25-00740,Summit Equipment Co,Ice Machine,11,3799.0,2025-08-22,2025-09-03,2025-09-02,NJ-Paramus
+PO-25-00741,Northline Foodservice,Ice Machine,14,3667.68,2025-08-22,2025-09-05,2025-09-04,MA-Burlington
+PO-25-00742,Summit Equipment Co,Combi Oven,5,19752.4,2025-08-22,2025-09-25,2025-09-23,MA-Burlington
+PO-25-00743,Harbor Restaurant Equipment,Reach-in Refrigerator,16,4970.59,2025-08-22,2025-09-01,2025-08-31,PA-King of Prussia
+PO-25-00744,Keystone Kitchen Supply,Walk-in Cooler,4,26033.0,2025-08-23,2025-11-07,2025-11-04,NY-Manhattan
+PO-25-00745,Allied Commercial,Exhaust Hood,3,10363.0,2025-08-24,2025-10-01,2025-09-29,NY-Manhattan
+PO-25-00746,Metro FSE,Walk-in Cooler,2,25625.0,2025-08-24,2025-10-26,2025-10-25,NY-Westchester
+PO-25-00748,Keystone Kitchen Supply,Electrical Panel,5,6166.4,2025-08-25,2025-10-09,2025-10-31,NJ-Union
+PO-25-00749,Summit Equipment Co,Exhaust Hood,1,11618.0,2025-08-25,2025-10-13,2025-10-11,NY-Manhattan
+PO-25-00750,Northline Foodservice,Stainless Prep Table,4,1161.79,2025-08-26,2025-09-08,2025-09-08,NJ-Paramus
+PO-25-00751,Allied Commercial,Combi Oven,5,16417.66,2025-08-26,2025-10-05,2025-10-02,NJ-Union
+PO-25-00752,Summit Equipment Co,Ice Machine,2,4340.87,2025-08-27,2025-09-11,2025-09-10,MA-Burlington
+PO-25-00753,Northline Foodservice,Ice Machine,2,4060.36,2025-08-27,2025-09-06,2025-09-05,NY-Manhattan
+PO-25-00754,Allied Commercial,Ice Machine,7,3482.04,2025-08-28,2025-09-11,2025-09-08,NJ-Union
+PO-25-00755,Summit Equipment Co,Dish Machine,9,11695.98,2025-08-29,2025-10-13,2025-10-12,NY-Westchester
+PO-25-00756,Allied Commercial,Stainless Prep Table,1,1128.55,2025-08-29,2025-09-11,2025-09-08,NJ-Union
+PO-25-00757,Harbor Restaurant Equipment,Exhaust Hood,1,11595.85,2025-08-29,2025-10-18,2025-10-17,NY-Manhattan
+PO-25-00758,Metro FSE,Electrical Panel,4,7209.0,2025-08-30,2025-10-28,2025-10-31,NJ-Paramus
+PO-25-00759,Allied Commercial,Electrical Panel,3,6623.21,2025-08-31,2025-10-25,2025-11-11,NJ-Paramus
+PO-25-00760,Allied Commercial,Stainless Prep Table,8,1050.49,2025-08-31,2025-09-12,2025-09-12,NJ-Paramus
+PO-25-00761,Northline Foodservice,Fryer,1,4562.33,2025-09-02,2025-09-25,2025-09-22,PA-King of Prussia
+PO-25-00762,Metro FSE,Combi Oven,1,20974.86,2025-09-02,2025-11-05,2025-11-03,NJ-Union
+PO-25-00763,Harbor Restaurant Equipment,Electrical Panel,4,7228.98,2025-09-03,2025-10-17,2025-10-16,PA-King of Prussia
+PO-25-00764,Allied Commercial,Electrical Panel,1,6941.83,2025-09-04,2025-10-26,2025-10-26,PA-King of Prussia
+PO-25-00765,Summit Equipment Co,Fryer,22,4309.0,2025-09-04,2025-09-22,2025-09-21,NY-Manhattan
+PO-25-00766,Metro FSE,Dish Machine,4,12555.4,2025-09-05,2025-10-05,2025-10-05,NJ-Paramus
+PO-25-00767,Keystone Kitchen Supply,Reach-in Refrigerator,5,4823.95,2025-09-07,2025-09-23,2025-09-23,NJ-Paramus
+PO-25-00768,Allied Commercial,Electrical Panel,3,6363.01,2025-09-08,2025-10-19,2025-11-15,NY-Westchester
+PO-25-00769,Northline Foodservice,Reach-in Refrigerator,16,4943.92,2025-09-08,2025-09-23,2025-09-22,NY-Manhattan
+PO-25-00770,Harbor Restaurant Equipment,Fryer,2,4848.87,2025-09-09,2025-10-03,2025-10-03,NJ-Paramus
+PO-25-00771,Northline Foodservice,Dish Machine,1,12539.88,2025-09-09,2025-10-22,2025-10-20,NY-Manhattan
+PO-25-00772,Harbor Restaurant Equipment,Stainless Prep Table,9,1162.5,2025-09-10,2025-09-19,2025-09-18,NJ-Union
+PO-25-00773,Metro FSE,Induction Range,1,7742.29,2025-09-11,2025-10-13,2025-10-14,MA-Burlington
+PO-25-00774,Allied Commercial,Exhaust Hood,5,9079.0,2025-09-12,2025-11-21,2025-11-24,NJ-Union
+PO-25-00775,Keystone Kitchen Supply,Ice Machine,7,3657.6,2025-09-12,2025-09-26,2025-09-23,NY-Manhattan
+PO-25-00776,Summit Equipment Co,Stainless Prep Table,5,1113.0,2025-09-12,2025-09-20,2025-09-23,NY-Manhattan
+PO-25-00777,Harbor Restaurant Equipment,Walk-in Cooler,2,27852.89,2025-09-12,2025-11-08,2025-11-08,NJ-Paramus
+PO-25-00778,Allied Commercial,Induction Range,1,7119.46,2025-09-13,2025-10-17,2025-10-15,NJ-Union
+PO-25-00779,Allied Commercial,Induction Range,2,7304.0,2025-09-13,2025-10-14,2025-10-12,NY-Manhattan
+PO-25-00780,Allied Commercial,Stainless Prep Table,13,994.75,2025-09-14,2025-09-26,2025-09-24,NY-Westchester
+PO-25-00781,Harbor Restaurant Equipment,Walk-in Cooler,2,27573.07,2025-09-15,2025-11-04,2025-11-03,NY-Manhattan
+PO-25-00782,Harbor Restaurant Equipment,Dish Machine,9,11783.31,2025-09-15,2025-10-26,2025-10-23,PA-King of Prussia
+PO-25-00783,Allied Commercial,Combi Oven,2,19721.0,2025-09-19,2025-11-13,2025-11-13,NJ-Paramus
+PO-25-00784,Keystone Kitchen Supply,Stainless Prep Table,20,1021.32,2025-09-20,2025-09-28,2025-09-26,NY-Westchester
+PO-25-00785,Allied Commercial,Fryer,5,3625.98,2025-09-20,2025-10-15,2025-10-13,PA-King of Prussia
+PO-25-00786,Keystone Kitchen Supply,Walk-in Cooler,6,23516.69,2025-09-21,2025-10-21,2025-10-18,NY-Westchester
+PO-25-00787,Keystone Kitchen Supply,Induction Range,1,7201.93,2025-09-22,2025-10-26,2025-10-23,NJ-Paramus
+PO-25-00788,Allied Commercial,Stainless Prep Table,2,1072.84,2025-09-22,2025-10-03,2025-11-17,MA-Burlington
+PO-25-00789,Northline Foodservice,Dish Machine,3,12744.45,2025-09-22,2025-10-24,2025-10-23,MA-Burlington
+PO-25-00790,Allied Commercial,Walk-in Cooler,1,24332.93,2025-09-23,2025-12-05,2025-12-03,PA-King of Prussia
+PO-25-00791,Summit Equipment Co,Walk-in Cooler,1,28647.55,2025-09-23,2025-11-25,2025-11-23,NY-Manhattan
+PO-25-00792,Northline Foodservice,Walk-in Cooler,3,26405.12,2025-09-24,2025-11-24,2025-12-01,NJ-Union
+PO-25-00793,Summit Equipment Co,Exhaust Hood,3,11445.92,2025-09-24,2025-11-20,2025-11-18,MA-Burlington
+PO-25-00794,Northline Foodservice,Fryer,1,4332.54,2025-09-24,2025-10-23,2025-10-22,NY-Manhattan
+PO-25-00795,Harbor Restaurant Equipment,Stainless Prep Table,8,1173.43,2025-09-25,2025-10-07,2025-10-06,NJ-Union
+PO-25-00796,Northline Foodservice,Fryer,20,4065.52,2025-09-26,2025-10-18,2025-10-18,NJ-Union
+PO-25-00797,Metro FSE,Walk-in Cooler,1,26678.72,2025-09-27,2025-12-03,2025-12-02,MA-Burlington
+PO-25-00798,Keystone Kitchen Supply,Induction Range,1,7144.45,2025-09-27,2025-10-29,2025-10-26,NY-Westchester
+PO-25-00799,Northline Foodservice,Electrical Panel,19,6513.83,2025-09-29,2025-11-09,2025-11-06,NY-Manhattan
+PO-25-00800,Allied Commercial,Walk-in Cooler,2,26017.67,2025-09-29,2025-12-01,2025-12-25,MA-Burlington
+PO-25-00801,Keystone Kitchen Supply,Induction Range,1,7137.11,2025-09-29,2025-11-03,2025-11-02,NJ-Union
+PO-25-00802,Metro FSE,Fryer,3,4392.61,2025-09-29,2025-10-21,2025-10-21,PA-King of Prussia
+PO-25-00803,Summit Equipment Co,Fryer,11,4225.94,2025-10-01,,2025-10-18,PA-King of Prussia
+PO-25-00804,Harbor Restaurant Equipment,Walk-in Cooler,3,26595.15,2025-10-02,2025-11-23,2025-11-23,NY-Manhattan
+PO-25-00805,Allied Commercial,Reach-in Refrigerator,23,4598.27,2025-10-02,2025-10-18,2025-12-05,NY-Manhattan
+PO-25-00806,Metro FSE,Induction Range,1,7583.46,2025-10-03,2025-10-29,2025-10-29,PA-King of Prussia
+PO-25-00807,Metro FSE,Ice Machine,4,4161.23,2025-10-03,2025-10-15,2025-10-12,PA-King of Prussia
+PO-25-00808,Northline Foodservice,Ice Machine,1,4131.99,2025-10-03,2025-10-21,2025-10-18,PA-King of Prussia
+PO-25-00809,Northline Foodservice,Stainless Prep Table,12,992.35,2025-10-03,2025-10-14,2025-10-14,NY-Westchester
+PO-25-00810,Keystone Kitchen Supply,Ice Machine,1,3862.25,2025-10-04,2025-10-17,2025-10-14,MA-Burlington
+PO-25-00811,Keystone Kitchen Supply,Electrical Panel,1,6763.43,2025-10-05,2025-11-27,2025-11-26,NJ-Union
+PO-25-00812,Northline Foodservice,Electrical Panel,12,6196.04,2025-10-06,2025-11-24,2025-11-28,NY-Westchester
+PO-25-00813,Metro FSE,Induction Range,1,7913.14,2025-10-06,2025-11-01,2025-11-01,NJ-Paramus
+PO-25-00814,Keystone Kitchen Supply,Walk-in Cooler,4,25249.66,2025-10-06,2025-12-15,2025-12-17,PA-King of Prussia
+PO-25-00815,Allied Commercial,Dish Machine,2,11803.0,2025-10-07,2025-11-09,2025-11-08,NJ-Union
+PO-25-00816,Keystone Kitchen Supply,Exhaust Hood,3,10902.0,2025-10-08,2025-11-21,2025-11-21,NJ-Union
+PO-25-00817,Allied Commercial,Stainless Prep Table,2,1143.0,2025-10-08,2025-10-20,2025-11-01,NJ-Union
+PO-25-00818,Keystone Kitchen Supply,Reach-in Refrigerator,1,5318.0,2025-10-10,2025-10-31,2025-11-01,NY-Westchester
+PO-25-00819,Northline Foodservice,Stainless Prep Table,17,1031.86,2025-10-10,2025-10-18,2025-10-19,MA-Burlington
+PO-25-00820,Northline Foodservice,Dish Machine,21,10719.0,2025-10-10,2025-11-14,2025-11-11,PA-King of Prussia
+PO-25-00821,Metro FSE,Exhaust Hood,4,10536.55,2025-10-12,2025-12-15,2025-12-14,MA-Burlington
+PO-25-00822,Harbor Restaurant Equipment,Fryer,4,4749.0,2025-10-12,2025-11-01,2025-11-01,NY-Manhattan
+PO-25-00823,Harbor Restaurant Equipment,Stainless Prep Table,14,1105.0,2025-10-13,2025-10-25,2025-10-24,PA-King of Prussia
+PO-25-00824,Summit Equipment Co,Combi Oven,4,22217.19,2025-10-14,2025-11-30,2025-11-29,PA-King of Prussia
+PO-25-00825,Northline Foodservice,Fryer,6,4030.38,2025-10-16,2025-11-06,2025-11-06,NY-Westchester
+PO-25-00826,Allied Commercial,Combi Oven,5,17459.58,2025-10-16,2025-11-22,2025-11-28,NY-Manhattan
+PO-25-00827,Allied Commercial,Ice Machine,1,3764.24,2025-10-17,2025-10-31,2025-10-29,MA-Burlington
+PO-25-00828,Summit Equipment Co,Walk-in Cooler,2,29834.0,2025-10-17,2025-12-21,2025-12-19,NJ-Union
+PO-25-00829,Harbor Restaurant Equipment,Induction Range,5,7694.25,2025-10-18,2025-11-07,2025-11-07,NJ-Paramus
+PO-25-00830,Allied Commercial,Induction Range,2,7005.91,2025-10-19,2025-11-15,2025-11-28,MA-Burlington
+PO-25-00831,Allied Commercial,Ice Machine,21,3326.4,2025-10-19,2025-11-01,2025-10-29,PA-King of Prussia
+PO-25-00832,Northline Foodservice,Combi Oven,6,19560.0,2025-10-20,2025-11-28,2025-11-25,NJ-Union
+PO-25-00833,Allied Commercial,Walk-in Cooler,6,22483.0,2025-10-21,2025-12-17,2025-12-17,NY-Manhattan
+PO-25-00834,Northline Foodservice,Fryer,4,4552.0,2025-10-23,2025-11-16,2025-11-15,NY-Manhattan
+PO-25-00835,Summit Equipment Co,Stainless Prep Table,1,1335.94,2025-10-24,2025-11-02,2025-11-01,NJ-Union
+PO-25-00836,Summit Equipment Co,Walk-in Cooler,1,30399.87,2025-10-24,2025-12-28,2025-12-25,NY-Manhattan
+PO-25-00837,Northline Foodservice,Dish Machine,9,11145.19,2025-10-25,2025-12-07,2025-12-07,NJ-Paramus
+PO-25-00838,Northline Foodservice,Fryer,4,4270.24,2025-10-25,2025-11-06,2025-11-06,PA-King of Prussia
+PO-25-00840,Northline Foodservice,Exhaust Hood,1,11526.87,2025-10-26,2025-12-26,2026-01-03,NJ-Union
+PO-25-00841,Harbor Restaurant Equipment,Electrical Panel,3,7393.0,2025-10-26,2025-12-11,2025-12-09,MA-Burlington
+PO-25-00842,Allied Commercial,Electrical Panel,2,7108.0,2025-10-27,2025-12-31,2026-01-07,NY-Manhattan
+PO-25-00843,Keystone Kitchen Supply,Dish Machine,17,10360.53,2025-10-27,2025-12-08,2025-12-07,NJ-Union
+PO-25-00844,Keystone Kitchen Supply,Reach-in Refrigerator,5,4981.79,2025-10-27,2025-11-19,2025-11-19,NJ-Union
+PO-25-00845,Allied Commercial,Combi Oven,3,18712.0,2025-10-28,2025-12-11,2025-12-11,NY-Westchester
+PO-25-00846,Keystone Kitchen Supply,Stainless Prep Table,5,1085.18,2025-10-29,2025-11-10,2025-11-10,PA-King of Prussia
+PO-25-00847,Keystone Kitchen Supply,Reach-in Refrigerator,1,5422.0,2025-10-29,2025-11-18,2025-11-16,MA-Burlington
+PO-25-00848,Harbor Restaurant Equipment,Dish Machine,9,12359.95,2025-10-29,2025-12-06,2025-12-04,NJ-Union
+PO-25-00849,Allied Commercial,Induction Range,7,6550.6,2025-10-30,2025-12-02,2026-01-10,NJ-Union
+PO-25-00850,Northline Foodservice,Stainless Prep Table,8,1048.11,2025-10-30,2025-11-11,2025-11-09,NY-Westchester
+PO-25-00852,Northline Foodservice,Combi Oven,2,19628.23,2025-10-31,2025-11-29,2025-11-27,NY-Westchester
+PO-25-00853,Keystone Kitchen Supply,Electrical Panel,13,6030.8,2025-10-31,2025-12-14,2025-12-22,NY-Westchester
+PO-25-00854,Summit Equipment Co,Exhaust Hood,1,12633.2,2025-10-31,2025-12-10,2025-12-08,PA-King of Prussia
+PO-25-00855,Summit Equipment Co,Walk-in Cooler,5,26503.69,2025-11-01,,2025-12-17,MA-Burlington
+PO-25-00856,Summit Equipment Co,Fryer,1,4818.55,2025-11-02,2025-11-25,2025-11-25,NJ-Union
+PO-25-00857,Harbor Restaurant Equipment,Combi Oven,1,21092.02,2025-11-02,2025-12-18,2025-12-15,NY-Westchester
+PO-25-00858,Summit Equipment Co,Walk-in Cooler,6,25794.83,2025-11-03,2026-01-14,2026-01-14,NY-Westchester
+PO-25-00859,Harbor Restaurant Equipment,Dish Machine,2,12589.11,2025-11-03,2025-12-08,2025-12-05,NY-Westchester
+PO-25-00860,Keystone Kitchen Supply,Combi Oven,2,20440.0,2025-11-04,2025-12-03,2025-11-30,NY-Manhattan
+PO-25-00861,Northline Foodservice,Fryer,2,4603.0,2025-11-05,2025-12-02,2025-12-01,NJ-Union
+PO-25-00862,Summit Equipment Co,Reach-in Refrigerator,2,5662.0,2025-11-06,2025-11-23,2025-11-20,MA-Burlington
+PO-25-00863,Harbor Restaurant Equipment,Reach-in Refrigerator,4,5411.25,2025-11-07,2025-11-22,2025-11-20,NY-Westchester
+PO-25-00864,Summit Equipment Co,Reach-in Refrigerator,20,5041.41,2025-11-07,2025-11-29,2025-11-27,MA-Burlington
+PO-25-00865,Summit Equipment Co,Combi Oven,6,20639.87,2025-11-09,2025-12-21,2025-12-19,MA-Burlington
+PO-25-00866,Northline Foodservice,Exhaust Hood,2,11089.77,2025-11-11,2026-01-03,2026-01-02,PA-King of Prussia
+PO-25-00867,Allied Commercial,Reach-in Refrigerator,1,4816.68,2025-11-12,2025-12-04,2025-12-15,NJ-Union
+PO-25-00868,Northline Foodservice,Exhaust Hood,1,10904.02,2025-11-13,2026-01-14,2026-01-11,NJ-Paramus
+PO-25-00869,Harbor Restaurant Equipment,Electrical Panel,11,7111.34,2025-11-14,2026-01-05,2026-01-04,NJ-Paramus
+PO-25-00870,Metro FSE,Stainless Prep Table,1,1128.17,2025-11-14,2025-11-23,2025-11-22,PA-King of Prussia
+PO-25-00871,Keystone Kitchen Supply,Induction Range,15,6250.66,2025-11-14,2025-12-07,2025-12-04,NJ-Paramus
+PO-25-00872,Allied Commercial,Ice Machine,9,3320.02,2025-11-16,2025-11-28,2025-11-26,NJ-Paramus
+PO-25-00873,Harbor Restaurant Equipment,Fryer,4,4427.28,2025-11-16,2025-12-10,2025-12-10,PA-King of Prussia
+PO-25-00875,Allied Commercial,Dish Machine,17,9706.9,2025-11-18,2025-12-18,2025-12-16,NJ-Union
+PO-25-00876,Keystone Kitchen Supply,Combi Oven,4,19033.7,2025-11-19,2026-01-03,2026-01-02,NJ-Union
+PO-25-00877,Keystone Kitchen Supply,Stainless Prep Table,3,1090.59,2025-11-19,2025-11-29,2025-11-26,NJ-Union
+PO-25-00878,Allied Commercial,Fryer,5,3865.0,2025-11-20,2025-12-10,2025-12-24,NY-Manhattan
+PO-25-00879,Keystone Kitchen Supply,Walk-in Cooler,3,25742.68,2025-11-21,2026-01-13,2026-01-10,MA-Burlington
+PO-25-00880,Allied Commercial,Walk-in Cooler,3,24159.41,2025-11-21,2026-01-16,2026-01-15,NJ-Paramus
+PO-25-00881,Allied Commercial,Walk-in Cooler,1,26059.0,2025-11-22,2026-01-09,2026-01-08,MA-Burlington
+PO-25-00882,Metro FSE,Reach-in Refrigerator,3,5217.72,2025-11-23,2025-12-13,2025-12-11,NJ-Paramus
+PO-25-00883,Metro FSE,Electrical Panel,3,6963.01,2025-11-24,2026-02-04,2026-02-02,NJ-Paramus
+PO-25-00884,Summit Equipment Co,Electrical Panel,2,8089.0,2025-11-24,2026-01-30,2026-01-27,NJ-Union
+PO-25-00885,Allied Commercial,Dish Machine,21,9601.89,2025-11-25,2025-12-25,2025-12-22,NY-Manhattan
+PO-25-00886,Northline Foodservice,Stainless Prep Table,1,1181.55,2025-11-27,2025-12-07,2025-12-13,NY-Manhattan
+PO-25-00887,Allied Commercial,Fryer,3,4218.08,2025-11-27,2025-12-18,2025-12-18,PA-King of Prussia
+PO-25-00888,Metro FSE,Induction Range,17,6537.12,2025-11-28,2026-01-02,2026-01-10,NY-Manhattan
+PO-25-00889,Keystone Kitchen Supply,Electrical Panel,4,6998.0,2025-11-29,2026-01-09,2026-01-07,NY-Manhattan
+PO-25-00890,Allied Commercial,Walk-in Cooler,6,22296.56,2025-11-30,2026-01-25,2026-01-23,PA-King of Prussia
+PO-25-00891,Allied Commercial,Fryer,2,4224.2,2025-12-01,2025-12-22,2025-12-27,MA-Burlington
+PO-25-00892,Keystone Kitchen Supply,Reach-in Refrigerator,7,4842.66,2025-12-01,2025-12-12,2025-12-09,PA-King of Prussia
+PO-25-00893,Northline Foodservice,Electrical Panel,8,6965.0,2025-12-02,2026-01-31,2026-01-29,NY-Manhattan
+PO-25-00894,Metro FSE,Electrical Panel,12,6474.78,2025-12-02,2026-01-09,2026-01-07,NY-Manhattan
+PO-25-00895,Harbor Restaurant Equipment,Ice Machine,3,4107.0,2025-12-03,2025-12-18,2025-12-16,NJ-Paramus
+PO-25-00896,Summit Equipment Co,Ice Machine,1,4557.62,2025-12-05,2025-12-18,2025-12-16,NY-Manhattan
+PO-25-00898,Summit Equipment Co,Exhaust Hood,2,12621.0,2025-12-06,2026-02-03,2026-02-03,NJ-Paramus
+PO-25-00899,Summit Equipment Co,Dish Machine,2,14097.0,2025-12-06,2025-12-31,2025-12-30,PA-King of Prussia
+PO-25-00900,Keystone Kitchen Supply,Fryer,9,4152.0,2025-12-08,2025-12-28,2026-01-14,PA-King of Prussia
+PO-25-00901,Metro FSE,Dish Machine,2,12829.05,2025-12-08,2026-01-17,2026-01-16,MA-Burlington
+PO-25-00902,Summit Equipment Co,Exhaust Hood,6,11321.01,2025-12-09,2026-02-09,2026-02-09,MA-Burlington
+PO-25-00903,Metro FSE,Dish Machine,7,11648.38,2025-12-10,2026-01-16,2026-01-15,NJ-Union
+PO-25-00904,Harbor Restaurant Equipment,Fryer,3,4542.09,2025-12-11,2026-01-01,2025-12-30,NY-Westchester
+PO-25-00905,Summit Equipment Co,Induction Range,1,8569.3,2025-12-11,2026-01-09,2026-01-06,NY-Manhattan
+PO-25-00906,Metro FSE,Fryer,2,4711.75,2025-12-11,2025-12-31,2025-12-29,NY-Westchester
+PO-25-00907,Northline Foodservice,Combi Oven,3,19665.0,2025-12-12,2026-01-29,2026-01-28,NJ-Union
+PO-25-00908,Keystone Kitchen Supply,Reach-in Refrigerator,1,5098.0,2025-12-13,2025-12-29,2025-12-28,MA-Burlington
+PO-25-00909,Northline Foodservice,Dish Machine,16,11217.0,2025-12-13,2026-01-20,2026-01-19,PA-King of Prussia
+PO-25-00910,Keystone Kitchen Supply,Electrical Panel,4,7028.15,2025-12-13,2026-02-05,2026-02-04,PA-King of Prussia
+PO-25-00911,Harbor Restaurant Equipment,Induction Range,13,6945.67,2025-12-13,2026-01-05,2026-01-05,NJ-Paramus
+PO-25-00912,Summit Equipment Co,Reach-in Refrigerator,5,5583.58,2025-12-14,2026-01-06,2026-01-06,NJ-Paramus
+PO-25-00913,Summit Equipment Co,Walk-in Cooler,2,29766.91,2025-12-14,2026-02-13,2026-02-12,PA-King of Prussia
+PO-25-00914,Keystone Kitchen Supply,Stainless Prep Table,3,1077.39,2025-12-15,2025-12-25,2025-12-22,PA-King of Prussia
+PO-25-00915,Summit Equipment Co,Ice Machine,13,3676.72,2025-12-16,2026-01-01,2026-01-01,NJ-Paramus
+PO-25-00916,Keystone Kitchen Supply,Exhaust Hood,3,10204.12,2025-12-16,2026-02-13,2026-02-12,NY-Westchester
+PO-25-00917,Harbor Restaurant Equipment,Reach-in Refrigerator,1,5889.81,2025-12-17,2026-01-05,2026-01-03,NJ-Union
+PO-25-00918,Northline Foodservice,Electrical Panel,1,7435.0,2025-12-17,2026-02-09,2026-02-06,PA-King of Prussia
+PO-25-00919,Keystone Kitchen Supply,Exhaust Hood,4,10752.32,2025-12-19,2026-02-08,2026-02-06,NY-Westchester
+PO-25-00920,Northline Foodservice,Stainless Prep Table,22,1075.29,2025-12-19,2025-12-31,2025-12-31,NY-Westchester
+PO-25-00921,Harbor Restaurant Equipment,Reach-in Refrigerator,3,5825.14,2025-12-20,2026-01-04,2026-01-01,NJ-Union
+PO-25-00922,Northline Foodservice,Dish Machine,11,10532.0,2025-12-21,2026-01-18,2026-01-17,NY-Manhattan
+PO-25-00923,Northline Foodservice,Fryer,7,4377.62,2025-12-22,2026-01-17,2026-01-17,PA-King of Prussia
+PO-25-00924,Summit Equipment Co,Walk-in Cooler,4,28236.0,2025-12-22,2026-02-08,2026-02-06,NJ-Paramus
+PO-25-00925,Metro FSE,Ice Machine,2,4020.38,2025-12-22,2025-12-31,2026-01-10,PA-King of Prussia
+PO-25-00926,Allied Commercial,Ice Machine,2,3618.0,2025-12-23,2026-01-07,2026-01-17,MA-Burlington
+PO-25-00927,Keystone Kitchen Supply,Stainless Prep Table,22,1009.79,2025-12-23,2026-01-03,2026-01-01,NJ-Union
+PO-25-00928,Metro FSE,Induction Range,2,7582.04,2025-12-24,2026-01-23,2026-01-21,NY-Westchester
+PO-25-00929,Harbor Restaurant Equipment,Electrical Panel,1,7753.32,2025-12-25,2026-02-11,2026-02-10,NJ-Paramus
+PO-25-00930,Allied Commercial,Reach-in Refrigerator,23,4347.16,2025-12-27,2026-01-14,2026-01-11,NJ-Paramus
+PO-25-00931,Metro FSE,Exhaust Hood,1,11395.07,2025-12-28,2026-02-27,2026-02-25,NY-Westchester
+PO-25-00932,Allied Commercial,Induction Range,11,6197.73,2025-12-29,2026-01-23,2026-01-31,NY-Westchester
+PO-25-00933,Harbor Restaurant Equipment,Electrical Panel,1,8191.59,2025-12-29,,2026-02-21,NY-Manhattan
+PO-25-00934,Allied Commercial,Ice Machine,5,3507.77,2025-12-29,2026-01-13,2026-01-18,NJ-Paramus
+PO-26-00959,Northline Foodservice,Induction Range,18,7069.0,2026-01-19,2026-02-20,2026-02-17,NY-Westchester
+PO-25-00935,Allied Commercial,Electrical Panel,4,6583.33,2025-12-30,2026-02-05,2026-02-03,NJ-Union
+PO-25-00936,Metro FSE,Fryer,13,4070.64,2025-12-31,2026-01-24,2026-01-21,MA-Burlington
+PO-26-00937,Allied Commercial,Ice Machine,1,3777.37,2026-01-02,2026-01-21,2026-01-19,NJ-Paramus
+PO-26-00938,Keystone Kitchen Supply,Induction Range,1,7139.82,2026-01-02,2026-02-04,2026-02-01,PA-King of Prussia
+PO-26-00939,Keystone Kitchen Supply,Combi Oven,6,17856.56,2026-01-02,2026-02-08,2026-02-05,MA-Burlington
+PO-26-00940,Keystone Kitchen Supply,Stainless Prep Table,3,1146.92,2026-01-07,2026-01-16,2026-02-04,NJ-Union
+PO-26-00941,Northline Foodservice,Induction Range,3,8116.08,2026-01-08,2026-01-30,2026-01-29,NY-Westchester
+PO-26-00942,Metro FSE,Combi Oven,2,20653.0,2026-01-08,2026-03-02,2026-02-27,NY-Manhattan
+PO-26-00943,Metro FSE,Reach-in Refrigerator,18,4950.98,2026-01-09,2026-01-29,2026-01-28,NY-Manhattan
+PO-26-00944,Northline Foodservice,Combi Oven,2,20014.94,2026-01-09,2026-02-23,2026-02-21,MA-Burlington
+PO-26-00945,Metro FSE,Stainless Prep Table,5,1126.62,2026-01-11,2026-01-20,2026-01-18,NY-Manhattan
+PO-26-00946,Metro FSE,Fryer,7,3957.31,2026-01-11,2026-01-25,2026-01-22,NJ-Paramus
+PO-26-00947,Northline Foodservice,Reach-in Refrigerator,23,4933.53,2026-01-11,2026-02-02,2026-01-30,PA-King of Prussia
+PO-26-00948,Allied Commercial,Dish Machine,5,10456.0,2026-01-11,2026-02-04,2026-02-04,NJ-Union
+PO-26-00949,Keystone Kitchen Supply,Electrical Panel,5,6749.79,2026-01-11,2026-03-05,2026-03-05,NJ-Union
+PO-26-00950,Harbor Restaurant Equipment,Induction Range,22,7217.4,2026-01-12,2026-02-08,2026-02-05,NJ-Paramus
+PO-26-00951,Allied Commercial,Walk-in Cooler,2,24659.2,2026-01-13,2026-03-22,2026-03-19,NY-Manhattan
+PO-26-00952,Northline Foodservice,Stainless Prep Table,6,1087.89,2026-01-13,2026-01-26,2026-01-26,NJ-Union
+PO-26-00953,Keystone Kitchen Supply,Exhaust Hood,1,10624.36,2026-01-14,2026-03-02,2026-03-01,MA-Burlington
+PO-26-00954,Metro FSE,Stainless Prep Table,4,1131.18,2026-01-14,2026-01-25,2026-01-22,NJ-Union
+PO-26-00955,Northline Foodservice,Ice Machine,3,4078.0,2026-01-14,2026-02-01,2026-02-01,NJ-Paramus
+PO-26-00957,Metro FSE,Induction Range,2,7504.97,2026-01-17,2026-02-12,2026-02-16,NY-Manhattan
+PO-26-00958,Keystone Kitchen Supply,Reach-in Refrigerator,1,5267.9,2026-01-18,2026-02-11,2026-02-13,MA-Burlington
+PO-26-00960,Keystone Kitchen Supply,Stainless Prep Table,1,1172.09,2026-01-19,2026-01-29,2026-01-29,MA-Burlington
+PO-26-00961,Northline Foodservice,Walk-in Cooler,4,26642.0,2026-01-20,2026-03-18,2026-03-18,PA-King of Prussia
+PO-26-00962,Summit Equipment Co,Combi Oven,6,20262.7,2026-01-20,2026-02-28,2026-02-27,NJ-Union
+PO-26-00964,Summit Equipment Co,Dish Machine,4,12912.17,2026-01-22,2026-03-02,2026-03-03,NJ-Union
+PO-26-00965,Northline Foodservice,Electrical Panel,5,6737.11,2026-01-23,2026-02-21,2026-02-21,NY-Westchester
+PO-26-00967,Northline Foodservice,Stainless Prep Table,4,1231.32,2026-01-26,2026-02-07,2026-02-05,NY-Westchester
+PO-26-00969,Northline Foodservice,Electrical Panel,1,7481.77,2026-01-28,2026-03-22,2026-03-19,NY-Manhattan
+PO-26-00970,Keystone Kitchen Supply,Induction Range,23,6474.86,2026-01-28,2026-03-06,2026-03-03,MA-Burlington
+PO-26-00971,Metro FSE,Induction Range,9,6859.0,2026-01-29,2026-02-27,2026-02-26,NY-Westchester
+PO-26-00972,Keystone Kitchen Supply,Reach-in Refrigerator,8,4992.99,2026-01-31,2026-02-16,2026-03-02,MA-Burlington
+PO-26-00973,Keystone Kitchen Supply,Dish Machine,9,11636.08,2026-02-01,2026-03-08,2026-03-08,PA-King of Prussia
+PO-26-00974,Harbor Restaurant Equipment,Reach-in Refrigerator,17,5234.34,2026-02-01,2026-02-21,2026-02-21,NJ-Paramus
+PO-26-00975,Harbor Restaurant Equipment,Induction Range,13,7243.64,2026-02-02,2026-02-26,2026-02-25,NY-Westchester
+PO-26-00976,Allied Commercial,Walk-in Cooler,4,25607.0,2026-02-02,2026-03-25,2026-03-24,NJ-Paramus
+PO-26-00977,Metro FSE,Ice Machine,1,4024.31,2026-02-03,2026-02-16,2026-03-12,MA-Burlington
+PO-26-00978,Allied Commercial,Walk-in Cooler,4,24267.08,2026-02-03,2026-04-02,2026-03-31,NY-Manhattan
+PO-26-00979,Allied Commercial,Induction Range,1,7360.64,2026-02-03,2026-03-07,2026-03-16,PA-King of Prussia
+PO-26-00980,Metro FSE,Exhaust Hood,3,11068.41,2026-02-05,2026-04-06,2026-04-04,PA-King of Prussia
+PO-26-00981,Allied Commercial,Stainless Prep Table,9,995.32,2026-02-05,2026-02-18,2026-02-17,NJ-Union
+PO-26-00982,Keystone Kitchen Supply,Exhaust Hood,5,10547.0,2026-02-06,2026-04-11,2026-04-09,PA-King of Prussia
+PO-26-00983,Harbor Restaurant Equipment,Stainless Prep Table,11,1114.0,2026-02-06,2026-02-17,2026-02-14,NJ-Union
+PO-26-00984,Metro FSE,Induction Range,8,7098.33,2026-02-07,2026-03-19,2026-03-17,NY-Manhattan
+PO-26-00985,Keystone Kitchen Supply,Combi Oven,5,17968.12,2026-02-07,2026-03-21,2026-04-03,NY-Manhattan
+PO-26-00986,Allied Commercial,Electrical Panel,13,6035.83,2026-02-08,2026-03-19,2026-03-19,NJ-Union
+PO-26-00987,Metro FSE,Stainless Prep Table,3,1118.0,2026-02-09,2026-02-17,2026-02-16,MA-Burlington
+PO-26-00988,Metro FSE,Ice Machine,2,3961.0,2026-02-15,2026-02-28,2026-02-27,MA-Burlington
+PO-26-00989,Northline Foodservice,Electrical Panel,22,6888.68,2026-02-15,2026-04-01,2026-03-29,NJ-Union
+PO-26-00990,Summit Equipment Co,Combi Oven,1,21910.0,2026-02-16,2026-04-10,2026-04-07,NJ-Paramus
+PO-26-00991,Allied Commercial,Stainless Prep Table,14,943.91,2026-02-16,2026-02-26,2026-03-14,NJ-Union
+PO-26-00992,Harbor Restaurant Equipment,Walk-in Cooler,2,28163.78,2026-02-18,2026-04-16,2026-04-14,NJ-Union
+PO-26-00993,Summit Equipment Co,Electrical Panel,14,7239.45,2026-02-20,2026-04-09,2026-04-08,NY-Manhattan
+PO-26-00994,Metro FSE,Reach-in Refrigerator,22,4906.44,2026-02-23,2026-03-09,2026-03-09,PA-King of Prussia
+PO-26-00995,Harbor Restaurant Equipment,Exhaust Hood,3,11975.27,2026-02-25,2026-04-20,2026-04-19,NY-Manhattan
+PO-26-00996,Keystone Kitchen Supply,Ice Machine,3,3798.66,2026-02-25,2026-03-14,2026-03-11,NJ-Union
+PO-26-00997,Allied Commercial,Reach-in Refrigerator,4,5229.61,2026-02-26,2026-03-18,2026-03-16,NJ-Union
+PO-26-00998,Allied Commercial,Combi Oven,2,19740.96,2026-02-26,2026-04-15,2026-04-14,NY-Manhattan
+PO-26-00999,Northline Foodservice,Electrical Panel,4,7565.78,2026-02-26,2026-04-11,2026-04-11,PA-King of Prussia
+PO-26-01000,Summit Equipment Co,Exhaust Hood,6,11864.63,2026-02-27,2026-04-17,2026-04-17,NY-Manhattan
+PO-26-01001,Harbor Restaurant Equipment,Electrical Panel,23,7135.0,2026-02-27,2026-04-04,2026-04-01,PA-King of Prussia
+PO-26-01002,Harbor Restaurant Equipment,Reach-in Refrigerator,22,5263.93,2026-02-27,2026-03-23,2026-03-23,PA-King of Prussia
+PO-26-01003,Metro FSE,Reach-in Refrigerator,3,5159.92,2026-03-01,2026-03-19,2026-03-18,NY-Manhattan
+PO-26-01004,Keystone Kitchen Supply,Induction Range,2,7695.67,2026-03-02,2026-04-05,2026-04-04,MA-Burlington
+PO-26-01005,Keystone Kitchen Supply,Ice Machine,1,4131.0,2026-03-03,2026-03-10,2026-03-10,NY-Manhattan
+PO-26-01006,Northline Foodservice,Ice Machine,15,3722.34,2026-03-03,2026-03-19,2026-03-19,MA-Burlington
+PO-26-01007,Harbor Restaurant Equipment,Electrical Panel,5,7606.37,2026-03-04,2026-04-12,2026-04-11,PA-King of Prussia
+PO-26-01008,Harbor Restaurant Equipment,Exhaust Hood,2,12517.05,2026-03-04,2026-04-12,2026-04-12,PA-King of Prussia
+PO-26-01009,Metro FSE,Stainless Prep Table,3,1179.41,2026-03-05,2026-03-16,2026-03-16,NJ-Union
+PO-26-01010,Northline Foodservice,Exhaust Hood,5,10215.0,2026-03-07,2026-05-25,2026-05-23,PA-King of Prussia
+PO-26-01011,Northline Foodservice,Walk-in Cooler,1,26500.14,2026-03-08,2026-05-05,2026-05-09,NY-Westchester
+PO-26-01012,Allied Commercial,Induction Range,3,6870.28,2026-03-08,2026-03-31,2026-03-30,NY-Manhattan
+PO-26-01013,Keystone Kitchen Supply,Walk-in Cooler,3,26363.81,2026-03-09,2026-05-02,2026-04-29,NY-Westchester
+PO-26-01014,Harbor Restaurant Equipment,Combi Oven,2,22545.14,2026-03-09,2026-04-07,2026-04-06,MA-Burlington
+PO-26-01015,Harbor Restaurant Equipment,Fryer,16,4094.0,2026-03-10,2026-03-26,2026-03-27,NJ-Paramus
+PO-26-01016,Summit Equipment Co,Ice Machine,2,4482.0,2026-03-13,2026-03-26,2026-03-24,NJ-Paramus
+PO-26-01017,Allied Commercial,Induction Range,1,7419.23,2026-03-14,2026-04-08,2026-04-09,MA-Burlington
+PO-26-01018,Allied Commercial,Fryer,1,4329.04,2026-03-14,2026-04-09,2026-04-06,NJ-Paramus
+PO-26-01019,Harbor Restaurant Equipment,Exhaust Hood,2,12223.0,2026-03-15,2026-05-08,2026-05-08,MA-Burlington
+PO-26-01020,Keystone Kitchen Supply,Dish Machine,22,10652.1,2026-03-16,2026-04-22,2026-04-21,NY-Westchester
+PO-26-01021,Metro FSE,Stainless Prep Table,8,1051.75,2026-03-16,2026-03-25,2026-03-25,NJ-Union
+PO-26-01022,Harbor Restaurant Equipment,Electrical Panel,14,7193.54,2026-03-17,2026-05-11,2026-05-10,PA-King of Prussia
+PO-26-01023,Keystone Kitchen Supply,Induction Range,23,6841.54,2026-03-17,2026-04-23,2026-04-24,NY-Westchester
+PO-26-01024,Harbor Restaurant Equipment,Fryer,14,4125.56,2026-03-17,2026-04-07,2026-04-05,MA-Burlington
+PO-26-01025,Summit Equipment Co,Stainless Prep Table,6,1142.79,2026-03-18,2026-03-31,2026-03-29,NJ-Paramus
+PO-26-01026,Metro FSE,Stainless Prep Table,4,1168.65,2026-03-19,2026-03-28,2026-04-03,NY-Westchester
+PO-26-01027,Northline Foodservice,Ice Machine,1,4145.0,2026-03-20,2026-04-01,2026-03-30,NJ-Union
+PO-26-01028,Northline Foodservice,Induction Range,1,8293.0,2026-03-20,2026-04-22,2026-04-19,NY-Westchester
+PO-26-01029,Keystone Kitchen Supply,Exhaust Hood,2,10583.52,2026-03-21,2026-05-27,2026-05-25,MA-Burlington
+PO-26-01030,Summit Equipment Co,Induction Range,2,8261.91,2026-03-21,2026-04-15,2026-04-13,NY-Manhattan
+PO-26-01031,Keystone Kitchen Supply,Stainless Prep Table,1,1152.95,2026-03-21,2026-04-03,2026-04-02,NJ-Paramus
+PO-26-01032,Metro FSE,Fryer,7,4320.17,2026-03-21,2026-04-08,2026-04-07,PA-King of Prussia
+PO-26-01033,Allied Commercial,Exhaust Hood,6,9473.0,2026-03-22,2026-05-01,2026-05-08,NJ-Union
+PO-26-01034,Northline Foodservice,Exhaust Hood,2,11349.32,2026-03-22,2026-05-17,2026-05-16,NJ-Paramus
+PO-26-01035,Harbor Restaurant Equipment,Stainless Prep Table,1,1306.54,2026-03-23,2026-03-29,2026-03-27,NJ-Paramus
+PO-26-01036,Metro FSE,Electrical Panel,9,7341.54,2026-03-25,2026-05-10,2026-05-07,PA-King of Prussia
+PO-26-01037,Allied Commercial,Fryer,20,3625.49,2026-03-25,2026-04-20,2026-04-17,NJ-Paramus
+PO-26-01038,Keystone Kitchen Supply,Dish Machine,8,10963.05,2026-03-25,2026-04-30,2026-04-29,NJ-Union
+PO-26-01039,Northline Foodservice,Ice Machine,2,4050.09,2026-03-26,2026-04-09,2026-04-08,PA-King of Prussia
+PO-26-01040,Summit Equipment Co,Combi Oven,1,21770.11,2026-03-27,2026-05-21,2026-05-19,PA-King of Prussia
+PO-26-01041,Harbor Restaurant Equipment,Dish Machine,2,12988.4,2026-03-27,2026-04-30,2026-04-29,NJ-Union
+PO-26-01042,Metro FSE,Reach-in Refrigerator,1,5526.0,2026-03-28,2026-04-18,2026-04-17,NY-Manhattan
+PO-26-01043,Metro FSE,Exhaust Hood,1,11746.8,2026-03-29,2026-06-03,2026-06-02,NY-Westchester
+PO-26-01044,Allied Commercial,Dish Machine,18,10305.36,2026-03-30,2026-05-08,2026-05-13,NJ-Paramus
+PO-26-01045,Harbor Restaurant Equipment,Reach-in Refrigerator,7,5101.43,2026-03-30,2026-04-12,2026-04-10,NJ-Paramus
+PO-26-01046,Northline Foodservice,Exhaust Hood,1,11774.0,2026-03-31,2026-05-27,2026-05-25,NJ-Paramus
+PO-26-01047,Metro FSE,Electrical Panel,5,6865.97,2026-03-31,2026-04-28,2026-04-29,NJ-Union
+PO-26-01048,Harbor Restaurant Equipment,Combi Oven,3,22432.17,2026-03-31,2026-05-07,2026-05-05,MA-Burlington
+PO-26-01050,Harbor Restaurant Equipment,Walk-in Cooler,1,29644.72,2026-04-01,2026-05-12,2026-05-12,PA-King of Prussia
+PO-26-01051,Keystone Kitchen Supply,Walk-in Cooler,4,26263.37,2026-04-01,2026-06-12,2026-06-21,NY-Westchester
+PO-26-01052,Northline Foodservice,Electrical Panel,22,6935.38,2026-04-01,2026-05-25,2026-05-22,NJ-Paramus
+PO-26-01053,Keystone Kitchen Supply,Electrical Panel,5,6527.0,2026-04-02,2026-05-31,2026-05-28,NY-Westchester
+PO-26-01054,Harbor Restaurant Equipment,Ice Machine,3,4104.0,2026-04-04,2026-04-16,2026-04-15,NJ-Paramus
+PO-26-01055,Metro FSE,Combi Oven,2,20431.0,2026-04-04,2026-05-10,2026-05-08,NY-Westchester
+PO-26-01056,Summit Equipment Co,Reach-in Refrigerator,7,5562.89,2026-04-05,2026-04-25,2026-04-22,PA-King of Prussia
+PO-26-01057,Northline Foodservice,Electrical Panel,2,7736.47,2026-04-05,2026-05-26,2026-05-23,NJ-Union
+PO-26-01058,Harbor Restaurant Equipment,Ice Machine,7,4074.0,2026-04-06,2026-04-18,2026-04-18,PA-King of Prussia
+PO-26-01059,Allied Commercial,Electrical Panel,4,6922.92,2026-04-07,2026-05-27,2026-05-24,NY-Manhattan
+PO-26-01060,Metro FSE,Combi Oven,1,20649.03,2026-04-07,2026-05-10,2026-05-10,NY-Manhattan
+PO-26-01061,Metro FSE,Exhaust Hood,1,11306.91,2026-04-07,2026-06-11,2026-06-11,NJ-Union
+PO-26-01062,Metro FSE,Ice Machine,24,3732.0,2026-04-08,2026-04-22,2026-04-19,NY-Westchester
+PO-26-01063,Metro FSE,Fryer,1,4483.63,2026-04-08,2026-04-29,2026-04-29,NJ-Paramus
+PO-26-01064,Metro FSE,Induction Range,3,8077.61,2026-04-08,2026-05-05,2026-05-04,NJ-Paramus
+PO-26-01065,Harbor Restaurant Equipment,Dish Machine,2,13608.73,2026-04-09,2026-05-05,2026-05-03,NY-Westchester
+PO-26-01066,Summit Equipment Co,Electrical Panel,5,7617.0,2026-04-10,2026-06-01,2026-06-01,NY-Westchester
+PO-26-01067,Northline Foodservice,Reach-in Refrigerator,20,5002.91,2026-04-11,2026-05-01,2026-04-29,MA-Burlington
+PO-26-01068,Harbor Restaurant Equipment,Stainless Prep Table,8,1158.36,2026-04-12,2026-04-23,2026-04-21,PA-King of Prussia
+PO-26-01069,Northline Foodservice,Induction Range,9,7582.0,2026-04-13,2026-05-14,2026-05-11,NY-Manhattan
+PO-26-01070,Keystone Kitchen Supply,Reach-in Refrigerator,6,4840.53,2026-04-15,2026-04-26,2026-04-26,NJ-Paramus
+PO-26-01072,Keystone Kitchen Supply,Combi Oven,1,19372.0,2026-04-19,2026-06-03,2026-06-02,NY-Westchester
+PO-26-01074,Northline Foodservice,Walk-in Cooler,3,28036.05,2026-04-21,2026-06-27,2026-06-24,MA-Burlington
+PO-26-01075,Harbor Restaurant Equipment,Exhaust Hood,6,11120.25,2026-04-21,2026-06-30,2026-06-30,NY-Westchester
+PO-26-01076,Allied Commercial,Exhaust Hood,6,9843.0,2026-04-23,2026-06-25,2026-06-25,MA-Burlington
+PO-26-01077,Summit Equipment Co,Exhaust Hood,2,11984.0,2026-04-24,2026-06-05,2026-06-03,PA-King of Prussia
+PO-26-01078,Metro FSE,Fryer,3,4318.8,2026-04-25,2026-05-14,2026-05-14,PA-King of Prussia
+PO-26-01079,Northline Foodservice,Exhaust Hood,1,12055.0,2026-04-26,2026-06-05,2026-06-08,PA-King of Prussia
+PO-26-01080,Summit Equipment Co,Combi Oven,6,20076.22,2026-04-26,2026-06-08,2026-06-08,NJ-Union
+PO-26-01081,Northline Foodservice,Induction Range,1,7710.9,2026-04-27,2026-06-03,2026-06-01,NJ-Paramus
+PO-26-01082,Summit Equipment Co,Induction Range,1,8713.67,2026-04-28,2026-05-29,2026-05-27,NY-Westchester
+PO-26-01084,Summit Equipment Co,Reach-in Refrigerator,3,5977.48,2026-05-02,2026-05-18,2026-05-16,MA-Burlington
+PO-26-01085,Keystone Kitchen Supply,Dish Machine,1,12820.44,2026-05-05,2026-06-07,2026-06-06,NJ-Union
+PO-26-01087,Northline Foodservice,Walk-in Cooler,3,27108.02,2026-05-06,2026-07-13,2026-07-11,NY-Westchester
+PO-26-01088,Metro FSE,Electrical Panel,1,7808.46,2026-05-09,2026-06-21,2026-06-18,NY-Manhattan
+PO-26-01089,Allied Commercial,Induction Range,1,7542.49,2026-05-10,2026-06-07,2026-06-07,NJ-Paramus
+PO-26-01090,Harbor Restaurant Equipment,Induction Range,6,7660.68,2026-05-11,2026-06-15,2026-06-12,NJ-Union
+PO-26-01091,Keystone Kitchen Supply,Induction Range,7,7297.0,2026-05-11,2026-05-30,2026-06-17,MA-Burlington
+PO-26-01092,Northline Foodservice,Fryer,19,4121.03,2026-05-11,2026-05-31,2026-06-07,NJ-Union
+PO-26-01093,Allied Commercial,Reach-in Refrigerator,6,4679.19,2026-05-12,2026-06-01,2026-05-29,MA-Burlington
+PO-26-01094,Harbor Restaurant Equipment,Fryer,17,4165.05,2026-05-14,2026-06-03,2026-06-02,NJ-Paramus
+PO-26-01095,Harbor Restaurant Equipment,Induction Range,9,7696.58,2026-05-14,2026-06-10,2026-06-10,MA-Burlington
+PO-26-01096,Metro FSE,Electrical Panel,9,6850.36,2026-05-15,2026-07-18,2026-07-17,NJ-Paramus
+PO-26-01097,Northline Foodservice,Combi Oven,3,21502.0,2026-05-16,2026-07-04,2026-07-02,NY-Manhattan
+PO-26-01098,Northline Foodservice,Reach-in Refrigerator,1,5320.91,2026-05-16,2026-06-07,2026-06-05,PA-King of Prussia
+PO-26-01099,Harbor Restaurant Equipment,Fryer,15,4010.31,2026-05-17,2026-06-11,2026-06-10,PA-King of Prussia
+PO-26-01100,Northline Foodservice,Dish Machine,6,11346.35,2026-05-17,2026-06-24,2026-06-24,NJ-Union
+PO-26-01101,Summit Equipment Co,Combi Oven,4,22535.0,2026-05-18,2026-06-27,2026-06-24,NJ-Union
+PO-26-01102,Allied Commercial,Stainless Prep Table,6,1019.75,2026-05-18,2026-05-28,2026-06-04,MA-Burlington
+PO-26-01103,Northline Foodservice,Dish Machine,19,10838.0,2026-05-20,2026-06-29,2026-07-01,NY-Westchester
+PO-26-01104,Summit Equipment Co,Exhaust Hood,3,12137.0,2026-05-22,2026-07-19,2026-07-17,MA-Burlington
+PO-26-01105,Summit Equipment Co,Combi Oven,2,21657.27,2026-05-22,2026-07-07,2026-07-07,NJ-Paramus
+PO-26-01106,Northline Foodservice,Ice Machine,2,3992.76,2026-05-22,2026-06-06,2026-06-08,PA-King of Prussia
+PO-26-01107,Harbor Restaurant Equipment,Ice Machine,3,4471.0,2026-05-24,2026-06-05,2026-06-04,NY-Westchester
+PO-26-01108,Harbor Restaurant Equipment,Ice Machine,3,4174.33,2026-05-24,2026-06-05,2026-06-02,NY-Westchester
+PO-26-01109,Keystone Kitchen Supply,Stainless Prep Table,3,1167.19,2026-05-26,2026-06-07,2026-06-05,NJ-Paramus
+PO-26-01110,Keystone Kitchen Supply,Electrical Panel,2,7261.23,2026-05-28,2026-07-28,2026-07-28,NY-Manhattan
+PO-26-01111,Allied Commercial,Reach-in Refrigerator,3,5004.19,2026-05-29,2026-06-11,2026-06-11,MA-Burlington
+PO-26-01112,Harbor Restaurant Equipment,Electrical Panel,3,7767.14,2026-05-30,2026-07-22,2026-07-20,NJ-Union
+PO-26-01113,Allied Commercial,Exhaust Hood,6,10185.0,2026-05-31,2026-07-15,2026-07-15,NJ-Union
+PO-26-01114,Keystone Kitchen Supply,Electrical Panel,1,7494.0,2026-05-31,2026-07-27,2026-08-05,PA-King of Prussia
+PO-26-01115,Summit Equipment Co,Dish Machine,15,12616.47,2026-06-01,2026-07-10,2026-07-08,NY-Westchester
+PO-26-01116,Summit Equipment Co,Stainless Prep Table,2,1329.56,2026-06-01,2026-06-12,2026-06-11,NJ-Union
+PO-26-01117,Allied Commercial,Walk-in Cooler,1,25808.72,2026-06-02,2026-07-30,2026-08-04,NJ-Union
+PO-26-01118,Harbor Restaurant Equipment,Fryer,4,4791.9,2026-06-04,2026-06-23,2026-06-21,NJ-Union
+PO-26-01119,Northline Foodservice,Electrical Panel,1,8085.06,2026-06-04,2026-07-20,2026-07-20,NJ-Union
+PO-26-01120,Keystone Kitchen Supply,Induction Range,2,7444.9,2026-06-06,2026-06-30,2026-07-04,PA-King of Prussia
+PO-26-01121,Summit Equipment Co,Exhaust Hood,5,11338.53,2026-06-06,2026-07-27,2026-07-24,PA-King of Prussia
+PO-26-01122,Allied Commercial,Stainless Prep Table,8,1060.9,2026-06-06,2026-06-15,2026-06-15,NY-Westchester
+PO-26-01123,Allied Commercial,Stainless Prep Table,1,1130.66,2026-06-07,2026-06-16,2026-06-16,NY-Manhattan
+PO-26-01124,Harbor Restaurant Equipment,Combi Oven,5,19462.79,2026-06-07,2026-07-25,2026-07-22,NJ-Paramus
+PO-26-01125,Northline Foodservice,Induction Range,19,6788.86,2026-06-08,2026-07-05,2026-07-03,NY-Manhattan
+PO-26-01126,Harbor Restaurant Equipment,Walk-in Cooler,1,29067.0,2026-06-08,2026-08-21,2026-08-21,NY-Manhattan
+PO-26-01127,Northline Foodservice,Induction Range,10,7032.11,2026-06-09,2026-07-09,2026-07-08,NY-Manhattan
+PO-26-01128,Keystone Kitchen Supply,Exhaust Hood,6,10171.5,2026-06-10,2026-08-26,2026-08-28,MA-Burlington
+PO-26-01129,Keystone Kitchen Supply,Electrical Panel,6,7242.6,2026-06-10,2026-08-03,2026-07-31,NY-Westchester
+PO-26-01130,Keystone Kitchen Supply,Fryer,7,4168.0,2026-06-10,2026-07-04,2026-07-03,PA-King of Prussia
+PO-26-01131,Northline Foodservice,Induction Range,7,7158.0,2026-06-13,2026-07-06,2026-07-06,NJ-Paramus
+PO-26-01133,Allied Commercial,Induction Range,7,6538.79,2026-06-13,2026-07-21,2026-07-19,NY-Manhattan
+PO-26-01134,Northline Foodservice,Induction Range,8,6983.93,2026-06-14,2026-07-18,2026-07-19,NJ-Paramus
+PO-26-01135,Harbor Restaurant Equipment,Combi Oven,2,22585.19,2026-06-14,2026-07-23,2026-07-23,NJ-Union
+PO-26-01136,Keystone Kitchen Supply,Induction Range,2,7547.19,2026-06-22,2026-07-14,2026-07-12,NY-Westchester
+PO-26-01137,Summit Equipment Co,Reach-in Refrigerator,8,5690.85,2026-06-23,2026-07-18,2026-07-16,PA-King of Prussia
+PO-26-01138,Keystone Kitchen Supply,Fryer,7,3976.37,2026-06-24,2026-07-12,2026-07-15,PA-King of Prussia
+PO-26-01139,Allied Commercial,Fryer,1,4141.04,2026-06-24,2026-07-17,2026-07-23,NJ-Union
+PO-26-01140,Harbor Restaurant Equipment,Electrical Panel,15,6940.02,2026-06-25,2026-08-10,2026-08-07,NJ-Union
+PO-26-01141,Harbor Restaurant Equipment,Ice Machine,1,4261.25,2026-06-25,2026-07-08,2026-07-07,NJ-Paramus
+PO-26-01142,Allied Commercial,Walk-in Cooler,2,26372.91,2026-06-25,2026-08-19,2026-08-21,NY-Westchester
+PO-26-01143,Keystone Kitchen Supply,Electrical Panel,4,7560.19,2026-06-27,2026-08-16,2026-09-18,PA-King of Prussia
+PO-26-01145,Summit Equipment Co,Stainless Prep Table,22,1084.83,2026-06-27,2026-07-09,2026-07-07,PA-King of Prussia
+PO-26-01146,Harbor Restaurant Equipment,Exhaust Hood,6,11344.95,2026-06-28,2026-08-23,2026-08-20,NJ-Union
+PO-26-01147,Summit Equipment Co,Ice Machine,3,4411.3,2026-06-28,2026-07-12,2026-07-10,NJ-Paramus
+PO-26-01148,Metro FSE,Walk-in Cooler,1,28631.0,2026-06-29,2026-08-20,2026-08-17,NJ-Union
+PO-26-01149,Metro FSE,Stainless Prep Table,15,1006.53,2026-06-30,2026-07-09,2026-07-08,MA-Burlington
+PO-26-01150,Summit Equipment Co,Dish Machine,22,11680.93,2026-06-30,2026-07-31,2026-07-31,NJ-Union

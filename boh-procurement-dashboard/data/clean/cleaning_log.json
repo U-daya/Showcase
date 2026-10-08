@@ -1,0 +1,62 @@
+[
+  {
+    "step": "Load raw export",
+    "rows": 1188,
+    "value": 1188,
+    "note": "Raw rows read from the purchasing export, all as text"
+  },
+  {
+    "step": "Drop duplicate rows",
+    "rows": 1150,
+    "value": 38,
+    "note": "Exact duplicate rows removed (re-exported POs)"
+  },
+  {
+    "step": "Merge vendor names",
+    "rows": 1150,
+    "value": 21,
+    "note": "21 spellings merged into 6 vendors"
+  },
+  {
+    "step": "Fix category names",
+    "rows": 1150,
+    "value": 95,
+    "note": "Category names in ALL CAPS set to standard casing"
+  },
+  {
+    "step": "Parse unit prices",
+    "rows": 1150,
+    "value": 1150,
+    "note": "Prices like \"$12,450.00\" and \"12,450 USD\" turned into numbers"
+  },
+  {
+    "step": "Parse dates",
+    "rows": 1150,
+    "value": 3450,
+    "note": "3 date columns in 3 formats parsed (0 values could not be read)"
+  },
+  {
+    "step": "Remove zero-quantity rows",
+    "rows": 1143,
+    "value": 7,
+    "note": "Rows with Qty of 0 or less removed"
+  },
+  {
+    "step": "Fix extra-zero price typos",
+    "rows": 1143,
+    "value": 15,
+    "note": "Prices over 4x the category/year median divided by 10"
+  },
+  {
+    "step": "Flag missing promised dates",
+    "rows": 1143,
+    "value": 14,
+    "note": "Kept for pricing, left out of on-time %"
+  },
+  {
+    "step": "Clean rows ready for analysis",
+    "rows": 1143,
+    "value": 1143,
+    "note": "Final clean purchase orders"
+  }
+]

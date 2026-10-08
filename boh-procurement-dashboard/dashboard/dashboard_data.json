@@ -1,0 +1,2337 @@
+{
+ "meta": {
+  "raw_rows": 1188,
+  "clean_rows": 1143,
+  "first_order": "2024-01-01",
+  "last_order": "2026-06-30",
+  "on_time_target": 90.0
+ },
+ "cleaning_log": [
+  {
+   "step": "Load raw export",
+   "rows": 1188,
+   "value": 1188,
+   "note": "Raw rows read from the purchasing export, all as text"
+  },
+  {
+   "step": "Drop duplicate rows",
+   "rows": 1150,
+   "value": 38,
+   "note": "Exact duplicate rows removed (re-exported POs)"
+  },
+  {
+   "step": "Merge vendor names",
+   "rows": 1150,
+   "value": 21,
+   "note": "21 spellings merged into 6 vendors"
+  },
+  {
+   "step": "Fix category names",
+   "rows": 1150,
+   "value": 95,
+   "note": "Category names in ALL CAPS set to standard casing"
+  },
+  {
+   "step": "Parse unit prices",
+   "rows": 1150,
+   "value": 1150,
+   "note": "Prices like \"$12,450.00\" and \"12,450 USD\" turned into numbers"
+  },
+  {
+   "step": "Parse dates",
+   "rows": 1150,
+   "value": 3450,
+   "note": "3 date columns in 3 formats parsed (0 values could not be read)"
+  },
+  {
+   "step": "Remove zero-quantity rows",
+   "rows": 1143,
+   "value": 7,
+   "note": "Rows with Qty of 0 or less removed"
+  },
+  {
+   "step": "Fix extra-zero price typos",
+   "rows": 1143,
+   "value": 15,
+   "note": "Prices over 4x the category/year median divided by 10"
+  },
+  {
+   "step": "Flag missing promised dates",
+   "rows": 1143,
+   "value": 14,
+   "note": "Kept for pricing, left out of on-time %"
+  },
+  {
+   "step": "Clean rows ready for analysis",
+   "rows": 1143,
+   "value": 1143,
+   "note": "Final clean purchase orders"
+  }
+ ],
+ "categories": [
+  "All equipment",
+  "Combi Oven",
+  "Dish Machine",
+  "Electrical Panel",
+  "Exhaust Hood",
+  "Fryer",
+  "Ice Machine",
+  "Induction Range",
+  "Reach-in Refrigerator",
+  "Stainless Prep Table",
+  "Walk-in Cooler"
+ ],
+ "views": {
+  "All equipment": {
+   "kpis": {
+    "po_count": 1143,
+    "total_spend": 47681348.0,
+    "on_time_pct": 83.6,
+    "lead_median": 30.0,
+    "lead_p90": 63.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 35
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 100.4,
+     "orders": 57
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 103.7,
+     "orders": 45
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 102.0,
+     "orders": 37
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 104.3,
+     "orders": 39
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 104.0,
+     "orders": 30
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 108.6,
+     "orders": 54
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 109.9,
+     "orders": 48
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 108.1,
+     "orders": 40
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 112.4,
+     "orders": 33
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 418
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 2.1,
+     "orders": 261
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 8.4,
+     "orders": 270
+    },
+    {
+     "band": "10+",
+     "discount_pct": 11.2,
+     "orders": 194
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 178,
+     "spend": 7690588.0,
+     "on_time_pct": 96.6,
+     "avg_days_late": 4.7,
+     "median_lead": 28.0,
+     "price_vs_ref_pct": 0.9
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 204,
+     "spend": 9365937.0,
+     "on_time_pct": 95.5,
+     "avg_days_late": 2.7,
+     "median_lead": 29.0,
+     "price_vs_ref_pct": 2.8
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 191,
+     "spend": 8149117.0,
+     "on_time_pct": 88.9,
+     "avg_days_late": 4.1,
+     "median_lead": 29.0,
+     "price_vs_ref_pct": -3.8
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 164,
+     "spend": 6582492.0,
+     "on_time_pct": 82.0,
+     "avg_days_late": 7.2,
+     "median_lead": 32.0,
+     "price_vs_ref_pct": -3.9
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 192,
+     "spend": 7417381.0,
+     "on_time_pct": 72.8,
+     "avg_days_late": 13.1,
+     "median_lead": 31.0,
+     "price_vs_ref_pct": -7.0
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 214,
+     "spend": 8475833.0,
+     "on_time_pct": 67.8,
+     "avg_days_late": 16.8,
+     "median_lead": 31.0,
+     "price_vs_ref_pct": -11.2
+    }
+   ],
+   "lead_by": "Equipment Category",
+   "lead_times": [
+    {
+     "name": "Walk-in Cooler",
+     "quoted_median": 62.0,
+     "actual_median": 62.0,
+     "actual_p90": 80.0,
+     "orders": 118
+    },
+    {
+     "name": "Exhaust Hood",
+     "quoted_median": 58.0,
+     "actual_median": 56.0,
+     "actual_p90": 71.0,
+     "orders": 113
+    },
+    {
+     "name": "Electrical Panel",
+     "quoted_median": 49.0,
+     "actual_median": 50.0,
+     "actual_p90": 66.0,
+     "orders": 112
+    },
+    {
+     "name": "Combi Oven",
+     "quoted_median": 41.0,
+     "actual_median": 40.0,
+     "actual_p90": 50.0,
+     "orders": 108
+    },
+    {
+     "name": "Dish Machine",
+     "quoted_median": 35.0,
+     "actual_median": 33.0,
+     "actual_p90": 43.0,
+     "orders": 99
+    },
+    {
+     "name": "Induction Range",
+     "quoted_median": 29.0,
+     "actual_median": 28.0,
+     "actual_p90": 37.0,
+     "orders": 131
+    },
+    {
+     "name": "Fryer",
+     "quoted_median": 21.0,
+     "actual_median": 21.0,
+     "actual_p90": 27.0,
+     "orders": 115
+    },
+    {
+     "name": "Reach-in Refrigerator",
+     "quoted_median": 18.0,
+     "actual_median": 18.0,
+     "actual_p90": 24.0,
+     "orders": 110
+    },
+    {
+     "name": "Ice Machine",
+     "quoted_median": 14.0,
+     "actual_median": 14.0,
+     "actual_p90": 22.0,
+     "orders": 108
+    },
+    {
+     "name": "Stainless Prep Table",
+     "quoted_median": 10.0,
+     "actual_median": 9.0,
+     "actual_p90": 16.0,
+     "orders": 129
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 12.4% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 112.4 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 12% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 2.1% at 3-4 units to 8.4% at 5-9 units (+6.3 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 11.2% under typical price but only 67.8% on time, about 17 days late when late. Harbor Restaurant Equipment is 96.6% on time at +0.9%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Walk-in Cooler orders are quoted at 62 days, but 1 in 10 orders takes 80 days or more (18 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Combi Oven": {
+   "kpis": {
+    "po_count": 108,
+    "total_spend": 6067557.0,
+    "on_time_pct": 86.9,
+    "lead_median": 40.0,
+    "lead_p90": 50.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 3
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 102.6,
+     "orders": 7
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 108.7,
+     "orders": 7
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 101.3,
+     "orders": 4
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 104.3,
+     "orders": 6
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 104.1,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 115.2,
+     "orders": 7
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 112.4,
+     "orders": 3
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 113.6,
+     "orders": 7
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 113.6,
+     "orders": 5
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 52
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 0.2,
+     "orders": 30
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 6.9,
+     "orders": 26
+    },
+    {
+     "band": "10+",
+     "discount_pct": null,
+     "orders": 0
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 14,
+     "spend": 824948.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 40.0,
+     "price_vs_ref_pct": 6.9
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 17,
+     "spend": 862802.0,
+     "on_time_pct": 93.8,
+     "avg_days_late": 2.0,
+     "median_lead": 39.0,
+     "price_vs_ref_pct": -0.2
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 24,
+     "spend": 1532325.0,
+     "on_time_pct": 91.7,
+     "avg_days_late": 5.5,
+     "median_lead": 39.0,
+     "price_vs_ref_pct": 5.7
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 17,
+     "spend": 719133.0,
+     "on_time_pct": 88.2,
+     "avg_days_late": 4.5,
+     "median_lead": 40.0,
+     "price_vs_ref_pct": -2.8
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 16,
+     "spend": 948503.0,
+     "on_time_pct": 75.0,
+     "avg_days_late": 11.5,
+     "median_lead": 42.0,
+     "price_vs_ref_pct": -9.2
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 20,
+     "spend": 1179846.0,
+     "on_time_pct": 75.0,
+     "avg_days_late": 21.4,
+     "median_lead": 40.0,
+     "price_vs_ref_pct": -4.7
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 41.0,
+     "actual_median": 40.0,
+     "actual_p90": 58.0,
+     "orders": 20
+    },
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 40.0,
+     "actual_median": 42.0,
+     "actual_p90": 56.0,
+     "orders": 16
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 40.0,
+     "actual_median": 40.0,
+     "actual_p90": 49.0,
+     "orders": 17
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 40.0,
+     "actual_median": 39.0,
+     "actual_p90": 49.0,
+     "orders": 24
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 40.0,
+     "actual_median": 39.0,
+     "actual_p90": 47.0,
+     "orders": 17
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 40.0,
+     "actual_median": 40.0,
+     "actual_p90": 45.0,
+     "orders": 14
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 13.6% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 113.6 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 14% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 0.2% at 3-4 units to 6.9% at 5-9 units (+6.7 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 9.2% under typical price but only 75.0% on time, about 12 days late when late. Harbor Restaurant Equipment is 100.0% on time at +6.9%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Keystone Kitchen Supply orders are quoted at 41 days, but 1 in 10 orders takes 58 days or more (17 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Dish Machine": {
+   "kpis": {
+    "po_count": 99,
+    "total_spend": 7525162.0,
+    "on_time_pct": 88.7,
+    "lead_median": 33.0,
+    "lead_p90": 43.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 3
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 98.5,
+     "orders": 6
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 100.5,
+     "orders": 4
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 101.4,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 110.7,
+     "orders": 6
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 107.4,
+     "orders": 1
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 111.2,
+     "orders": 6
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 111.3,
+     "orders": 4
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 113.8,
+     "orders": 1
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 115.7,
+     "orders": 2
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 36
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 2.0,
+     "orders": 16
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 10.5,
+     "orders": 24
+    },
+    {
+     "band": "10+",
+     "discount_pct": 14.9,
+     "orders": 23
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 18,
+     "spend": 1462150.0,
+     "on_time_pct": 94.4,
+     "avg_days_late": 2.0,
+     "median_lead": 34.0,
+     "price_vs_ref_pct": -8.2
+    },
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 17,
+     "spend": 1106531.0,
+     "on_time_pct": 94.1,
+     "avg_days_late": 5.0,
+     "median_lead": 32.0,
+     "price_vs_ref_pct": 2.1
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 17,
+     "spend": 1145709.0,
+     "on_time_pct": 88.2,
+     "avg_days_late": 12.0,
+     "median_lead": 35.0,
+     "price_vs_ref_pct": -7.1
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 16,
+     "spend": 1250631.0,
+     "on_time_pct": 86.7,
+     "avg_days_late": 8.0,
+     "median_lead": 36.0,
+     "price_vs_ref_pct": -5.3
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 13,
+     "spend": 1045886.0,
+     "on_time_pct": 84.6,
+     "avg_days_late": 2.0,
+     "median_lead": 31.0,
+     "price_vs_ref_pct": -0.6
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 18,
+     "spend": 1514255.0,
+     "on_time_pct": 82.4,
+     "avg_days_late": 10.0,
+     "median_lead": 32.0,
+     "price_vs_ref_pct": -12.0
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 33.0,
+     "actual_median": 32.0,
+     "actual_p90": 44.0,
+     "orders": 18
+    },
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 36.0,
+     "actual_median": 35.0,
+     "actual_p90": 43.0,
+     "orders": 17
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 37.0,
+     "actual_median": 36.0,
+     "actual_p90": 42.0,
+     "orders": 16
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 36.0,
+     "actual_median": 34.0,
+     "actual_p90": 41.0,
+     "orders": 18
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 33.0,
+     "actual_median": 32.0,
+     "actual_p90": 40.0,
+     "orders": 17
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 32.0,
+     "actual_median": 31.0,
+     "actual_p90": 40.0,
+     "orders": 13
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 15.7% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 115.7 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 16% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 2.0% at 3-4 units to 10.5% at 5-9 units (+8.5 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 12.0% under typical price but only 82.4% on time, about 10 days late when late. Northline Foodservice is 94.4% on time at -8.2%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Allied Commercial orders are quoted at 33 days, but 1 in 10 orders takes 44 days or more (11 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Electrical Panel": {
+   "kpis": {
+    "po_count": 112,
+    "total_spend": 5107801.0,
+    "on_time_pct": 82.7,
+    "lead_median": 50.0,
+    "lead_p90": 66.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 1
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 102.7,
+     "orders": 4
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 108.5,
+     "orders": 2
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 103.2,
+     "orders": 2
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 110.4,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 120.4,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 114.1,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 124.8,
+     "orders": 6
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 123.0,
+     "orders": 1
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 127.1,
+     "orders": 5
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 30
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 2.9,
+     "orders": 27
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 8.8,
+     "orders": 26
+    },
+    {
+     "band": "10+",
+     "discount_pct": 8.9,
+     "orders": 29
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 20,
+     "spend": 976888.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 50.0,
+     "price_vs_ref_pct": -0.6
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 11,
+     "spend": 713861.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 49.0,
+     "price_vs_ref_pct": 0.0
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 24,
+     "spend": 1337110.0,
+     "on_time_pct": 91.7,
+     "avg_days_late": 2.5,
+     "median_lead": 47.0,
+     "price_vs_ref_pct": -5.2
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 15,
+     "spend": 633561.0,
+     "on_time_pct": 86.7,
+     "avg_days_late": 2.0,
+     "median_lead": 44.0,
+     "price_vs_ref_pct": -3.6
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 21,
+     "spend": 844051.0,
+     "on_time_pct": 66.7,
+     "avg_days_late": 17.1,
+     "median_lead": 52.0,
+     "price_vs_ref_pct": -7.4
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 21,
+     "spend": 602329.0,
+     "on_time_pct": 60.0,
+     "avg_days_late": 17.0,
+     "median_lead": 50.0,
+     "price_vs_ref_pct": -10.3
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 49.0,
+     "actual_median": 50.0,
+     "actual_p90": 72.0,
+     "orders": 21
+    },
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 50.0,
+     "actual_median": 52.0,
+     "actual_p90": 67.0,
+     "orders": 21
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 46.0,
+     "actual_median": 44.0,
+     "actual_p90": 63.0,
+     "orders": 15
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 49.0,
+     "actual_median": 49.0,
+     "actual_p90": 58.0,
+     "orders": 11
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 49.0,
+     "actual_median": 50.0,
+     "actual_p90": 57.0,
+     "orders": 20
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 48.0,
+     "actual_median": 47.0,
+     "actual_p90": 52.0,
+     "orders": 24
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 27.1% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 127.1 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 27% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 2.9% at 3-4 units to 8.8% at 5-9 units (+5.9 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 10.3% under typical price but only 60.0% on time, about 17 days late when late. Harbor Restaurant Equipment is 100.0% on time at -0.6%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Allied Commercial orders are quoted at 49 days, but 1 in 10 orders takes 72 days or more (23 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Exhaust Hood": {
+   "kpis": {
+    "po_count": 113,
+    "total_spend": 3629719.0,
+    "on_time_pct": 88.4,
+    "lead_median": 56.0,
+    "lead_p90": 71.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 2
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 93.0,
+     "orders": 5
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 99.1,
+     "orders": 7
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 94.4,
+     "orders": 8
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 99.1,
+     "orders": 6
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 102.3,
+     "orders": 5
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 108.9,
+     "orders": 2
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 107.5,
+     "orders": 6
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 110.2,
+     "orders": 7
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 112.4,
+     "orders": 3
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 51
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 3.0,
+     "orders": 31
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 10.5,
+     "orders": 31
+    },
+    {
+     "band": "10+",
+     "discount_pct": null,
+     "orders": 0
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 16,
+     "spend": 543352.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 54.0,
+     "price_vs_ref_pct": -0.8
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 27,
+     "spend": 920445.0,
+     "on_time_pct": 96.3,
+     "avg_days_late": 2.0,
+     "median_lead": 52.0,
+     "price_vs_ref_pct": 1.9
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 15,
+     "spend": 442329.0,
+     "on_time_pct": 86.7,
+     "avg_days_late": 3.5,
+     "median_lead": 59.0,
+     "price_vs_ref_pct": -6.6
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 20,
+     "spend": 465838.0,
+     "on_time_pct": 85.0,
+     "avg_days_late": 4.7,
+     "median_lead": 55.0,
+     "price_vs_ref_pct": -4.1
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 18,
+     "spend": 618301.0,
+     "on_time_pct": 82.4,
+     "avg_days_late": 5.7,
+     "median_lead": 60.0,
+     "price_vs_ref_pct": -5.5
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 17,
+     "spend": 639454.0,
+     "on_time_pct": 76.5,
+     "avg_days_late": 9.8,
+     "median_lead": 51.0,
+     "price_vs_ref_pct": -13.4
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 62.0,
+     "actual_median": 59.0,
+     "actual_p90": 71.0,
+     "orders": 15
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 52.0,
+     "actual_median": 52.0,
+     "actual_p90": 71.0,
+     "orders": 27
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 55.0,
+     "actual_median": 54.0,
+     "actual_p90": 70.0,
+     "orders": 16
+    },
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 53.0,
+     "actual_median": 51.0,
+     "actual_p90": 69.0,
+     "orders": 17
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 62.0,
+     "actual_median": 60.0,
+     "actual_p90": 69.0,
+     "orders": 18
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 56.0,
+     "actual_median": 55.0,
+     "actual_p90": 69.0,
+     "orders": 20
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 12.4% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 112.4 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 12% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 3.0% at 3-4 units to 10.5% at 5-9 units (+7.5 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 13.4% under typical price but only 76.5% on time, about 10 days late when late. Harbor Restaurant Equipment is 100.0% on time at -0.8%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Summit Equipment Co orders are quoted at 52 days, but 1 in 10 orders takes 71 days or more (19 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Fryer": {
+   "kpis": {
+    "po_count": 115,
+    "total_spend": 3326293.0,
+    "on_time_pct": 83.2,
+    "lead_median": 21.0,
+    "lead_p90": 27.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 5
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 105.9,
+     "orders": 6
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 104.9,
+     "orders": 7
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 106.8,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 109.4,
+     "orders": 2
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 113.1,
+     "orders": 4
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 115.8,
+     "orders": 4
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 107.6,
+     "orders": 1
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 107.2,
+     "orders": 2
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 34
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 4.2,
+     "orders": 27
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 8.1,
+     "orders": 25
+    },
+    {
+     "band": "10+",
+     "discount_pct": 13.2,
+     "orders": 29
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 22,
+     "spend": 739896.0,
+     "on_time_pct": 90.9,
+     "avg_days_late": 1.5,
+     "median_lead": 20.0,
+     "price_vs_ref_pct": -0.9
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 12,
+     "spend": 492085.0,
+     "on_time_pct": 90.9,
+     "avg_days_late": 1.0,
+     "median_lead": 18.0,
+     "price_vs_ref_pct": -2.6
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 15,
+     "spend": 416836.0,
+     "on_time_pct": 86.7,
+     "avg_days_late": 1.0,
+     "median_lead": 19.0,
+     "price_vs_ref_pct": -7.6
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 23,
+     "spend": 706713.0,
+     "on_time_pct": 86.4,
+     "avg_days_late": 4.0,
+     "median_lead": 20.0,
+     "price_vs_ref_pct": -4.5
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 24,
+     "spend": 476225.0,
+     "on_time_pct": 79.2,
+     "avg_days_late": 19.4,
+     "median_lead": 23.0,
+     "price_vs_ref_pct": -10.3
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 19,
+     "spend": 494538.0,
+     "on_time_pct": 68.4,
+     "avg_days_late": 14.2,
+     "median_lead": 22.0,
+     "price_vs_ref_pct": -10.4
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 22.0,
+     "actual_median": 23.0,
+     "actual_p90": 32.0,
+     "orders": 24
+    },
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 22.0,
+     "actual_median": 22.0,
+     "actual_p90": 31.0,
+     "orders": 19
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 22.0,
+     "actual_median": 20.0,
+     "actual_p90": 27.0,
+     "orders": 23
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 21.0,
+     "actual_median": 20.0,
+     "actual_p90": 24.0,
+     "orders": 22
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 20.0,
+     "actual_median": 18.0,
+     "actual_p90": 24.0,
+     "orders": 12
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 20.0,
+     "actual_median": 19.0,
+     "actual_p90": 23.0,
+     "orders": 15
+    }
+   ],
+   "bulk_jump_band": "10+",
+   "findings": [
+    {
+     "title": "Prices are up 7.2% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 107.2 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 7% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 10+ units",
+     "body": "Discount vs a 1-2 unit order goes from 8.1% at 5-9 units to 13.2% at 10+ units (+5.1 points). If an order is just under 10 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Keystone Kitchen Supply is 10.4% under typical price but only 68.4% on time, about 14 days late when late. Summit Equipment Co is 90.9% on time at -2.6%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Allied Commercial orders are quoted at 22 days, but 1 in 10 orders takes 32 days or more (10 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Ice Machine": {
+   "kpis": {
+    "po_count": 108,
+    "total_spend": 2487670.0,
+    "on_time_pct": 79.4,
+    "lead_median": 14.0,
+    "lead_p90": 22.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 2
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 95.1,
+     "orders": 5
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 97.9,
+     "orders": 3
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 98.0,
+     "orders": 4
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 101.9,
+     "orders": 4
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 108.4,
+     "orders": 1
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 107.6,
+     "orders": 6
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 100.1,
+     "orders": 6
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 103.9,
+     "orders": 8
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 104.8,
+     "orders": 2
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 41
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 0.3,
+     "orders": 23
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 10.1,
+     "orders": 19
+    },
+    {
+     "band": "10+",
+     "discount_pct": 10.7,
+     "orders": 25
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 24,
+     "spend": 619908.0,
+     "on_time_pct": 95.8,
+     "avg_days_late": 2.0,
+     "median_lead": 14.0,
+     "price_vs_ref_pct": 1.2
+    },
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 14,
+     "spend": 328513.0,
+     "on_time_pct": 92.9,
+     "avg_days_late": 3.0,
+     "median_lead": 12.0,
+     "price_vs_ref_pct": 1.6
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 13,
+     "spend": 226486.0,
+     "on_time_pct": 84.6,
+     "avg_days_late": 2.0,
+     "median_lead": 14.0,
+     "price_vs_ref_pct": -2.4
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 17,
+     "spend": 220995.0,
+     "on_time_pct": 68.8,
+     "avg_days_late": 13.6,
+     "median_lead": 14.0,
+     "price_vs_ref_pct": -5.1
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 19,
+     "spend": 467946.0,
+     "on_time_pct": 68.4,
+     "avg_days_late": 12.3,
+     "median_lead": 15.0,
+     "price_vs_ref_pct": -1.6
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 21,
+     "spend": 623822.0,
+     "on_time_pct": 66.7,
+     "avg_days_late": 23.4,
+     "median_lead": 14.0,
+     "price_vs_ref_pct": -14.0
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Metro FSE",
+     "quoted_median": 14.0,
+     "actual_median": 15.0,
+     "actual_p90": 29.0,
+     "orders": 19
+    },
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 14.0,
+     "actual_median": 14.0,
+     "actual_p90": 26.0,
+     "orders": 17
+    },
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 14.0,
+     "actual_median": 14.0,
+     "actual_p90": 25.0,
+     "orders": 21
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 14.0,
+     "actual_median": 14.0,
+     "actual_p90": 17.0,
+     "orders": 13
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 15.0,
+     "actual_median": 14.0,
+     "actual_p90": 17.0,
+     "orders": 24
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 14.0,
+     "actual_median": 12.0,
+     "actual_p90": 16.0,
+     "orders": 14
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 4.8% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 104.8 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 5% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 0.3% at 3-4 units to 10.1% at 5-9 units (+9.8 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 14.0% under typical price but only 66.7% on time, about 23 days late when late. Summit Equipment Co is 95.8% on time at +1.2%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Metro FSE orders are quoted at 14 days, but 1 in 10 orders takes 29 days or more (15 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Induction Range": {
+   "kpis": {
+    "po_count": 131,
+    "total_spend": 5687804.0,
+    "on_time_pct": 80.5,
+    "lead_median": 28.0,
+    "lead_p90": 37.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 5
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 101.6,
+     "orders": 6
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 95.7,
+     "orders": 3
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 101.4,
+     "orders": 1
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 102.5,
+     "orders": 5
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 99.4,
+     "orders": 4
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 95.0,
+     "orders": 11
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 100.0,
+     "orders": 5
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 99.0,
+     "orders": 7
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 99.6,
+     "orders": 5
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 52
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 1.7,
+     "orders": 21
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 7.1,
+     "orders": 28
+    },
+    {
+     "band": "10+",
+     "discount_pct": 10.7,
+     "orders": 30
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 24,
+     "spend": 1097402.0,
+     "on_time_pct": 95.8,
+     "avg_days_late": 1.0,
+     "median_lead": 28.0,
+     "price_vs_ref_pct": -1.4
+    },
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 19,
+     "spend": 1197877.0,
+     "on_time_pct": 94.4,
+     "avg_days_late": 3.0,
+     "median_lead": 27.0,
+     "price_vs_ref_pct": 1.5
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 17,
+     "spend": 602511.0,
+     "on_time_pct": 93.8,
+     "avg_days_late": 1.0,
+     "median_lead": 29.0,
+     "price_vs_ref_pct": 2.8
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 24,
+     "spend": 1081799.0,
+     "on_time_pct": 75.0,
+     "avg_days_late": 9.8,
+     "median_lead": 28.0,
+     "price_vs_ref_pct": -6.1
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 21,
+     "spend": 717924.0,
+     "on_time_pct": 75.0,
+     "avg_days_late": 8.6,
+     "median_lead": 30.0,
+     "price_vs_ref_pct": -2.1
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 26,
+     "spend": 990291.0,
+     "on_time_pct": 57.7,
+     "avg_days_late": 20.6,
+     "median_lead": 30.0,
+     "price_vs_ref_pct": -8.7
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 28.0,
+     "actual_median": 30.0,
+     "actual_p90": 66.0,
+     "orders": 26
+    },
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 27.0,
+     "actual_median": 28.0,
+     "actual_p90": 38.0,
+     "orders": 24
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 30.0,
+     "actual_median": 30.0,
+     "actual_p90": 38.0,
+     "orders": 21
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 28.0,
+     "actual_median": 28.0,
+     "actual_p90": 33.0,
+     "orders": 24
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 30.0,
+     "actual_median": 29.0,
+     "actual_p90": 33.0,
+     "orders": 17
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 27.0,
+     "actual_median": 27.0,
+     "actual_p90": 32.0,
+     "orders": 19
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are down 0.4% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 99.6 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 0% high, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 1.7% at 3-4 units to 7.1% at 5-9 units (+5.4 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 8.7% under typical price but only 57.7% on time, about 21 days late when late. Northline Foodservice is 95.8% on time at -1.4%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Allied Commercial orders are quoted at 28 days, but 1 in 10 orders takes 66 days or more (38 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Reach-in Refrigerator": {
+   "kpis": {
+    "po_count": 110,
+    "total_spend": 3931414.0,
+    "on_time_pct": 83.5,
+    "lead_median": 18.0,
+    "lead_p90": 24.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 8
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 94.4,
+     "orders": 4
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 98.6,
+     "orders": 1
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 107.9,
+     "orders": 4
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 104.7,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 103.2,
+     "orders": 2
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 104.3,
+     "orders": 6
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 104.8,
+     "orders": 2
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 105.0,
+     "orders": 2
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 32
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 3.3,
+     "orders": 19
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 7.7,
+     "orders": 29
+    },
+    {
+     "band": "10+",
+     "discount_pct": 10.6,
+     "orders": 30
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 15,
+     "spend": 566710.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 17.0,
+     "price_vs_ref_pct": -1.8
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 23,
+     "spend": 886973.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 16.0,
+     "price_vs_ref_pct": 2.5
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 13,
+     "spend": 528518.0,
+     "on_time_pct": 92.3,
+     "avg_days_late": 9.0,
+     "median_lead": 16.0,
+     "price_vs_ref_pct": -6.0
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 15,
+     "spend": 608091.0,
+     "on_time_pct": 86.7,
+     "avg_days_late": 9.5,
+     "median_lead": 19.0,
+     "price_vs_ref_pct": -8.4
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 25,
+     "spend": 820513.0,
+     "on_time_pct": 66.7,
+     "avg_days_late": 18.9,
+     "median_lead": 19.0,
+     "price_vs_ref_pct": -12.6
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 19,
+     "spend": 520609.0,
+     "on_time_pct": 63.2,
+     "avg_days_late": 11.1,
+     "median_lead": 20.0,
+     "price_vs_ref_pct": -7.7
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 19.0,
+     "actual_median": 19.0,
+     "actual_p90": 32.0,
+     "orders": 25
+    },
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 18.0,
+     "actual_median": 20.0,
+     "actual_p90": 30.0,
+     "orders": 19
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 18.0,
+     "actual_median": 16.0,
+     "actual_p90": 23.0,
+     "orders": 23
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 19.0,
+     "actual_median": 17.0,
+     "actual_p90": 22.0,
+     "orders": 15
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 19.0,
+     "actual_median": 19.0,
+     "actual_p90": 21.0,
+     "orders": 15
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 16.0,
+     "actual_median": 16.0,
+     "actual_p90": 20.0,
+     "orders": 13
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 5.0% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 105.0 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 5% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 3.3% at 3-4 units to 7.7% at 5-9 units (+4.4 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 12.6% under typical price but only 66.7% on time, about 19 days late when late. Harbor Restaurant Equipment is 100.0% on time at -1.8%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Allied Commercial orders are quoted at 19 days, but 1 in 10 orders takes 32 days or more (13 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Stainless Prep Table": {
+   "kpis": {
+    "po_count": 129,
+    "total_spend": 926604.0,
+    "on_time_pct": 82.9,
+    "lead_median": 9.0,
+    "lead_p90": 16.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 3
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 105.7,
+     "orders": 7
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 100.2,
+     "orders": 5
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 99.7,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 109.8,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 99.4,
+     "orders": 5
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 95.6,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 100.3,
+     "orders": 4
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 101.2,
+     "orders": 3
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 106.2,
+     "orders": 2
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 38
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 0.3,
+     "orders": 26
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 6.4,
+     "orders": 37
+    },
+    {
+     "band": "10+",
+     "discount_pct": 11.9,
+     "orders": 28
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 19,
+     "spend": 118190.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 9.0,
+     "price_vs_ref_pct": 0.2
+    },
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 27,
+     "spend": 217222.0,
+     "on_time_pct": 96.3,
+     "avg_days_late": 3.0,
+     "median_lead": 8.0,
+     "price_vs_ref_pct": 1.8
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 23,
+     "spend": 185758.0,
+     "on_time_pct": 87.0,
+     "avg_days_late": 3.7,
+     "median_lead": 9.0,
+     "price_vs_ref_pct": -5.9
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 15,
+     "spend": 92543.0,
+     "on_time_pct": 86.7,
+     "avg_days_late": 4.0,
+     "median_lead": 9.0,
+     "price_vs_ref_pct": -3.5
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 23,
+     "spend": 162555.0,
+     "on_time_pct": 69.6,
+     "avg_days_late": 12.3,
+     "median_lead": 10.0,
+     "price_vs_ref_pct": -8.2
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 22,
+     "spend": 150336.0,
+     "on_time_pct": 59.1,
+     "avg_days_late": 12.9,
+     "median_lead": 10.0,
+     "price_vs_ref_pct": -12.9
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 11.0,
+     "actual_median": 10.0,
+     "actual_p90": 29.0,
+     "orders": 23
+    },
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 10.0,
+     "actual_median": 10.0,
+     "actual_p90": 24.0,
+     "orders": 22
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 10.0,
+     "actual_median": 9.0,
+     "actual_p90": 13.0,
+     "orders": 23
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 9.0,
+     "actual_median": 9.0,
+     "actual_p90": 12.0,
+     "orders": 15
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 10.0,
+     "actual_median": 9.0,
+     "actual_p90": 11.0,
+     "orders": 19
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 10.0,
+     "actual_median": 8.0,
+     "actual_p90": 11.0,
+     "orders": 27
+    }
+   ],
+   "bulk_jump_band": "5-9",
+   "findings": [
+    {
+     "title": "Prices are up 6.2% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 106.2 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 6% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 5-9 units",
+     "body": "Discount vs a 1-2 unit order goes from 0.3% at 3-4 units to 6.4% at 5-9 units (+6.1 points). If an order is just under 5 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 12.9% under typical price but only 59.1% on time, about 13 days late when late. Harbor Restaurant Equipment is 100.0% on time at +0.2%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Keystone Kitchen Supply orders are quoted at 11 days, but 1 in 10 orders takes 29 days or more (18 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  },
+  "Walk-in Cooler": {
+   "kpis": {
+    "po_count": 118,
+    "total_spend": 8991323.0,
+    "on_time_pct": 81.2,
+    "lead_median": 62.0,
+    "lead_p90": 80.0
+   },
+   "price_trend": [
+    {
+     "quarter": "2024 Q1",
+     "index": 100.0,
+     "orders": 3
+    },
+    {
+     "quarter": "2024 Q2",
+     "index": 104.0,
+     "orders": 7
+    },
+    {
+     "quarter": "2024 Q3",
+     "index": 112.9,
+     "orders": 6
+    },
+    {
+     "quarter": "2024 Q4",
+     "index": 107.7,
+     "orders": 5
+    },
+    {
+     "quarter": "2025 Q1",
+     "index": 110.6,
+     "orders": 6
+    },
+    {
+     "quarter": "2025 Q2",
+     "index": 100.9,
+     "orders": 3
+    },
+    {
+     "quarter": "2025 Q3",
+     "index": 111.0,
+     "orders": 10
+    },
+    {
+     "quarter": "2025 Q4",
+     "index": 125.5,
+     "orders": 4
+    },
+    {
+     "quarter": "2026 Q1",
+     "index": 111.6,
+     "orders": 3
+    },
+    {
+     "quarter": "2026 Q2",
+     "index": 120.6,
+     "orders": 5
+    }
+   ],
+   "bulk": [
+    {
+     "band": "1-2",
+     "discount_pct": 0.0,
+     "orders": 52
+    },
+    {
+     "band": "3-4",
+     "discount_pct": 3.5,
+     "orders": 41
+    },
+    {
+     "band": "5-9",
+     "discount_pct": 6.7,
+     "orders": 25
+    },
+    {
+     "band": "10+",
+     "discount_pct": null,
+     "orders": 0
+    }
+   ],
+   "vendors": [
+    {
+     "vendor": "Summit Equipment Co",
+     "pos": 26,
+     "spend": 2334722.0,
+     "on_time_pct": 100.0,
+     "avg_days_late": null,
+     "median_lead": 62.0,
+     "price_vs_ref_pct": 4.5
+    },
+    {
+     "vendor": "Harbor Restaurant Equipment",
+     "pos": 22,
+     "spend": 1287682.0,
+     "on_time_pct": 95.5,
+     "avg_days_late": 14.0,
+     "median_lead": 60.0,
+     "price_vs_ref_pct": 4.0
+    },
+    {
+     "vendor": "Metro FSE",
+     "pos": 13,
+     "spend": 1057527.0,
+     "on_time_pct": 76.9,
+     "avg_days_late": 6.0,
+     "median_lead": 68.0,
+     "price_vs_ref_pct": -3.9
+    },
+    {
+     "vendor": "Northline Foodservice",
+     "pos": 16,
+     "spend": 1276340.0,
+     "on_time_pct": 75.0,
+     "avg_days_late": 6.8,
+     "median_lead": 62.0,
+     "price_vs_ref_pct": -5.5
+    },
+    {
+     "vendor": "Keystone Kitchen Supply",
+     "pos": 17,
+     "spend": 1324949.0,
+     "on_time_pct": 70.6,
+     "avg_days_late": 9.0,
+     "median_lead": 61.0,
+     "price_vs_ref_pct": -7.7
+    },
+    {
+     "vendor": "Allied Commercial",
+     "pos": 24,
+     "spend": 1710103.0,
+     "on_time_pct": 62.5,
+     "avg_days_late": 15.0,
+     "median_lead": 67.0,
+     "price_vs_ref_pct": -9.5
+    }
+   ],
+   "lead_by": "Vendor",
+   "lead_times": [
+    {
+     "name": "Allied Commercial",
+     "quoted_median": 60.0,
+     "actual_median": 67.0,
+     "actual_p90": 88.0,
+     "orders": 24
+    },
+    {
+     "name": "Metro FSE",
+     "quoted_median": 67.0,
+     "actual_median": 68.0,
+     "actual_p90": 79.0,
+     "orders": 13
+    },
+    {
+     "name": "Summit Equipment Co",
+     "quoted_median": 63.0,
+     "actual_median": 62.0,
+     "actual_p90": 78.0,
+     "orders": 26
+    },
+    {
+     "name": "Harbor Restaurant Equipment",
+     "quoted_median": 60.0,
+     "actual_median": 60.0,
+     "actual_p90": 76.0,
+     "orders": 22
+    },
+    {
+     "name": "Keystone Kitchen Supply",
+     "quoted_median": 64.0,
+     "actual_median": 61.0,
+     "actual_p90": 76.0,
+     "orders": 17
+    },
+    {
+     "name": "Northline Foodservice",
+     "quoted_median": 60.0,
+     "actual_median": 62.0,
+     "actual_p90": 67.0,
+     "orders": 16
+    }
+   ],
+   "bulk_jump_band": "3-4",
+   "findings": [
+    {
+     "title": "Prices are up 20.6% since 2024 Q1",
+     "body": "Small-order unit prices moved from 100 in 2024 Q1 to 120.6 in 2026 Q2. An estimate built on a quote from 2024 Q1 will come in about 21% low, so refresh old quotes before using them."
+    },
+    {
+     "title": "The big discount starts at 3-4 units",
+     "body": "Discount vs a 1-2 unit order goes from 0.0% at 1-2 units to 3.5% at 3-4 units (+3.5 points). If an order is just under 3 units, compare the cost of one extra unit against the savings, or combine orders across sites."
+    },
+    {
+     "title": "The cheapest vendor is not the most reliable",
+     "body": "Allied Commercial is 9.5% under typical price but only 62.5% on time, about 15 days late when late. Summit Equipment Co is 100.0% on time at +4.5%. For critical-path items the reliable vendor may cost less overall once a delayed opening is counted."
+    },
+    {
+     "title": "Plan to the p90, not the quote",
+     "body": "Allied Commercial orders are quoted at 60 days, but 1 in 10 orders takes 88 days or more (28 days past the quote). Plan to the p90, not the quote."
+    }
+   ]
+  }
+ }
+}
