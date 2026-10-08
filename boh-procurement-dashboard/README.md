@@ -40,12 +40,16 @@ All of this is sitting in old purchase orders, but the raw export is too messy t
 
 Across all 1,143 clean POs ($47.7M spend, 83.6% on time, median lead time 30 days, p90 63 days):
 
-1. **Prices are up 12.4% since Q1 2024.** The small-order price index went from 100 to 112.4 by Q2 2026. An estimate built on a 2024 quote will come in about 12% low. Electrical panels are the worst at about +27%.
-2. **The big bulk discount starts at 5 units.** Compared to buying 1-2 units, the discount is 2.1% at 3-4 units, then jumps to 8.4% at 5-9 units and 11.2% at 10+. If an order is at 3 or 4 units, it is worth checking whether one more unit (or combining orders across sites) pays for itself.
-3. **The cheapest vendor is the least reliable.** Allied Commercial is 11.2% under typical price but only 67.8% on time, and about 17 days late when it is late. Harbor Restaurant Equipment is 96.6% on time at +0.9%. For critical-path items like walk-ins and hoods, the reliable vendor can cost less overall once a late opening is counted.
-4. **Plan to the p90, not the quote.** Walk-in coolers are quoted at 62 days, but 1 in 10 orders takes 80 days or more, 18 days past the quote.
+1. **Small-order prices are up 12.4% since Q1 2024.** The price index went from 100 to 112.4 by Q2 2026, so an estimate built on a 2024 quote will come in about 12% low. It depends a lot on the item: Electrical Panel prices rose the most (+27.1%), then Walk-in Coolers (+20.6%), while Induction Ranges barely moved (-0.4%).
+2. **The discount jumps 6.3 points at 5-9 units.** Compared to buying 1-2 units, the discount is 2.1% at 3-4 units, then 8.4% at 5-9 units and 11.2% at 10+. If an order is at 3 or 4 units, it is worth checking whether one more unit (or combining orders across sites) pays for itself.
+3. **Allied Commercial is cheapest (-11.2%) but only 67.8% on time.** When it is late, it is late by 16.8 days on average. Harbor Restaurant Equipment is 96.6% on time at +0.9%. For critical-path items like walk-ins and hoods, the reliable vendor can cost less overall once a late opening is counted.
+4. **Walk-in Coolers need 18 days of buffer past the quote.** They are quoted at 62 days, but 1 in 10 orders takes 80 days or more. Plan to the p90, not the quote.
 
-The dashboard has a category filter, and every number and finding updates for the selected category.
+### Using the dashboard
+
+- Pick a category from the dropdown, or click a bar in the "Price change by category" chart, and every number, chart title and finding updates for that category. Click the bar again to go back to all equipment.
+- Hover any chart for exact values. Hover a row in the vendor table to find that vendor's dot on the chart.
+- When one category is selected, the lead time chart shows each vendor instead of each category.
 
 ## How to run it
 
