@@ -1,127 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BOH Equipment Procurement</title>
+<meta name="description" content="Pricing trends, bulk-order thresholds, vendor reliability and lead times for back-of-house kitchen equipment, built on sample purchase-order data.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: spec-sheet dashboard. Header + filter bar, KPI strip, 2-col chart grid, full-width scorecard and pipeline. */
+/* Spec-sheet dashboard: header + filter, KPI cards, findings, 2-col chart grid, full-width sections. */
 :root {
   --bg: #f3f5f7;
   --panel: #ffffff;
   --ink: #18202a;
+  --ink-2: #3b4652;
   --muted: #5d6875;
-  --line: #d9dee4;
-  --grid: #e8ecf0;
+  --faint: #8a95a1;
+  --line: #dde2e7;
+  --grid: #edf0f3;
+  --bar: #c3cbd4;
   --accent: #2d5bba;
-  --accent-soft: #dfe7f7;
+  --accent-soft: #e4ebf8;
   --good: #1f7a4d;
   --warn: #a8670a;
   --bad: #b3322b;
   --good-bg: #e2f2e9;
   --warn-bg: #f8ecd6;
   --bad-bg: #f7e1df;
+  --shadow: 0 1px 2px rgba(24, 32, 42, 0.05);
   --f-display: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
   --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #11161c; --panel: #19212a; --ink: #e6ebf0; --muted: #98a3b0; --line: #2c3742; --grid: #232d37;
-    --accent: #7ea3f0; --accent-soft: #233456;
+    --bg: #11161c; --panel: #19212a; --ink: #e6ebf0; --ink-2: #c3ccd5; --muted: #98a3b0; --faint: #6f7b88;
+    --line: #2c3742; --grid: #222b34; --bar: #3c4856;
+    --accent: #7ea3f0; --accent-soft: #1f2d48;
     --good: #5fc896; --warn: #e3a54a; --bad: #ef7d74;
     --good-bg: #183327; --warn-bg: #3a2c15; --bad-bg: #3d1f1d;
+    --shadow: none;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #11161c; --panel: #19212a; --ink: #e6ebf0; --muted: #98a3b0; --line: #2c3742; --grid: #232d37;
-  --accent: #7ea3f0; --accent-soft: #233456;
+  --bg: #11161c; --panel: #19212a; --ink: #e6ebf0; --ink-2: #c3ccd5; --muted: #98a3b0; --faint: #6f7b88;
+  --line: #2c3742; --grid: #222b34; --bar: #3c4856;
+  --accent: #7ea3f0; --accent-soft: #1f2d48;
   --good: #5fc896; --warn: #e3a54a; --bad: #ef7d74;
   --good-bg: #183327; --warn-bg: #3a2c15; --bad-bg: #3d1f1d;
+  --shadow: none;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
-.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 48px; display: grid; gap: 20px; }
-h1, h2 { font-family: var(--f-display); text-wrap: balance; margin: 0; letter-spacing: 0.01em; }
-h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; line-height: 1.05; }
-h2 { font-size: 21px; font-weight: 600; }
-.eyebrow { font-family: var(--f-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-header { display: grid; gap: 8px; }
-header p { margin: 0; color: var(--muted); max-width: 70ch; }
-.note { font-size: 13px; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; overflow-x: hidden; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 32px 20px 48px; display: grid; gap: 24px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; letter-spacing: 0.005em; }
+h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 700; line-height: 1.02; }
+h2 { font-size: 22px; font-weight: 600; line-height: 1.15; }
+.eyebrow { font-family: var(--f-mono); font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); }
 
-.bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
-.bar label { font-family: var(--f-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-select { font: 500 15px var(--f-body); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; min-width: 220px; max-width: 100%; }
+/* Header */
+header { display: grid; gap: 10px; padding-bottom: 20px; border-bottom: 2px solid var(--ink); }
+header p { margin: 0; color: var(--ink-2); max-width: 68ch; }
+.note { font-size: 13px; color: var(--muted); border-left: 3px solid var(--accent); padding: 2px 0 2px 10px; max-width: 72ch; }
+
+/* Filter bar */
+.bar { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: flex-end; justify-content: space-between; }
+.bar .field { display: grid; gap: 6px; min-width: 0; }
+.bar label { font-family: var(--f-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); }
+select { font: 500 15px var(--f-body); color: var(--ink); background-color: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 9px 36px 9px 12px; min-width: 240px; max-width: 100%;
+  appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position: calc(100% - 17px) 55%, calc(100% - 12px) 55%; background-size: 5px 5px; background-repeat: no-repeat; box-shadow: var(--shadow); }
 select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.rows { font-family: var(--f-mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.rows b { color: var(--ink); font-weight: 500; }
 
-.kpis { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
-.kpi { padding: 16px 18px; display: grid; gap: 2px; border-left: 1px solid var(--line); min-width: 0; }
-.kpi:first-child { border-left: 0; }
-.kpi .v { font-family: var(--f-display); font-size: 32px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.1; }
-.kpi .s { font-size: 13px; color: var(--muted); }
+/* KPI cards */
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px 14px; display: grid; gap: 6px; align-content: start; min-width: 0; box-shadow: var(--shadow); }
+.kpi .v { font-family: var(--f-display); font-size: clamp(28px, 3.4vw, 36px); font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1; }
+.kpi .v small { font-size: 0.55em; font-weight: 500; color: var(--muted); margin-left: 3px; }
+.kpi .s { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 
-.findings { background: var(--accent-soft); border-radius: 8px; padding: 18px 20px; display: grid; gap: 10px; }
-.findings ol { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
-.findings li { max-width: 95ch; }
-.findings b { font-weight: 600; }
+/* Findings */
+.findings { display: grid; gap: 14px; }
+.findings-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.findings ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; counter-reset: f; }
+.findings li { counter-increment: f; background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; box-shadow: var(--shadow); }
+.findings li::before { content: "0" counter(f); font-family: var(--f-mono); font-size: 11px; color: var(--accent); font-weight: 500; }
+.findings h3 { font-size: 18px; font-weight: 600; line-height: 1.2; }
+.findings p { margin: 0; font-size: 14px; color: var(--ink-2); }
+.see { font-size: 13px; color: var(--accent); text-decoration: none; white-space: nowrap; font-weight: 500; }
+.see:hover { text-decoration: underline; }
 
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; display: grid; gap: 10px; align-content: start; min-width: 0; }
-.panel .sub { margin: 0; font-size: 13px; color: var(--muted); }
+/* Panels */
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px 22px; display: grid; gap: 14px; align-content: start; min-width: 0; box-shadow: var(--shadow); scroll-margin-top: 16px; }
+.panel-head { display: grid; gap: 6px; }
+.panel .sub { margin: 0; font-size: 13px; color: var(--muted); max-width: 80ch; }
 .full { grid-column: 1 / -1; }
-svg { display: block; width: 100%; height: auto; overflow: visible; }
-svg text { font-family: var(--f-mono); font-size: 11px; fill: var(--muted); }
-svg .lbl { fill: var(--ink); font-family: var(--f-body); font-size: 12px; }
+.chart { min-width: 0; }
+.scroll { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+svg { display: block; overflow: visible; }
+svg text { font-family: var(--f-mono); font-size: 11px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+svg .lbl { fill: var(--ink); font-family: var(--f-body); font-size: 12.5px; }
 svg .strong { fill: var(--ink); font-weight: 600; }
+svg .accent-t { fill: var(--accent); font-weight: 600; }
 .gridline { stroke: var(--grid); stroke-width: 1; }
 .axis { stroke: var(--line); stroke-width: 1; }
 
-.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; color: var(--muted); }
 .legend span { display: inline-flex; align-items: center; gap: 6px; }
 .sw { width: 14px; height: 8px; border-radius: 2px; display: inline-block; }
+.sw.dotsw { width: 9px; height: 9px; border-radius: 50%; }
 
-.tablewrap { overflow-x: auto; }
-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 640px; }
-th { text-align: left; font-family: var(--f-mono); font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); padding: 8px 10px; border-bottom: 1px solid var(--line); }
-td { padding: 10px; border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; }
+/* Table */
+table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 660px; }
+th { text-align: left; font-family: var(--f-mono); font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 10px; border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; white-space: nowrap; }
 td.num, th.num { text-align: right; }
+td.num { font-family: var(--f-mono); font-size: 13px; }
 tr:last-child td { border-bottom: 0; }
-.chip { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; }
+#vendors tbody tr { transition: background-color .12s; }
+#vendors tbody tr:hover, #vendors tbody tr.hl { background: var(--accent-soft); }
+.chip { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; line-height: 1.5; }
+.chip::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 .chip.good { background: var(--good-bg); color: var(--good); }
 .chip.warn { background: var(--warn-bg); color: var(--warn); }
 .chip.bad { background: var(--bad-bg); color: var(--bad); }
 
-.pipe { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: 10px; }
-.pipe li { border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; display: grid; gap: 4px; align-content: start; }
-.pipe .n { font-family: var(--f-display); font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.pipe .t { font-size: 13px; color: var(--muted); }
-.pipe li.end { background: var(--accent-soft); border-color: transparent; }
+/* Pipeline */
+.pipe { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+.pipe li { border: 1px solid var(--line); border-radius: 6px; padding: 12px; display: grid; gap: 4px; align-content: start; }
+.pipe .k { font-family: var(--f-mono); font-size: 10px; color: var(--faint); letter-spacing: 0.08em; }
+.pipe .n { font-family: var(--f-display); font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.pipe .t { font-family: var(--f-display); font-size: 16px; font-weight: 600; line-height: 1.2; }
+.pipe .d { font-size: 12px; color: var(--muted); }
+.pipe li.end { background: var(--accent); border-color: var(--accent); color: var(--panel); }
+.pipe li.end .k, .pipe li.end .d { color: var(--panel); opacity: 0.85; }
 
-footer { font-size: 13px; color: var(--muted); }
-.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 13px; line-height: 1.4; padding: 8px 10px; border-radius: 6px; max-width: 260px; box-shadow: 0 4px 14px rgba(0,0,0,.18); }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+
+/* Tooltip */
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 13px; line-height: 1.45; padding: 8px 10px; border-radius: 6px; max-width: 260px; box-shadow: 0 6px 18px rgba(0,0,0,.2); font-variant-numeric: tabular-nums; }
 .tip b { display: block; font-weight: 600; margin-bottom: 2px; }
+
+/* Interaction */
 .col .guide, .col .hdot { opacity: 0; }
 .col:hover .guide, .col:hover .hdot { opacity: 1; }
 [data-tip] { cursor: default; }
 .clickable { cursor: pointer; }
 .clickable:hover .barfill { fill: var(--accent); }
-.dot { transition: stroke-width .12s; }
+.clickable:focus { outline: none; }
+.clickable:focus-visible .barfill { stroke: var(--ink); stroke-width: 2; }
+.dot { transition: stroke-width .12s, stroke .12s; }
 .dot.hl, [data-tip]:hover > .dot { stroke: var(--ink); stroke-width: 3; }
-#vendors tbody tr:hover { background: var(--accent-soft); }
-.see { font-size: 13px; color: var(--accent); text-decoration: none; white-space: nowrap; }
-.see:hover { text-decoration: underline; }
-.kpi .s .chip { margin-left: 4px; }
-@media (prefers-reduced-motion: reduce) { .dot { transition: none; } }
 
-@media (max-width: 820px) {
-  .grid { grid-template-columns: 1fr; }
-  .kpis { grid-template-columns: 1fr 1fr; }
-  .kpi:nth-child(3) { border-left: 0; }
-  .kpi:nth-child(n+3) { border-top: 1px solid var(--line); }
+/* Load animation: only while .anim is on the wrapper (first load and filter changes, not resizes) */
+@keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes growY { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes growX { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.anim .a-line { stroke-dasharray: 1; animation: draw .9s cubic-bezier(.3,.7,.4,1) both; }
+.anim .a-fade { animation: fade .5s ease-out both; animation-delay: .35s; }
+.anim .a-y { transform-box: fill-box; transform-origin: 50% 100%; animation: growY .6s cubic-bezier(.3,.7,.4,1) both; animation-delay: calc(var(--i, 0) * 60ms); }
+.anim .a-x { transform-box: fill-box; transform-origin: 0 50%; animation: growX .6s cubic-bezier(.3,.7,.4,1) both; animation-delay: calc(var(--i, 0) * 35ms); }
+.anim .a-dot { animation: fade .5s ease-out both; animation-delay: calc(var(--i, 0) * 60ms); }
+.anim .kpi, .anim .findings li { animation: rise .45s ease-out both; animation-delay: calc(var(--i, 0) * 50ms); }
+@media (prefers-reduced-motion: reduce) {
+  .anim *, .anim .kpi, .anim .findings li { animation: none !important; }
+  .dot, #vendors tbody tr { transition: none; }
+}
+
+@media (max-width: 860px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .findings ol { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .wrap { padding: 22px 16px 36px; gap: 18px; }
+  .panel { padding: 16px; }
+  .kpi { padding: 14px; }
+  select { min-width: 0; width: 100%; }
+  .bar .field { width: 100%; }
 }
 </style>
-
-<div class="wrap">
+</head>
+<body>
+<div class="wrap" id="wrap">
   <header>
     <div class="eyebrow">Back of House · Equipment procurement · Jan 2024 to Jun 2026</div>
     <h1>BOH Equipment Procurement</h1>
@@ -130,59 +201,82 @@ footer { font-size: 13px; color: var(--muted); }
   </header>
 
   <div class="bar">
-    <div style="display:grid;gap:4px">
+    <div class="field">
       <label for="cat">Equipment category</label>
       <select id="cat"></select>
     </div>
-    <div class="eyebrow" id="rowsNote"></div>
+    <div class="rows" id="rowsNote"></div>
   </div>
 
-  <section class="kpis" id="kpis"></section>
+  <section class="kpis" id="kpis" aria-label="Key figures"></section>
 
   <section class="findings">
-    <h2>What this tells an estimator</h2>
+    <div class="findings-head"><h2>What this tells an estimator</h2><span class="eyebrow" id="scope"></span></div>
     <ol id="findings"></ol>
   </section>
 
   <div class="grid">
     <section class="panel" id="sec-trend">
-      <h2>Price trend</h2>
-      <p class="sub">Median unit price index for 1 to 2 unit orders (Q1 2024 = 100). Small orders only, so bulk discounts don't hide real price changes.</p>
-      <div id="trend"></div>
+      <div class="panel-head">
+        <span class="eyebrow">Price trend · 1 to 2 unit orders</span>
+        <h2 id="t-trend"></h2>
+        <p class="sub">Median unit price index, Q1 2024 = 100. Small orders only, so bulk discounts don't hide real price changes.</p>
+      </div>
+      <div class="chart" id="trend"></div>
     </section>
     <section class="panel" id="sec-bulk">
-      <h2>Bulk-order thresholds</h2>
-      <p class="sub">Median discount per unit compared with 1 to 2 unit orders in the same category and year.</p>
-      <div id="bulk"></div>
+      <div class="panel-head">
+        <span class="eyebrow">Bulk-order thresholds</span>
+        <h2 id="t-bulk"></h2>
+        <p class="sub">Median discount per unit compared with 1 to 2 unit orders in the same category and year.</p>
+      </div>
+      <div class="chart" id="bulk"></div>
     </section>
 
     <section class="panel full" id="sec-cats">
-      <h2>Price change by category</h2>
-      <p class="sub">How much small-order prices rose from Q1 2024 to Q2 2026. Click a bar to filter the whole dashboard to that category.</p>
-      <div id="cats"></div>
+      <div class="panel-head">
+        <span class="eyebrow">Price change by category · Q1 2024 to Q2 2026</span>
+        <h2 id="t-cats"></h2>
+        <p class="sub">Change in the small-order price index. Click a bar to filter the whole dashboard to that category, click it again to go back to all equipment.</p>
+      </div>
+      <div class="chart scroll" id="cats"></div>
     </section>
 
     <section class="panel full" id="sec-vendors">
-      <h2>Vendor reliability</h2>
-      <p class="sub">Each vendor plotted by price against on-time delivery. Top left is the best place to be: cheaper and reliable.</p>
-      <div id="scatter"></div>
-      <div class="tablewrap"><table id="vendors"></table></div>
+      <div class="panel-head">
+        <span class="eyebrow">Vendor reliability</span>
+        <h2 id="t-vendors"></h2>
+        <p class="sub">Each vendor by price against on-time delivery. Top left is the best place to be: cheaper and reliable. Dot size shows spend. Hover a table row to find its dot.</p>
+      </div>
+      <div class="legend">
+        <span><i class="sw dotsw" style="background:var(--good)"></i>Reliable (90% or more)</span>
+        <span><i class="sw dotsw" style="background:var(--warn)"></i>Watch (80 to 90%)</span>
+        <span><i class="sw dotsw" style="background:var(--bad)"></i>At risk (under 80%)</span>
+      </div>
+      <div class="chart scroll" id="scatter"></div>
+      <div class="scroll"><table id="vendors"></table></div>
     </section>
 
     <section class="panel full" id="sec-lead">
-      <h2>Lead times: quoted vs actual</h2>
-      <p class="sub">Days from order to delivery. The blue bar is the typical (median) order. The amber segment is the extra time between the vendor's quote and the slowest 10% of orders (p90): the buffer a schedule needs.</p>
+      <div class="panel-head">
+        <span class="eyebrow" id="e-lead">Lead times · quoted vs actual</span>
+        <h2 id="t-lead"></h2>
+        <p class="sub">Days from order to delivery, sorted by the slowest 10% (p90). The amber segment runs from the vendor's quote to the p90: the buffer a schedule needs.</p>
+      </div>
       <div class="legend">
         <span><i class="sw" style="background:var(--accent)"></i>Median actual</span>
-        <span><i class="sw" style="background:var(--warn)"></i>Buffer: quote to p90</span>
-        <span><i class="sw" style="background:var(--ink);width:3px;height:12px"></i>Vendor quote</span>
+        <span><i class="sw" style="background:var(--warn);height:5px"></i>Buffer: quote to p90</span>
+        <span><i class="sw" style="background:var(--ink);width:3px;height:13px;border-radius:1px"></i>Vendor quote (median)</span>
       </div>
-      <div id="lead"></div>
+      <div class="chart scroll" id="lead"></div>
     </section>
 
     <section class="panel full">
-      <h2>Data cleaning pipeline</h2>
-      <p class="sub">What the Python script fixed before any number above was calculated.</p>
+      <div class="panel-head">
+        <span class="eyebrow">Data cleaning pipeline · src/clean.py</span>
+        <h2 id="t-pipe"></h2>
+        <p class="sub">What the Python script fixed before any number above was calculated. Each card shows how many rows or values the step touched.</p>
+      </div>
       <ol class="pipe" id="pipe"></ol>
     </section>
   </div>
@@ -203,221 +297,305 @@ const DATA = {
   categories: RAW.categories.filter((c) => c !== "All equipment"),
   views: Object.fromEntries(Object.entries(RAW.views).map(([k, v]) => [k, {
     kpis: { pos: v.kpis.po_count, spend: v.kpis.total_spend, on_time: v.kpis.on_time_pct, median_lead: v.kpis.lead_median, p90_lead: v.kpis.lead_p90 },
-    trend: { quarters: v.price_trend.map((t) => t.quarter.replace(" ", "")), index: v.price_trend.map((t) => t.index), orders: v.price_trend.map((t) => t.orders) },
+    trend: { quarters: v.price_trend.map((t) => t.quarter), index: v.price_trend.map((t) => t.index), orders: v.price_trend.map((t) => t.orders) },
     bulk: v.bulk.map((b) => ({ band: b.band, discount: b.discount_pct, orders: b.orders })),
-    vendors: v.vendors.map((d) => ({ vendor: d.vendor, pos: d.pos, spend: d.spend, on_time: d.on_time_pct, avg_days_late: d.avg_days_late ?? 0, median_lead: d.median_lead, price_vs_ref: d.price_vs_ref_pct })),
-    lead: v.lead_times.map((r) => ({ category: r.name, quoted: r.quoted_median, median: r.actual_median, p90: r.actual_p90 })),
+    vendors: v.vendors.map((d) => ({ vendor: d.vendor, pos: d.pos, spend: d.spend, on_time: d.on_time_pct, avg_days_late: d.avg_days_late, median_lead: d.median_lead, price_vs_ref: d.price_vs_ref_pct })),
+    lead: v.lead_times.map((r) => ({ name: r.name, quoted: r.quoted_median, median: r.actual_median, p90: r.actual_p90, orders: r.orders })),
     findings: v.findings, jump_band: v.bulk_jump_band, lead_by: v.lead_by,
   }])),
 };
 
 const $ = (id) => document.getElementById(id);
 const money = (n) => n >= 1e6 ? "$" + (n / 1e6).toFixed(1) + "M" : "$" + Math.round(n / 1000) + "K";
-const pct = (n) => (n > 0 ? "+" : "") + n.toFixed(1) + "%";
+const pct = (n) => (n > 0 ? "+" : n < 0 ? "-" : "") + Math.abs(n).toFixed(1) + "%";
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const status = (ot) => ot >= 90 ? ["good", "Reliable"] : ot >= 80 ? ["warn", "Watch"] : ["bad", "At risk"];
+const qLabel = (q) => { const [y, qq] = q.split(" "); return `${qq} '${y.slice(2)}`; };
+const daysLate = (d) => d.avg_days_late == null ? "n/a" : d.avg_days_late.toFixed(1);
+// Charts are drawn at their real pixel width so text stays 11-12px at any screen size.
+const widthOf = (id, min) => Math.max(min, Math.floor($(id).clientWidth));
+const ALL = "All equipment";
 
 const sel = $("cat");
 Object.keys(DATA.views).forEach((k) => { const o = document.createElement("option"); o.value = k; o.textContent = k; sel.appendChild(o); });
-sel.addEventListener("change", () => render(sel.value));
+sel.addEventListener("change", () => render(sel.value, true));
 
 function kpis(v) {
   const k = v.kpis, [c, t] = status(k.on_time);
-  $("kpis").innerHTML = [
-    [k.pos.toLocaleString(), "purchase orders"],
-    [money(k.spend), "total spend"],
-    [k.on_time.toFixed(1) + "%", `on time vs 90% target <span class="chip ${c}">${t}</span>`],
-    [k.median_lead + " / " + k.p90_lead + " d", "lead time, median / slowest 10%"],
-  ].map(([a, b]) => `<div class="kpi"><span class="v">${a}</span><span class="s">${b}</span></div>`).join("");
+  const cards = [
+    ["Purchase orders", k.pos.toLocaleString(), "Jan 2024 to Jun 2026"],
+    ["Total spend", money(k.spend), "Qty x unit price"],
+    ["On-time delivery", k.on_time.toFixed(1) + "<small>%</small>", `<span class="chip ${c}">${t}</span> target 90%`],
+    ["Typical lead time", k.median_lead + "<small>days</small>", `1 in 10 orders takes ${k.p90_lead}+ days`],
+  ];
+  $("kpis").innerHTML = cards.map(([l, val, s], i) =>
+    `<div class="kpi" style="--i:${i}"><span class="eyebrow">${l}</span><span class="v">${val}</span><span class="s">${s}</span></div>`).join("");
 }
 
 function trend(v) {
-  const q = v.trend.quarters, y = v.trend.index;
-  const W = 520, H = 250, L = 40, R = 46, T = 14, B = 30;
-  let lo = Math.floor(Math.min(...y) / 5) * 5, hi = Math.ceil(Math.max(...y) / 5) * 5;
+  const q = v.trend.quarters, y = v.trend.index, n = y.length;
+  const W = widthOf("trend", 290), H = 250, L = 38, R = 54, T = 14, B = 30;
+  let lo = Math.min(100, Math.floor(Math.min(...y) / 5) * 5), hi = Math.ceil(Math.max(...y) / 5) * 5;
   if (hi - lo < 10) hi = lo + 10;
-  const xs = (i) => L + (i / (q.length - 1)) * (W - L - R);
+  const xs = (i) => L + (i / (n - 1)) * (W - L - R);
   const ys = (val) => T + (1 - (val - lo) / (hi - lo)) * (H - T - B);
+  const stepT = hi - lo > 25 ? 10 : 5;
   let g = "";
-  for (let t = lo; t <= hi; t += 5) g += `<line class="gridline" x1="${L}" x2="${W - R}" y1="${ys(t)}" y2="${ys(t)}"/><text x="${L - 6}" y="${ys(t) + 4}" text-anchor="end">${t}</text>`;
-  q.forEach((qq, i) => { if (i % 2 === 0) g += `<text x="${xs(i)}" y="${H - 8}" text-anchor="middle">${qq.replace("Q", " Q")}</text>`; });
-  const pts = y.map((val, i) => `${xs(i)},${ys(val)}`).join(" ");
-  const area = `M${xs(0)},${ys(lo)} L${pts.replace(/ /g, " L")} L${xs(y.length - 1)},${ys(lo)} Z`;
-  const last = y[y.length - 1];
-  const step = (W - L - R) / (q.length - 1);
+  for (let t = lo; t <= hi; t += stepT) g += `<line class="gridline" x1="${L}" x2="${W - R}" y1="${ys(t)}" y2="${ys(t)}"/><text x="${L - 8}" y="${ys(t) + 4}" text-anchor="end">${t}</text>`;
+  g += `<line class="axis" x1="${L}" x2="${W - R}" y1="${ys(lo)}" y2="${ys(lo)}"/>`;
+  const every = W < 440 ? 4 : 2;
+  q.forEach((qq, i) => { if ((n - 1 - i) % every === 0) g += `<text x="${xs(i)}" y="${H - 8}" text-anchor="middle">${qLabel(qq)}</text>`; });
+  const pts = y.map((val, i) => `${xs(i).toFixed(1)},${ys(val).toFixed(1)}`);
+  const area = `M${xs(0)},${ys(lo)} L${pts.join(" L")} L${xs(n - 1)},${ys(lo)} Z`;
+  const last = y[n - 1], chg = last - 100;
+  const step = (W - L - R) / (n - 1);
   let hits = "";
   y.forEach((val, i) => {
-    const chg = i ? val - y[i - 1] : 0;
-    hits += `<g class="col" data-tip="<b>${q[i].replace("Q", " Q")}</b>Index ${val.toFixed(1)}${i ? ` (${chg >= 0 ? "+" : ""}${chg.toFixed(1)} vs prior quarter)` : " (baseline)"}">
-      <line class="guide" x1="${xs(i)}" x2="${xs(i)}" y1="${T}" y2="${ys(lo)}" stroke="var(--muted)" stroke-dasharray="3 3"/>
+    const d = i ? val - y[i - 1] : 0;
+    hits += `<g class="col" data-tip="<b>${q[i]}</b>Index ${val.toFixed(1)}${i ? ` (${d >= 0 ? "+" : ""}${d.toFixed(1)} vs prior quarter)` : " (baseline)"}<br>${v.trend.orders[i]} small orders">
+      <line class="guide" x1="${xs(i)}" x2="${xs(i)}" y1="${T}" y2="${ys(lo)}" stroke="var(--faint)" stroke-dasharray="3 3"/>
       <circle class="hdot" cx="${xs(i)}" cy="${ys(val)}" r="5" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/>
       <rect x="${xs(i) - step / 2}" y="${T}" width="${step}" height="${H - T - B}" fill="transparent"/></g>`;
   });
-  $("trend").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Price index trend">${g}
-    <path d="${area}" fill="var(--accent-soft)" opacity="0.8"/>
-    <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
-    <circle cx="${xs(y.length - 1)}" cy="${ys(last)}" r="4.5" fill="var(--accent)"/>
-    <text class="strong" x="${xs(y.length - 1) + 8}" y="${ys(last) + 4}">${last.toFixed(1)}</text>${hits}</svg>`;
+  $("trend").innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Price index by quarter, ending at ${last.toFixed(1)}">${g}
+    <path class="a-fade" d="${area}" fill="var(--accent-soft)"/>
+    <polyline class="a-line" pathLength="1" points="${pts.join(" ")}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <g class="a-fade"><circle cx="${xs(n - 1)}" cy="${ys(last)}" r="5" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/>
+    <text class="strong" x="${xs(n - 1) + 9}" y="${ys(last) - 2}">${last.toFixed(1)}</text>
+    <text class="accent-t" x="${xs(n - 1) + 9}" y="${ys(last) + 12}">${pct(chg)}</text></g>${hits}</svg>`;
+  $("t-trend").textContent = `Small-order prices are ${chg >= 0 ? "up" : "down"} ${Math.abs(chg).toFixed(1)}% since Q1 2024`;
 }
 
 function bulk(v) {
   const b = v.bulk.filter((x) => x.discount !== null);
-  const W = 520, H = 250, L = 40, R = 10, T = 34, B = 44;
-  const max = Math.max(15, Math.ceil(Math.max(...b.map((x) => x.discount)) / 5) * 5);
+  const W = widthOf("bulk", 290), H = 250, L = 38, R = 8, T = 40, B = 46;
+  const max = Math.max(10, Math.ceil(Math.max(...b.map((x) => x.discount)) / 5) * 5);
   const bw = (W - L - R) / b.length;
   const ys = (val) => T + (1 - Math.max(0, val) / max) * (H - T - B);
-  let jump = 1, best = -Infinity;
-  for (let i = 1; i < b.length; i++) { const d = b[i].discount - b[i - 1].discount; if (d > best) { best = d; jump = i; } }
+  const jump = b.findIndex((x) => x.band === v.jump_band);
+  const best = jump > 0 ? b[jump].discount - b[jump - 1].discount : 0;
   let g = "";
-  for (let t = 0; t <= max; t += 5) g += `<line class="gridline" x1="${L}" x2="${W - R}" y1="${ys(t)}" y2="${ys(t)}"/><text x="${L - 6}" y="${ys(t) + 4}" text-anchor="end">${t}%</text>`;
+  for (let t = 0; t <= max; t += 5) g += `<line class="gridline" x1="${L}" x2="${W - R}" y1="${ys(t)}" y2="${ys(t)}"/><text x="${L - 8}" y="${ys(t) + 4}" text-anchor="end">${t}%</text>`;
   const cx = [];
   b.forEach((x, i) => {
-    const x0 = L + i * bw + bw * 0.2, w = bw * 0.6, d = Math.max(0, x.discount);
+    const w = Math.min(72, bw * 0.6), x0 = L + i * bw + (bw - w) / 2, d = Math.max(0, x.discount);
     cx.push({ mid: x0 + w / 2, top: ys(d) });
-    const fill = i >= jump && b.length > 1 ? "var(--accent)" : "var(--line)";
+    const on = jump > 0 && i >= jump;
+    const h = Math.max(1.5, ys(0) - ys(d)), r = Math.min(4, h);
+    const yt = ys(0) - h, x1 = x0 + w;
     g += `<g data-tip="<b>${x.band} units</b>${d.toFixed(1)}% below small-order price<br>${x.orders} purchase orders">
-      <rect x="${x0}" y="${ys(d)}" width="${w}" height="${Math.max(1, ys(0) - ys(d))}" rx="4" fill="${fill}"/>
-      <rect x="${L + i * bw}" y="${T}" width="${bw}" height="${H - T - B}" fill="transparent"/></g>
-      <text class="strong" x="${x0 + w / 2}" y="${ys(d) - 6}" text-anchor="middle">${d.toFixed(1)}%</text>
-      <text class="lbl" x="${x0 + w / 2}" y="${H - 24}" text-anchor="middle">${x.band} units</text>
-      <text x="${x0 + w / 2}" y="${H - 8}" text-anchor="middle">${x.orders} POs</text>`;
+      <path class="a-y" style="--i:${i}" d="M${x0},${ys(0)}V${yt + r}Q${x0},${yt} ${x0 + r},${yt}H${x1 - r}Q${x1},${yt} ${x1},${yt + r}V${ys(0)}Z" fill="${on ? "var(--accent)" : "var(--bar)"}"/>
+      <rect x="${L + i * bw}" y="${T - 30}" width="${bw}" height="${H - T - B + 30}" fill="transparent"/></g>
+      <text class="a-fade ${on ? "accent-t" : "strong"}" x="${x0 + w / 2}" y="${yt - 7}" text-anchor="middle">${d.toFixed(1)}%</text>
+      <text class="lbl" x="${x0 + w / 2}" y="${H - 26}" text-anchor="middle">${x.band} units</text>
+      <text x="${x0 + w / 2}" y="${H - 10}" text-anchor="middle">${x.orders} POs</text>`;
   });
-  if (b.length > 1 && best > 0) {
-    const a = cx[jump - 1], c = cx[jump], yTop = Math.min(a.top, c.top) - 24;
-    g += `<path d="M${a.mid},${a.top - 18} L${a.mid},${yTop} L${c.mid},${yTop} L${c.mid},${c.top - 18}" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
-      <text class="strong" x="${(a.mid + c.mid) / 2}" y="${yTop - 6}" text-anchor="middle">+${best.toFixed(1)} pts jump</text>`;
+  g += `<line class="axis" x1="${L}" x2="${W - R}" y1="${ys(0)}" y2="${ys(0)}"/>`;
+  if (jump > 0 && best > 0) {
+    const a = cx[jump - 1], c = cx[jump], yTop = Math.min(a.top, c.top) - 26;
+    g += `<g class="a-fade"><path d="M${a.mid},${a.top - 20} V${yTop} H${c.mid} V${c.top - 20}" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+      <text class="strong" x="${(a.mid + c.mid) / 2}" y="${yTop - 7}" text-anchor="middle">+${best.toFixed(1)} pts jump</text></g>`;
   }
-  $("bulk").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Bulk discount by order size">${g}<line class="axis" x1="${L}" x2="${W - R}" y1="${ys(0)}" y2="${ys(0)}"/></svg>`;
-  return { band: b[jump], prev: b[jump - 1] };
+  $("bulk").innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Bulk discount by order size">${g}</svg>`;
+  $("t-bulk").textContent = jump > 0 ? `The discount jumps ${best.toFixed(1)} pts at ${b[jump].band} units` : "This item is almost always bought 1 to 2 at a time";
 }
 
 function cats(key) {
   const rows = DATA.categories.map((c) => { const y = DATA.views[c].trend.index; return { c, chg: y[y.length - 1] - 100 }; }).sort((a, b) => b.chg - a.chg);
-  const W = 1100, rowH = 28, L = 190, R = 70, T = 6, B = 6;
+  const W = widthOf("cats", 300), rowH = 30, L = W < 500 ? 150 : 176, R = 60, T = 4, B = 4;
   const H = T + rows.length * rowH + B;
   const max = Math.ceil(Math.max(...rows.map((r) => r.chg), 5) / 5) * 5;
   const min = Math.min(0, Math.floor(Math.min(...rows.map((r) => r.chg)) / 5) * 5);
   const xs = (d) => L + (d - min) / (max - min) * (W - L - R);
+  const focus = key === ALL ? rows[0].c : key;
   let g = "";
   rows.forEach((r, i) => {
-    const y = T + i * rowH + rowH / 2, on = r.c === key, x0 = xs(Math.min(0, r.chg)), x1 = xs(Math.max(0, r.chg));
-    g += `<g class="clickable" data-cat="${esc(r.c)}" data-tip="<b>${esc(r.c)}</b>Small-order price ${r.chg >= 0 ? "up" : "down"} ${Math.abs(r.chg).toFixed(1)}% since Q1 2024<br>Click to filter">
+    const y = T + i * rowH + rowH / 2, on = r.c === focus, x0 = xs(Math.min(0, r.chg)), x1 = xs(Math.max(0, r.chg));
+    g += `<g class="clickable" tabindex="0" role="button" aria-label="Filter to ${esc(r.c)}" data-cat="${esc(r.c)}" data-tip="<b>${esc(r.c)}</b>Small-order price ${r.chg >= 0 ? "up" : "down"} ${Math.abs(r.chg).toFixed(1)}% since Q1 2024<br>${r.c === key ? "Click to show all equipment" : "Click to filter"}">
       <rect x="0" y="${y - rowH / 2}" width="${W}" height="${rowH}" fill="transparent"/>
       <text class="lbl${on ? " strong" : ""}" x="${L - 12}" y="${y + 4}" text-anchor="end">${esc(r.c)}</text>
-      <rect class="barfill" x="${x0}" y="${y - 8}" width="${Math.max(2, x1 - x0)}" height="16" rx="3" fill="${on ? "var(--accent)" : "var(--line)"}"/>
-      <text class="strong" x="${x1 + 8}" y="${y + 4}">${pct(r.chg)}</text></g>`;
+      <rect class="barfill a-x" style="--i:${i}" x="${x0}" y="${y - 8}" width="${Math.max(2, x1 - x0)}" height="16" rx="3" fill="${on ? "var(--accent)" : "var(--bar)"}"/>
+      <text class="a-fade ${on ? "accent-t" : "strong"}" x="${x1 + 8}" y="${y + 4}">${pct(r.chg)}</text></g>`;
   });
   g += `<line class="axis" x1="${xs(0)}" x2="${xs(0)}" y1="${T}" y2="${H - B}"/>`;
-  $("cats").innerHTML = `<div class="tablewrap"><svg viewBox="0 0 ${W} ${H}" style="min-width:640px" role="img" aria-label="Price change by category">${g}</svg></div>`;
+  $("cats").innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Price change by category">${g}</svg>`;
+  const f = rows.find((r) => r.c === focus), rank = rows.indexOf(f) + 1;
+  $("t-cats").textContent = key === ALL
+    ? `${rows[0].c} prices rose the most: ${pct(rows[0].chg)}`
+    : `${key}: ${pct(f.chg)}, ${rank === 1 ? "the biggest rise" : `#${rank} of ${rows.length}`}`;
+}
+
+// Place each label next to its dot without hitting other labels, dots, or fixed text.
+function placeLabels(points, obstacles, bounds) {
+  const out = [], boxes = [...obstacles];
+  const hitBox = (a, b) => a.x0 < b.x1 && a.x1 > b.x0 && a.y0 < b.y1 && a.y1 > b.y0;
+  const hitDot = (b, p) => {
+    const nx = Math.max(b.x0, Math.min(p.cx, b.x1)), ny = Math.max(b.y0, Math.min(p.cy, b.y1));
+    return (nx - p.cx) ** 2 + (ny - p.cy) ** 2 < (p.r + 2) ** 2;
+  };
+  [...points].sort((a, b) => a.cy - b.cy).forEach((p) => {
+    const w = p.text.length * 7 + 2, h = 14, gap = p.r + 6;
+    const opts = [
+      { x: p.cx + gap, y: p.cy + 4, a: "start" }, { x: p.cx - gap, y: p.cy + 4, a: "end" },
+      { x: p.cx, y: p.cy - gap - 2, a: "middle" }, { x: p.cx, y: p.cy + gap + 11, a: "middle" },
+      { x: p.cx + gap - 4, y: p.cy - gap, a: "start" }, { x: p.cx - gap + 4, y: p.cy - gap, a: "end" },
+      { x: p.cx + gap - 4, y: p.cy + gap + 8, a: "start" }, { x: p.cx - gap + 4, y: p.cy + gap + 8, a: "end" },
+    ];
+    const box = (o) => { const x0 = o.a === "start" ? o.x : o.a === "end" ? o.x - w : o.x - w / 2; return { x0, x1: x0 + w, y0: o.y - 11, y1: o.y - 11 + h }; };
+    const inside = (b) => b.x0 >= bounds.x0 && b.x1 <= bounds.x1 && b.y0 >= bounds.y0 && b.y1 <= bounds.y1;
+    const ok = (o) => { const b = box(o); return inside(b) && !boxes.some((q) => hitBox(b, q)) && !points.some((q) => hitDot(b, q)); };
+    const pick = opts.find(ok) || opts.find((o) => inside(box(o)) && !boxes.some((q) => hitBox(box(o), q))) || opts[0];
+    boxes.push(box(pick));
+    out.push({ p, ...pick });
+  });
+  return out;
 }
 
 function scatter(v) {
   const vs = v.vendors;
-  const W = 1100, H = 320, L = 54, R = 30, T = 16, B = 40;
+  const W = widthOf("scatter", 600), H = 340, L = 50, R = 20, T = 14, B = 44;
   const xv = vs.map((d) => d.price_vs_ref), yv = vs.map((d) => d.on_time);
-  const x0 = Math.floor((Math.min(...xv) - 2) / 5) * 5, x1 = Math.max(5, Math.ceil((Math.max(...xv) + 2) / 5) * 5);
-  const y0 = Math.max(0, Math.floor((Math.min(...yv) - 5) / 10) * 10), y1 = 100;
+  const x0 = Math.min(-5, Math.floor((Math.min(...xv) - 2) / 5) * 5), x1 = Math.max(5, Math.ceil((Math.max(...xv) + 2) / 5) * 5);
+  const y0 = Math.max(0, Math.min(70, Math.floor((Math.min(...yv) - 5) / 10) * 10)), y1 = 106;  // headroom so 100% dots and labels aren't clipped
   const xs = (val) => L + (val - x0) / (x1 - x0) * (W - L - R);
   const ys = (val) => T + (1 - (val - y0) / (y1 - y0)) * (H - T - B);
+  const obstacles = [];
   let g = "";
-  // good zone: cheaper than typical AND >= 90% on time
-  if (x0 < 0) g += `<rect x="${xs(x0)}" y="${ys(100)}" width="${xs(0) - xs(x0)}" height="${ys(90) - ys(100)}" fill="var(--good-bg)"/>
-    <text x="${xs(x0) + 8}" y="${ys(100) + 14}" style="fill:var(--good)">CHEAPER AND RELIABLE</text>`;
-  if (x0 < 0 && y0 < 80) g += `<text x="${xs(x0) + 8}" y="${ys(y0) - 8}" style="fill:var(--bad)">CHEAPER BUT LATE</text>`;
-  for (let t = y0; t <= y1; t += 10) g += `<line class="gridline" x1="${L}" x2="${W - R}" y1="${ys(t)}" y2="${ys(t)}"/><text x="${L - 8}" y="${ys(t) + 4}" text-anchor="end">${t}%</text>`;
-  for (let t = x0; t <= x1; t += 5) g += `<text x="${xs(t)}" y="${H - 18}" text-anchor="middle">${t > 0 ? "+" : ""}${t}%</text>`;
-  if (x0 < 0 && x1 > 0) g += `<line class="axis" x1="${xs(0)}" x2="${xs(0)}" y1="${T}" y2="${H - B}" stroke-dasharray="4 4"/>`;
-  g += `<text x="${(L + W - R) / 2}" y="${H - 2}" text-anchor="middle">price vs typical small-order price  (left = cheaper)</text>`;
-  g += `<line class="axis" x1="${L}" x2="${W - R}" y1="${ys(90)}" y2="${ys(90)}" stroke-dasharray="2 4"/><text x="${W - R}" y="${ys(90) + 14}" text-anchor="end">90% on-time target</text>`;
-  const placed = [];
-  vs.forEach((d, i) => {
-    const cx = xs(d.price_vs_ref), cy = ys(d.on_time), [cls, st] = status(d.on_time);
-    let ly = cy + 4; const near = placed.filter((p) => Math.abs(p.x - cx) < 170 && Math.abs(p.y - ly) < 16);
-    if (near.length) ly += 16 * near.length;
-    placed.push({ x: cx, y: ly });
-    g += `<g data-tip="<b>${esc(d.vendor)}</b>${st}: ${d.on_time.toFixed(1)}% on time<br>${d.avg_days_late.toFixed(1)} days late on average when late<br>Price ${pct(d.price_vs_ref)} vs typical<br>${d.pos} POs, ${money(d.spend)} spend">
-      <circle class="dot" id="dot${i}" cx="${cx}" cy="${cy}" r="${6 + Math.sqrt(d.spend) / 900}" fill="var(--${cls})" fill-opacity="0.85" stroke="var(--panel)" stroke-width="2"/>
-      <circle cx="${cx}" cy="${cy}" r="18" fill="transparent"/></g>
-      <text class="lbl" x="${cx + 16}" y="${ly}">${esc(d.vendor)}</text>`;
+  g += `<rect x="${xs(x0)}" y="${ys(100)}" width="${xs(0) - xs(x0)}" height="${ys(90) - ys(100)}" fill="var(--good-bg)"/>
+    <text x="${xs(x0) + 8}" y="${ys(100) + 15}" style="fill:var(--good);font-weight:500">CHEAPER AND RELIABLE</text>`;
+  obstacles.push({ x0: xs(x0), x1: xs(x0) + 170, y0: ys(100), y1: ys(100) + 20 });
+  for (let t = y0; t <= 100; t += 10) g += `<line class="gridline" x1="${L}" x2="${W - R}" y1="${ys(t)}" y2="${ys(t)}"/><text x="${L - 8}" y="${ys(t) + 4}" text-anchor="end">${t}%</text>`;
+  for (let t = x0; t <= x1; t += 5) g += `<text x="${xs(t)}" y="${H - 24}" text-anchor="middle">${t > 0 ? "+" : ""}${t}%</text>`;
+  if (y0 < 80) {
+    g += `<text x="${xs(x0) + 8}" y="${ys(y0) - 8}" style="fill:var(--bad);font-weight:500">CHEAPER BUT LATE</text>`;
+    obstacles.push({ x0: xs(x0), x1: xs(x0) + 130, y0: ys(y0) - 22, y1: ys(y0) });
+  }
+  g += `<line class="axis" x1="${xs(0)}" x2="${xs(0)}" y1="${T}" y2="${H - B}" stroke-dasharray="4 4"/>`;
+  g += `<line class="axis" x1="${L}" x2="${W - R}" y1="${ys(y0)}" y2="${ys(y0)}"/>`;
+  g += `<text x="${L}" y="${H - 4}">Cheaper</text><text x="${W - R}" y="${H - 4}" text-anchor="end">Pricier</text>
+    <text x="${(L + W - R) / 2}" y="${H - 4}" text-anchor="middle">price vs typical small-order price</text>`;
+  g += `<line x1="${L}" x2="${W - R}" y1="${ys(90)}" y2="${ys(90)}" stroke="var(--faint)" stroke-dasharray="2 4"/><text x="${W - R - 4}" y="${ys(90) + 15}" text-anchor="end">90% on-time target</text>`;
+  obstacles.push({ x0: W - R - 140, x1: W - R, y0: ys(90) + 3, y1: ys(90) + 19 });
+
+  const maxSpend = Math.max(...vs.map((d) => d.spend));
+  const pts = vs.map((d, i) => ({ d, i, cx: xs(d.price_vs_ref), cy: ys(d.on_time), r: 7 + 9 * Math.sqrt(d.spend / maxSpend), text: d.vendor }));
+  [...pts].sort((a, b) => b.r - a.r).forEach((p) => {
+    const [cls, st] = status(p.d.on_time);
+    g += `<g class="a-dot" style="--i:${p.i}" data-vendor="${p.i}" data-tip="<b>${esc(p.d.vendor)}</b>${st}: ${p.d.on_time.toFixed(1)}% on time<br>${daysLate(p.d)} days late on average when late<br>Price ${pct(p.d.price_vs_ref)} vs typical<br>${p.d.pos} POs, ${money(p.d.spend)} spend">
+      <circle class="dot" id="dot${p.i}" cx="${p.cx}" cy="${p.cy}" r="${p.r}" fill="var(--${cls})" fill-opacity="0.9" stroke="var(--panel)" stroke-width="2"/>
+      <circle cx="${p.cx}" cy="${p.cy}" r="${Math.max(18, p.r + 4)}" fill="transparent"/></g>`;
   });
-  $("scatter").innerHTML = `<div class="tablewrap"><svg viewBox="0 0 ${W} ${H}" style="min-width:640px" role="img" aria-label="Vendor price vs on-time delivery">${g}</svg></div>`;
+  placeLabels(pts, obstacles, { x0: 2, x1: W - 2, y0: 0, y1: H - B }).forEach((l) => {
+    g += `<text class="lbl a-fade" x="${l.x}" y="${l.y}" text-anchor="${l.a}">${esc(l.p.text)}</text>`;
+  });
+  $("scatter").innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Vendor price vs on-time delivery">${g}</svg>`;
 
   $("vendors").innerHTML = `<thead><tr><th>Vendor</th><th>Status</th><th class="num">POs</th><th class="num">On time</th><th class="num">Avg days late (when late)</th><th class="num">Median lead</th><th class="num">Price vs typical</th></tr></thead><tbody>` +
-    vs.map((d, i) => { const [c, t] = status(d.on_time); return `<tr data-dot="dot${i}"><td>${esc(d.vendor)}</td><td><span class="chip ${c}">${t}</span></td><td class="num">${d.pos}</td><td class="num">${d.on_time.toFixed(1)}%</td><td class="num">${d.avg_days_late.toFixed(1)}</td><td class="num">${d.median_lead} d</td><td class="num">${pct(d.price_vs_ref)}</td></tr>`; }).join("") + `</tbody>`;
+    vs.map((d, i) => { const [c, t] = status(d.on_time); return `<tr data-dot="dot${i}" id="row${i}"><td>${esc(d.vendor)}</td><td><span class="chip ${c}">${t}</span></td><td class="num">${d.pos}</td><td class="num">${d.on_time.toFixed(1)}%</td><td class="num">${daysLate(d)}</td><td class="num">${d.median_lead} d</td><td class="num">${pct(d.price_vs_ref)}</td></tr>`; }).join("") + `</tbody>`;
+
+  const cheap = [...vs].sort((a, b) => a.price_vs_ref - b.price_vs_ref)[0], rel = vs[0];
+  $("t-vendors").textContent = cheap.vendor === rel.vendor
+    ? `${cheap.vendor} is both the cheapest and the most reliable here`
+    : `${cheap.vendor} is cheapest (${pct(cheap.price_vs_ref)}) but only ${cheap.on_time.toFixed(1)}% on time`;
 }
 
 function lead(v) {
-  const rows = v.lead;
-  const W = 1100, rowH = 30, L = 190, R = 110, T = 10, B = 28;
+  const rows = v.lead, byVendor = v.lead_by === "Vendor";
+  const W = widthOf("lead", 600), rowH = 32, L = byVendor ? 200 : 176, R = 130, T = 6, B = 26;
   const H = T + rows.length * rowH + B;
   const max = Math.ceil(Math.max(...rows.map((r) => r.p90)) / 10) * 10;
   const xs = (d) => L + d / max * (W - L - R);
   let g = "";
-  for (let t = 0; t <= max; t += 10) g += `<line class="gridline" x1="${xs(t)}" x2="${xs(t)}" y1="${T}" y2="${H - B}"/><text x="${xs(t)}" y="${H - 8}" text-anchor="middle">${t}d</text>`;
+  for (let t = 0; t <= max; t += 10) g += `<line class="gridline" x1="${xs(t)}" x2="${xs(t)}" y1="${T}" y2="${H - B}"/><text x="${xs(t)}" y="${H - 6}" text-anchor="middle">${t}d</text>`;
+  const worst = [...rows].sort((a, b) => (b.p90 - b.quoted) - (a.p90 - a.quoted))[0];
   rows.forEach((r, i) => {
-    const y = T + i * rowH + rowH / 2, buf = r.p90 - r.quoted;
-    g += `<g data-tip="<b>${esc(r.category)}</b>Quoted: ${r.quoted} days<br>Typical actual: ${r.median} days<br>Slowest 10%: ${r.p90}+ days<br>Plan a ${Math.max(0, buf)}-day buffer">
-      <rect x="0" y="${y - rowH / 2}" width="${W}" height="${rowH}" fill="transparent"/>
-      <text class="lbl" x="${L - 12}" y="${y + 4}" text-anchor="end">${esc(r.category)}</text>
-      <rect x="${xs(0)}" y="${y - 7}" width="${xs(r.median) - xs(0)}" height="14" rx="2" fill="var(--accent)"/>
-      ${buf > 0 ? `<rect x="${xs(r.quoted)}" y="${y - 3}" width="${xs(r.p90) - xs(r.quoted)}" height="6" rx="3" fill="var(--warn)"/>` : ""}
+    const y = T + i * rowH + rowH / 2, buf = r.p90 - r.quoted, hl = r === worst;
+    g += `<g data-tip="<b>${esc(r.name)}</b>Quoted: ${r.quoted} days<br>Typical actual: ${r.median} days<br>Slowest 10%: ${r.p90}+ days<br>Plan a ${Math.max(0, buf)}-day buffer<br>${r.orders} POs">
+      <rect x="0" y="${y - rowH / 2}" width="${W}" height="${rowH}" rx="4" fill="${hl ? "var(--warn-bg)" : "transparent"}"/>
+      <text class="lbl${hl ? " strong" : ""}" x="${L - 12}" y="${y + 4}" text-anchor="end">${esc(r.name)}</text>
+      <rect class="a-x" style="--i:${i}" x="${xs(0)}" y="${y - 7}" width="${xs(r.median) - xs(0)}" height="14" rx="2" fill="var(--accent)"/>
+      <g class="a-fade">${buf > 0 ? `<rect x="${xs(r.quoted)}" y="${y - 2.5}" width="${xs(r.p90) - xs(r.quoted)}" height="5" rx="2.5" fill="var(--warn)"/>` : ""}
       <line x1="${xs(r.quoted)}" x2="${xs(r.quoted)}" y1="${y - 10}" y2="${y + 10}" stroke="var(--ink)" stroke-width="3"/>
       <text class="strong" x="${xs(r.p90) + 8}" y="${y + 4}">${r.p90}d</text>
-      ${buf > 0 ? `<text x="${xs(r.p90) + 40}" y="${y + 4}">+${buf}d buffer</text>` : ""}</g>`;
+      ${buf > 0 ? `<text x="${xs(r.p90) + 44}" y="${y + 4}" ${hl ? 'style="fill:var(--warn);font-weight:600"' : ""}>+${buf}d buffer</text>` : ""}</g></g>`;
   });
-  $("lead").innerHTML = `<div class="tablewrap"><svg viewBox="0 0 ${W} ${H}" style="min-width:640px" role="img" aria-label="Lead time by category">${g}</svg></div>`;
+  $("lead").innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Lead time by ${byVendor ? "vendor" : "category"}">${g}</svg>`;
+  $("e-lead").textContent = byVendor ? "Lead times by vendor · quoted vs actual" : "Lead times by category · quoted vs actual";
+  $("t-lead").textContent = `${worst.name} needs ${worst.p90 - worst.quoted} days of buffer past the quote`;
 }
 
-function findings(v, bk) {
-  const f = [];
-  const see = (id) => ` <a class="see" href="#${id}">See chart ↓</a>`;
-  const y = v.trend.index, q = v.trend.quarters;
-  f.push(`<b>Prices are up ${(y[y.length - 1] - 100).toFixed(1)}%</b> on small orders from ${q[0].replace("Q", " Q")} to ${q[q.length - 1].replace("Q", " Q")}. Estimates built on 2024 quotes will come in low.${see("sec-trend")}`);
-  if (bk.band && bk.prev) f.push(`<b>The discount steps up at ${bk.band.band} units</b> (${Math.max(0, bk.band.discount).toFixed(1)}% off vs ${Math.max(0, bk.prev.discount).toFixed(1)}% at ${bk.prev.band}). When a build-out needs just under that, compare the cost of one extra unit with the savings it unlocks, or combine orders across sites.${see("sec-bulk")}`);
-  const vs = v.vendors;
-  if (vs.length > 1) {
-    const cheap = [...vs].sort((a, b) => a.price_vs_ref - b.price_vs_ref)[0];
-    const rel = vs[0];
-    if (cheap.vendor !== rel.vendor) f.push(`<b>Cheapest is not always cheapest.</b> ${esc(cheap.vendor)} prices ${Math.abs(cheap.price_vs_ref).toFixed(1)}% under typical but delivers on time only ${cheap.on_time.toFixed(1)}% of the time (${cheap.avg_days_late.toFixed(1)} days late on average when late). ${esc(rel.vendor)} is on time ${rel.on_time.toFixed(1)}% at ${pct(rel.price_vs_ref)}. For items on a site's critical path, the reliable vendor may cost less overall.${see("sec-vendors")}`);
-  }
-  const worst = [...v.lead].sort((a, b) => (b.p90 - b.quoted) - (a.p90 - a.quoted))[0];
-  if (worst) f.push(`<b>Plan to the p90, not the quote.</b> ${esc(worst.category)} is quoted at ${worst.quoted} days, but 1 in 10 orders takes ${worst.p90}+ days. That ${worst.p90 - worst.quoted}-day gap is the buffer an opening schedule needs.${see("sec-lead")}`);
-  $("findings").innerHTML = f.map((x) => `<li>${x}</li>`).join("");
+function findings(v, key) {
+  const links = ["sec-trend", "sec-bulk", "sec-vendors", "sec-lead"];
+  $("scope").textContent = key;
+  $("findings").innerHTML = v.findings.map((f, i) => {
+    let body = f.body;
+    if (body.endsWith(f.title + ".")) body = body.slice(0, -(f.title.length + 1)).trim();  // don't repeat the title
+    return `<li style="--i:${i}"><h3>${esc(f.title)}</h3><p>${esc(body)} <a class="see" href="#${links[i]}">See chart ↓</a></p></li>`;
+  }).join("");
 }
 
-// shared tooltip
+function pipe() {
+  const n = DATA.log.length;
+  $("pipe").innerHTML = DATA.log.map((s, i) => `<li class="${i === n - 1 ? "end" : ""}"><span class="k">STEP ${String(i + 1).padStart(2, "0")}</span><span class="n">${s.value.toLocaleString()}</span><span class="t">${esc(s.step)}</span><span class="d">${esc(s.note)}</span></li>`).join("");
+  $("t-pipe").textContent = `${DATA.raw_rows.toLocaleString()} messy rows in, ${DATA.clean_rows.toLocaleString()} clean rows out`;
+}
+
+// Shared tooltip (mouse and touch)
 const tip = $("tip");
-document.addEventListener("mousemove", (e) => {
-  const el = e.target.closest && e.target.closest("[data-tip]");
-  if (!el) { tip.hidden = true; return; }
+function showTip(el, x, y) {
   tip.innerHTML = el.getAttribute("data-tip");
   tip.hidden = false;
   const w = tip.offsetWidth, h = tip.offsetHeight;
-  let x = e.clientX + 14, y = e.clientY + 14;
-  if (x + w > innerWidth - 8) x = e.clientX - w - 14;
-  if (y + h > innerHeight - 8) y = e.clientY - h - 14;
-  tip.style.left = x + "px"; tip.style.top = y + "px";
+  let tx = x + 14, ty = y + 14;
+  if (tx + w > innerWidth - 8) tx = x - w - 14;
+  if (ty + h > innerHeight - 8) ty = y - h - 14;
+  tip.style.left = Math.max(8, tx) + "px"; tip.style.top = Math.max(8, ty) + "px";
+}
+document.addEventListener("mousemove", (e) => {
+  const el = e.target.closest && e.target.closest("[data-tip]");
+  if (!el) { tip.hidden = true; return; }
+  showTip(el, e.clientX, e.clientY);
 });
+document.addEventListener("touchstart", (e) => {
+  const el = e.target.closest && e.target.closest("[data-tip]");
+  if (el) showTip(el, e.touches[0].clientX, e.touches[0].clientY); else tip.hidden = true;
+}, { passive: true });
 document.addEventListener("scroll", () => { tip.hidden = true; }, { passive: true });
-document.addEventListener("click", (e) => {
-  const g = e.target.closest && e.target.closest("[data-cat]");
-  if (g) { const c = g.getAttribute("data-cat"); sel.value = sel.value === c ? "All equipment" : c; render(sel.value); }
-});
+
+// Click (or Enter) on a category bar filters the dashboard; again returns to all equipment
+function pickCat(g) {
+  const c = g.getAttribute("data-cat");
+  sel.value = sel.value === c ? ALL : c;
+  tip.hidden = true;
+  render(sel.value, true);
+}
+document.addEventListener("click", (e) => { const g = e.target.closest && e.target.closest("[data-cat]"); if (g) pickCat(g); });
+document.addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches("[data-cat]")) { e.preventDefault(); pickCat(e.target); } });
+
+// Table row <-> scatter dot highlighting
 document.addEventListener("mouseover", (e) => {
+  document.querySelectorAll(".dot.hl, #vendors tr.hl").forEach((d) => d.classList.remove("hl"));
   const tr = e.target.closest && e.target.closest("tr[data-dot]");
-  document.querySelectorAll(".dot.hl").forEach((d) => d.classList.remove("hl"));
-  if (tr) { const d = document.getElementById(tr.getAttribute("data-dot")); if (d) d.classList.add("hl"); }
+  if (tr) { const d = document.getElementById(tr.getAttribute("data-dot")); if (d) d.classList.add("hl"); return; }
+  const g = e.target.closest && e.target.closest("[data-vendor]");
+  if (g) { const r = document.getElementById("row" + g.getAttribute("data-vendor")); if (r) r.classList.add("hl"); }
 });
 
-function pipe() {
-  $("pipe").innerHTML = DATA.log.map((s, i) => `<li class="${i === DATA.log.length - 1 ? "end" : ""}"><span class="n">${s.rows.toLocaleString()}</span><span class="t">${esc(s.step)}</span></li>`).join("");
-}
-
-function render(key) {
+const wrap = $("wrap");
+function render(key, animate) {
   const v = DATA.views[key];
-  $("rowsNote").textContent = `${DATA.raw_rows.toLocaleString()} raw rows → ${DATA.clean_rows.toLocaleString()} clean`;
-  kpis(v); trend(v); const bk = bulk(v); cats(key); scatter(v); lead(v); findings(v, bk);
+  if (animate) { wrap.classList.remove("anim"); void wrap.offsetWidth; wrap.classList.add("anim"); }
+  else wrap.classList.remove("anim");
+  $("rowsNote").innerHTML = `<b>${DATA.raw_rows.toLocaleString()}</b> raw rows → <b>${DATA.clean_rows.toLocaleString()}</b> clean`;
+  kpis(v); findings(v, key); trend(v); bulk(v); cats(key); scatter(v); lead(v);
 }
+let lastW = innerWidth, timer;
+addEventListener("resize", () => {
+  if (innerWidth === lastW) return;  // ignore mobile URL-bar height changes
+  lastW = innerWidth; clearTimeout(timer); timer = setTimeout(() => render(sel.value, false), 120);
+});
 pipe();
-render("All equipment");
+render(ALL, true);
 </script>
+</body>
+</html>
